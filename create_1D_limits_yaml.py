@@ -3,6 +3,7 @@
 import json
 import yaml
 import copy
+import os
 
 from argparse import ArgumentParser
 
@@ -22,7 +23,14 @@ parser.add_argument(
 parser.add_argument(
     "--type-string", required=True, help="Particular type of the limit result presented"
 )
-parser.add_argument("--output", required=True, help="Name of the output .yaml file")
+parser.add_argument(
+    "--output-file", required=True, help="Basename of the output .yaml file"
+)
+parser.add_argument(
+    "--output-directory",
+    required=True,
+    help="Main output directory name for submission to HEPData",
+)
 
 args = parser.parse_args()
 
@@ -53,10 +61,14 @@ limit_template_1D_individual = {
     "values": [],
 }
 
-limit_tempalte_expvalues = {
+limit_template_expvalues = {
     "value": 0.0,
-    "errors": {"asymerror": {"minus": 0.0, "plus": 0.0}},
+    "errors": [{"asymerror": {"minus": 0.0, "plus": 0.0}}],
 }
+
+# Setup directory if it does not exist
+if not os.path.isdir(args.output_directory):
+    os.path.makedirs(args.output_directory)
 
 
 # Creating a dict from .json files
@@ -87,7 +99,7 @@ obs["header"]["name"] = obs["header"]["name"].replace("PROCESS", short)
 
 ### Replace placeholders
 for q in obs["qualifiers"]:
-    if "Production" in q["name"]:
+    if "production" in q["name"]:
         q["value"] = q["value"].replace("PROCESS_LABEL", " ".join([label, short]))
     elif "Limit" in q["name"]:
         q["value"] = q["value"].replace("RESULT", "Observed")
@@ -97,8 +109,63 @@ for q in obs["qualifiers"]:
 ### Fill in limit results
 for m in masses:
     obs["values"].append({"value": results[str(m)]["obs"]})
-
 output["dependent_variables"].append(obs)
 
-with open(args.output, "w") as out:
+## Include Expected +/-68 %
+exp68 = copy.deepcopy(limit_template_1D_individual)
+exp68["header"]["name"] = exp68["header"]["name"].replace("PROCESS", short)
+
+### Replace placeholders
+for q in exp68["qualifiers"]:
+    if "production" in q["name"]:
+        q["value"] = q["value"].replace("PROCESS_LABEL", " ".join([label, short]))
+    elif "Limit" in q["name"]:
+        q["value"] = q["value"].replace("RESULT", "Expected $\pm68\%$")
+    elif "Type" in q["name"]:
+        q["value"] = q["value"].replace("TYPE", args.type_string)
+
+### Fill in limit results
+for m in masses:
+    value = copy.deepcopy(limit_template_expvalues)
+    central = results[str(m)]["exp0"]
+    value["value"] = central
+    error = None
+    for e in value["errors"]:
+        if "asymerror" in e:
+            error = e
+            break
+    error["minus"] = results[str(m)]["exp-1"] - central
+    error["plus"] = results[str(m)]["exp+1"] - central
+    exp68["values"].append(value)
+output["dependent_variables"].append(exp68)
+
+## Include Expected +/-95 %
+exp95 = copy.deepcopy(limit_template_1D_individual)
+exp95["header"]["name"] = exp95["header"]["name"].replace("PROCESS", short)
+
+### Replace placeholders
+for q in exp95["qualifiers"]:
+    if "production" in q["name"]:
+        q["value"] = q["value"].replace("PROCESS_LABEL", " ".join([label, short]))
+    elif "Limit" in q["name"]:
+        q["value"] = q["value"].replace("RESULT", "Expected $\pm95\%$")
+    elif "Type" in q["name"]:
+        q["value"] = q["value"].replace("TYPE", args.type_string)
+
+### Fill in limit results
+for m in masses:
+    value = copy.deepcopy(limit_template_expvalues)
+    central = results[str(m)]["exp0"]
+    value["value"] = central
+    error = None
+    for e in value["errors"]:
+        if "asymerror" in e:
+            error = e
+            break
+    error["asymerror"]["minus"] = results[str(m)]["exp-2"] - central
+    error["asymerror"]["plus"] = results[str(m)]["exp+2"] - central
+    exp95["values"].append(value)
+output["dependent_variables"].append(exp95)
+
+with open(os.path.join(args.output_directory, args.output_file), "w") as out:
     yaml.dump(output, out)
