@@ -9,7 +9,7 @@ Repository to collect helper scripts to create inputs for HEPData of HIG-21-001 
 ## Commands to create 1D limits HEPData
 
 
-## ggphi with bbphi profiled (Figure 9a)
+### ggphi with bbphi profiled (Figure 9a)
 
 ```bash
 ./create_1D_limits_yaml.py \
