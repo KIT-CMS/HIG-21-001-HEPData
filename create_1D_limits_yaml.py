@@ -48,7 +48,7 @@ limit_template_1D_main = {
 
 limit_template_1D_individual = {
     "header": {
-        "name": r"95% CL limit on $\sigma(PROCESS)\cdot B(\phi\rightarrow\tau\tau)$",
+        "name": r"95% CL limit on $\sigma(PROCESS)B(\phi\rightarrow\tau\tau)$",
         "units": "pb",
     },
     "qualifiers": [
