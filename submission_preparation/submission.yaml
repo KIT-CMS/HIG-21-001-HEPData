@@ -1,0 +1,42 @@
+#additional_resources:
+#- {description:  web page with auxiliary material, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/'}
+comment: "Three searches are presented for signatures of physics beyond the standard model (SM)
+          in $\\tau\\tau$ final states in proton-proton collisions at the CERN LHC,
+          using a data sample collected with the CMS detector at $\\sqrt{s} = 13\\text{ TeV}$,
+          corresponding to an integrated luminosity of $138\\text{ fb}^{-1}$.
+          Upper limits at $95\\%$ confidence level ($\\text{CL}$) are set on the products of
+          the branching fraction for the decay into $\\tau$ leptons and the cross sections
+          for the production of a new boson $\\phi$, accompanying the $\\text{H}(125)$ boson,
+          via gluon fusion ($gg\\phi$) or in association with b quarks, ranging from
+          $\\mathcal{O}(10\\text{ pb})$ (at $60\\text{ GeV}$) to $0.3\\text{ fb}$
+          (at $3.5\\text{ TeV}$) each. The data reveal two excesses for $gg\\phi$ production
+          with local $p$-values equivalent to about three standard deviations at $0.1$ and
+          $1.2\\text{ TeV}$. In a search for $t$-channel exchange of a vector leptoquark $\\text{U}_{1}$,
+          $95\\%\\text{ CL}$ upper limits are set on the $\\text{U}_{1}$ coupling to quarks and
+          $\\tau$ leptons ranging from $1$ (at $1\\text{ TeV}$) to $6$ (at $5\\text{ TeV}$), depending on the scenario.
+          In the interpretation of minimal supersymmetric SM benchmark scenarios, additional Higgs bosons
+          with masses below $350\\text{ GeV}$ are excluded at $95\\%\\text{ CL}$."
+#record_ids:
+#- {id: 1663234, type: inspire}
+---
+data_file: limit_ggphi.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Expected and observed $95\\%\\text{ CL}$ upper limits on the product of the cross
+              sections and branching fraction for the decay into $\\tau$ leptons for $gg\\phi$
+              production in a mass range of $60\\leq m_\\phi\\leq 3500\\text{ GeV}$, in addition to
+              $\\text{H}(125)$. The central $68$ and $95\\%$ intervals are given in addition to the
+              expected median value. The peak in the expected $gg\\phi$ limit
+              is tribute to a loss of sensitivity around $90\\text{ GeV}$ due to the background from
+              $Z/\\gamma^\\ast\\rightarrow\\tau\\tau$ events. Numerical values provided in this
+              table correspond to Figure 9a of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table 0
