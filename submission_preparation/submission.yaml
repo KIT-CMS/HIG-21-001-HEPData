@@ -28,7 +28,8 @@ description: "Expected and observed $95\\%\\text{ CL}$ upper limits on the produ
               sections and branching fraction for the decay into $\\tau$ leptons for $gg\\phi$
               production in a mass range of $60\\leq m_\\phi\\leq 3500\\text{ GeV}$, in addition to
               $\\text{H}(125)$. The central $68$ and $95\\%$ intervals are given in addition to the
-              expected median value. The peak in the expected $gg\\phi$ limit
+              expected median value. In this case, $bb\\phi$ production rate has been profiled.
+              The peak in the expected $gg\\phi$ limit
               is tribute to a loss of sensitivity around $90\\text{ GeV}$ due to the background from
               $Z/\\gamma^\\ast\\rightarrow\\tau\\tau$ events. Numerical values provided in this
               table correspond to Figure 9a of the publication."
@@ -39,4 +40,110 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table 0
+name: Table Figure 9a
+---
+data_file: limit_bbphi.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Expected and observed $95\\%\\text{ CL}$ upper limits on the product of the cross
+              sections and branching fraction for the decay into $\\tau$ leptons for $bb\\phi$
+              production in a mass range of $60\\leq m_\\phi\\leq 3500\\text{ GeV}$, in addition to
+              $\\text{H}(125)$. The central $68$ and $95\\%$ intervals are given in addition to the
+              expected median value. In this case, $gg\\phi$ production rate has been profiled.
+              Numerical values provided in this table correspond to Figure 9b of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Figure 9b
+---
+data_file: limit_ggphi_freeze_bbphi.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Expected and observed $95\\%\\text{ CL}$ upper limits on the product of the cross
+              sections and branching fraction for the decay into $\\tau$ leptons for $gg\\phi$
+              production in a mass range of $60\\leq m_\\phi\\leq 3500\\text{ GeV}$, in addition to
+              $\\text{H}(125)$. The central $68$ and $95\\%$ intervals are given in addition to the
+              expected median value. In this case, $bb\\phi$ production rate has been fixed to zero.
+              Numerical values provided in this table correspond to Figure 37 of the auxilliary material
+              of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 37
+---
+data_file: limit_bbphi_freeze_ggphi.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Expected and observed $95\\%\\text{ CL}$ upper limits on the product of the cross
+              sections and branching fraction for the decay into $\\tau$ leptons for $bb\\phi$
+              production in a mass range of $60\\leq m_\\phi\\leq 3500\\text{ GeV}$, in addition to
+              $\\text{H}(125)$. The central $68$ and $95\\%$ intervals are given in addition to the
+              expected median value. In this case, $gg\\phi$ production rate has been fixed to zero.
+              Numerical values provided in this table correspond to Figure 38 of the auxilliary material
+              of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 38
+---
+data_file: limit_ggphi_tonly.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Expected and observed $95\\%\\text{ CL}$ upper limits on the product of the cross
+              sections and branching fraction for the decay into $\\tau$ leptons for $gg\\phi$
+              production in a mass range of $60\\leq m_\\phi\\leq 3500\\text{ GeV}$, in addition to
+              $\\text{H}(125)$. The central $68$ and $95\\%$ intervals are given in addition to the
+              expected median value. In this case, $bb\\phi$ production rate has been profiled and
+              only top quarks have been considered in the $gg\\phi$ loop.
+              Numerical values provided in this table correspond to Figure 39 of the auxilliary material
+              of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 39
+---
+data_file: limit_ggphi_bonly.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Expected and observed $95\\%\\text{ CL}$ upper limits on the product of the cross
+              sections and branching fraction for the decay into $\\tau$ leptons for $gg\\phi$
+              production in a mass range of $60\\leq m_\\phi\\leq 3500\\text{ GeV}$, in addition to
+              $\\text{H}(125)$. The central $68$ and $95\\%$ intervals are given in addition to the
+              expected median value. In this case, $bb\\phi$ production rate has been profiled and
+              only bottom quarks have been considered in the $gg\\phi$ loop.
+              Numerical values provided in this table correspond to Figure 40 of the auxilliary material
+              of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 40
