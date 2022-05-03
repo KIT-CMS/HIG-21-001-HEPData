@@ -650,3 +650,60 @@ keywords:
 - name: cmenergies
   values: [13000.0, 13000]
 name: Table Aux. Figure 86
+---
+data_file: limit_vlq_bm1.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Expected and observed $95\\%\\text{ CL}$ upper limits on $g_U$ in the VLQ BM 1 scenario
+              in a mass range of $1\\leq m_U\\leq 5\\text{ TeV}$.
+              The central $68$ and $95\\%$ intervals are given in addition to the
+              expected median value. Numerical values provided in this
+              table correspond to Figure 11a of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X]
+- name: phrases
+  values: [Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Figure 11a
+---
+data_file: limit_vlq_bm2.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Expected and observed $95\\%\\text{ CL}$ upper limits on $g_U$ in the VLQ BM 2 scenario
+              in a mass range of $1\\leq m_U\\leq 5\\text{ TeV}$.
+              The central $68$ and $95\\%$ intervals are given in addition to the
+              expected median value. Numerical values provided in this
+              table correspond to Figure 11b of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X]
+- name: phrases
+  values: [Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Figure 11b
+---
+data_file: limit_vlq_bm3.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Expected and observed $95\\%\\text{ CL}$ upper limits on $g_U$ in the VLQ BM 3 scenario
+              in a mass range of $1\\leq m_U\\leq 5\\text{ TeV}$.
+              The central $68$ and $95\\%$ intervals are given in addition to the
+              expected median value. Numerical values provided in this
+              table correspond to Figure 92 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X]
+- name: phrases
+  values: [Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 92
