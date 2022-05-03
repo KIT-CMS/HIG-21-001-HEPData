@@ -139,3 +139,15 @@ done
     --mass-hypothesis 95 --x-quantity 'r_ggH:$\sigma(gg\phi)B(\phi\rightarrow\tau\tau)$:pb' \
     --y-quantity 'r_qqX:$\sigma(qq\phi)B(\phi\rightarrow\tau\tau)$:pb' --upper-value 1000
 ```
+
+### ggphi-bbphi scans with real data
+```bash
+for m in 60 80 95 100 120 125 130 140 160 180 200 250 300 350 400 450 500 600 700 800 900 1000 1200 1400 1600 1800 2000 2300 2600 2900 3200 3500;
+do
+    ./create_2D_scans_yaml.py \
+        --input data/ggH-bbH-scans/scan_values_mH${m}.root \
+        --output-file 2D_scan_ggphi_bbphi_m${m}.yaml  --output-directory submission_preparation \
+        --mass-hypothesis ${m} --x-quantity 'r_ggH:$\sigma(gg\phi)B(\phi\rightarrow\tau\tau)$:pb' \
+        --y-quantity 'r_bbH:$\sigma(bb\phi)B(\phi\rightarrow\tau\tau)$:pb' --upper-value 1000
+done
+```
