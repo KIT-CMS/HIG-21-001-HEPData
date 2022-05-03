@@ -36,7 +36,7 @@ Repository to collect helper scripts to create inputs for HEPData of HIG-21-001 
 ```bash
 ./create_1D_limits_yaml.py \
     --inputs data/limits/mssm_ggH_lowonly_freezebbH_cmb.json data/limits/mssm_ggH_highonly_freezebbH_cmb.json \
-    --process $gg\phi$' --type-string '$bb\phi$ set to zero' \
+    --process '$gg\phi$' --type-string '$bb\phi$ set to zero' \
     --output-file limit_ggphi_freeze_bbphi.yaml --output-directory submission_preparation \
     --mass-quantity '$m_\phi$:GeV' --limit-quantity '95% CL limit on $\sigma(gg\phi)B(\phi\rightarrow\tau\tau)$:pb' \
     --additional-qualifiers 'Higgs boson production:Gluon fusion $gg\phi$'
@@ -58,7 +58,7 @@ Repository to collect helper scripts to create inputs for HEPData of HIG-21-001 
 ```bash
 ./create_1D_limits_yaml.py \
     --inputs data/limits/mssm_ggH_lowonly_Tonly_cmb.json data/limits/mssm_ggH_highonly_Tonly_cmb.json \
-    --process $gg\phi$' --type-string '$bb\phi$ profiled; $gg\phi$ with t quark only' \
+    --process '$gg\phi$' --type-string '$bb\phi$ profiled; $gg\phi$ with t quark only' \
     --output-file limit_ggphi_tonly.yaml --output-directory submission_preparation \
     --mass-quantity '$m_\phi$:GeV' --limit-quantity '95% CL limit on $\sigma(gg\phi)B(\phi\rightarrow\tau\tau)$:pb' \
     --additional-qualifiers 'Higgs boson production:Gluon fusion $gg\phi$'
@@ -69,7 +69,7 @@ Repository to collect helper scripts to create inputs for HEPData of HIG-21-001 
 ```bash
 ./create_1D_limits_yaml.py \
     --inputs data/limits/mssm_ggH_lowonly_Bonly_cmb.json data/limits/mssm_ggH_highonly_Bonly_cmb.json \
-    --process $gg\phi$ --type-string '$bb\phi$ profiled; $gg\phi$ with b quark only' \
+    --process '$gg\phi$ --type-string '$bb\phi$ profiled; $gg\phi$ with b quark only' \
     --output-file limit_ggphi_bonly.yaml --output-directory submission_preparation \
     --mass-quantity '$m_\phi$:GeV' --limit-quantity '95% CL limit on $\sigma(gg\phi)B(\phi\rightarrow\tau\tau)$:pb' \
     --additional-qualifiers 'Higgs boson production:Gluon fusion $gg\phi$'
