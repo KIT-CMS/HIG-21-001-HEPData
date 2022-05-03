@@ -160,7 +160,7 @@ description: "Scan of the likelihood function for the search for a pseudoscalar 
               to the cross section for a pseudoscalar resonance compared to the equivalent process for the production of a scalar.
               This enhancement is taken into account when scaling the cross sections for the SM-like Higgs boson. The scans are displayed
               for the product of the reduced Yukawa couplings $g_{b,\\,t}^{A}$ and the square root of the branching fraction for the $A\\rightarrow\\tau\\tau$
-              decay process, where the former is defined as the ratio of the Yukawa coupling of the A to the Yukawa coupling expected for a SM-like Higgs boson.
+              decay process, where the former is defined as the ratio of the Yukawa coupling of $A$ to the Yukawa coupling expected for a SM-like Higgs boson.
               Numerical values provided in this table correspond to Figure 70 of the auxilliary material of the publication."
 keywords:
 - name: reactions
