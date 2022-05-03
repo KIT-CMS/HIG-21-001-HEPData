@@ -75,7 +75,7 @@ scan_2d_values_bestfit = df_bestFit.AsNumpy([x_name, y_name, "deltaNLL"])
 
 for k in scan_2d_values_bestfit:
     scan_2d_values_bestfit[k] = set([float(val) for val in scan_2d_values_bestfit[k]])
-    if len(scan_2d_values_bestfit[k]) != 1:
+    if len(scan_2d_values_bestfit[k]) > 1:
         print("ERROR: multiple bestfits in results")
         exit(1)
 
