@@ -47,7 +47,7 @@ Repository to collect helper scripts to create inputs for HEPData of HIG-21-001 
 ```bash
 ./create_1D_limits_yaml.py \
     --inputs data/limits/mssm_bbH_lowonly_freezeggH_cmb.json data/limits/mssm_bbH_highonly_freezeggH_cmb.json \
-    --process '$bb\phi$'" --type-string '$gg\phi$ set to zero' \
+    --process '$bb\phi$' --type-string '$gg\phi$ set to zero' \
     --output-file limit_bbphi_freeze_ggphi.yaml --output-directory submission_preparation \
     --mass-quantity '$m_\phi$:GeV' --limit-quantity '95% CL limit on $\sigma(bb\phi)B(\phi\rightarrow\tau\tau)$:pb' \
     --additional-qualifiers 'Higgs boson production:b associated $bb\phi$'
