@@ -84,6 +84,7 @@ output = copy.deepcopy(scan_2D_template_main)
 
 ## Include x quantity
 x = copy.deepcopy(scan_2D_template_individual)
+x.pop("qualifiers")
 x["header"]["name"] = x_label
 x["header"]["units"] = ""
 x["values"] = [{"value": float(val)} for val in scan_2d_values[x_name]] + [{"value": val} for val in scan_2d_values_bestfit[x_name]]
@@ -91,6 +92,7 @@ output["independent_variables"].append(x)
 
 ## Include y quantity
 y = copy.deepcopy(scan_2D_template_individual)
+y.pop("qualifiers")
 y["header"]["name"] = y_label
 y["header"]["units"] = ""
 y["values"] = [{"value": float(val)} for val in scan_2d_values[y_name]] + [{"value": val} for val in scan_2d_values_bestfit[y_name]]

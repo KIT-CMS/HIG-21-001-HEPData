@@ -147,3 +147,26 @@ keywords:
 - name: cmenergies
   values: [13000.0, 13000]
 name: Table Aux. Figure 40
+---
+data_file: 2D_scan_Yt_Yb_A_m95.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a scalar resonance ($A$) with a mass of $95\\text{ GeV}$,
+              produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggA$ and $bbA$
+              processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
+              for a SM-like Higgs boson of the same mass depending on these couplings. For the $ggA$ process, there is also an enhancement
+              to the cross section for a pseudoscalar resonance compared to the equivalent process for the production of a scalar.
+              This enhancement is taken into account when scaling the cross sections for the SM-like Higgs boson. The scans are displayed
+              for the product of the reduced Yukawa couplings $g_{b,\\,t}^{A}$ and the square root of the branching fraction for the $A\\rightarrow\\tau\\tau$
+              decay process, where the former is defined as the ratio of the Yukawa coupling of the H to the Yukawa coupling expected for a SM-like Higgs boson.
+              Numerical values provided in this table correspond to Figure 70 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 70
