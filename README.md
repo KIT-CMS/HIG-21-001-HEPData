@@ -63,7 +63,7 @@ Repository to collect helper scripts to create inputs for HEPData of HIG-21-001 
     --output-file limit_ggphi_bonly.yaml --output-directory submission_preparation
 ```
 
-## 2D Likelihood scans
+## Commands to create 2D Likelihood scans HEPData
 
 ### Yt-Yb scans for A
 ```bash
