@@ -75,6 +75,36 @@ Repository to collect helper scripts to create inputs for HEPData of HIG-21-001 
     --additional-qualifiers 'Higgs boson production:Gluon fusion $gg\phi$'
 ```
 
+### VLQ BM 1 limits (Figure 11a)
+
+```bash
+./create_1D_limits_yaml.py \
+    --inputs data/vlq_hep_data/limits/vlq_betaRd33_0_grid.json --process '$U_{1}$' \
+    --type-string 'VLQ BM 1 interpretation' --output-file limit_vlq_bm1.yaml --output-directory submission_preparation \
+    --mass-quantity '$m_U$:TeV' --limit-quantity '95% CL limit on $g_U$:' \
+    --additional-qualifiers 'BSM physics:$U_{1}$ t-channel exchange'
+```
+
+### VLQ BM 2 limits (Figure 11b)
+
+```bash
+./create_1D_limits_yaml.py \
+    --inputs data/vlq_hep_data/limits/vlq_betaRd33_minus1_grid.json --process '$U_{1}$' \
+    --type-string 'VLQ BM 2 interpretation' --output-file limit_vlq_bm2.yaml --output-directory submission_preparation \
+    --mass-quantity '$m_U$:TeV' --limit-quantity '95% CL limit on $g_U$:' \
+    --additional-qualifiers 'BSM physics:$U_{1}$ t-channel exchange'
+```
+
+### VLQ BM 2 limits (Figure 11b)
+
+```bash
+./create_1D_limits_yaml.py \
+    --inputs data/vlq_hep_data/limits/vlq_betaRd33_0_offdiag0_grid.json --process '$U_{1}$' \
+    --type-string 'VLQ BM 3 interpretation' --output-file limit_vlq_bm3.yaml --output-directory submission_preparation \
+    --mass-quantity '$m_U$:TeV' --limit-quantity '95% CL limit on $g_U$:' \
+    --additional-qualifiers 'BSM physics:$U_{1}$ t-channel exchange'
+```
+
 ## Commands to create 2D Likelihood scans HEPData
 
 ### Yt-Yb scans for A
