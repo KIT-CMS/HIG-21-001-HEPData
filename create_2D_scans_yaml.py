@@ -100,7 +100,7 @@ output["independent_variables"].append(y)
 
 ## Include deltaNLL
 dNLL = copy.deepcopy(scan_2D_template_individual)
-dNLL["header"]["name"] = r"$-\Delta\log\mathcal{L}$"
+dNLL["header"]["name"] = r"$-\Delta\ln\mathcal{L}$"
 dNLL["header"]["units"] = ""
 dNLL["values"] = [{"value": float(val)} for val in scan_2d_values["deltaNLL"]] + [{"value": val} for val in scan_2d_values_bestfit["deltaNLL"]]
 output["dependent_variables"].append(dNLL)
