@@ -148,6 +148,25 @@ keywords:
   values: [13000.0, 13000]
 name: Table Aux. Figure 40
 ---
+data_file: 2D_scan_ggphi_qqphi_m95.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $95\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$), via vector boson fusion ($qq\\phi$) or in association with b quarks ($bb\\phi$).
+              In this case, $bb\\phi$ production rate is profiled, whereas the scan is performed in the $gg\\phi$ and $qq\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 64 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 64
+---
 data_file: 2D_scan_Yt_Yb_H_m60.yaml
 #additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
