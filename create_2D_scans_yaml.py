@@ -54,7 +54,7 @@ scan_2D_template_individual = {
     "qualifiers": [
         {"name": r"Centre-of-mass energy $\sqrt{s}$", "units": "GeV", "value": 13000},
         {"name": r"Integrated luminosity", "units": "fb$^{-1}$", "value": 138},
-        {"name": r"Mass hypothesis", "value": args.mass_hypothesis},
+        {"name": r"Mass hypothesis", "units": "GeV", "value": args.mass_hypothesis},
     ],
     "values": [],
 }
