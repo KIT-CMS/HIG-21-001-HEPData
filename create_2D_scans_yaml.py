@@ -65,7 +65,7 @@ if not os.path.isdir(args.output_directory):
 
 # Obtain desired information from ROOT file
 df = r.RDataFrame("limit", args.input, [x_name, y_name, "deltaNLL", "quantileExpected"])
-df_bestFit = df.Filter("quantileExpected == -1")
+df_bestFit = df.Filter("quantileExpected == -1 and deltaNLL == 0")
 df = df.Filter("quantileExpected > -1 && deltaNLL < " + str(args.upper_value)) # problematic values
 print(df.Max("deltaNLL").GetValue())
 print(df.Min("deltaNLL").GetValue())
