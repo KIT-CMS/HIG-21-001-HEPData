@@ -107,5 +107,5 @@ done
     --input data/qqh_2d/higgsCombine.r_ggH_vs_r_qqH.MultiDimFit.mH95.root \
     --output-file 2D_scan_ggphi_qqphi_m95.yaml --output-directory submission_preparation \
     --mass-hypothesis 95 --x-quantity 'r_ggH:$\sigma(gg\phi)B(\phi\rightarrow\tau\tau)$:pb' \
-    --y-quantity 'r_qqX:\sigma(qq\phi)B(\phi\rightarrow\tau\tau):pb' --upper-value 1000
+    --y-quantity 'r_qqX:$\sigma(qq\phi)B(\phi\rightarrow\tau\tau)$:pb' --upper-value 1000
 ```
