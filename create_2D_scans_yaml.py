@@ -25,10 +25,10 @@ parser.add_argument(
     help="Main output directory name for submission to HEPData",
 )
 parser.add_argument(
-    "--x-quantity", required=True, help="Name:label of the x-axis quantity"
+    "--x-quantity", required=True, help="Name:label:units of the x-axis quantity"
 )
 parser.add_argument(
-    "--y-quantity", required=True, help="Name:label of the y-axis quantity"
+    "--y-quantity", required=True, help="Name:label:units of the y-axis quantity"
 )
 parser.add_argument(
     "--mass-hypothesis", required=True, type=float, help="Float number for mass hypothesis"
@@ -40,8 +40,8 @@ parser.add_argument(
 
 
 args = parser.parse_args()
-x_name, x_label = args.x_quantity.split(":")
-y_name, y_label = args.y_quantity.split(":")
+x_name, x_label, x_units = args.x_quantity.split(":")
+y_name, y_label, y_units = args.y_quantity.split(":")
 
 # Setting up templates
 scan_2D_template_main = {
@@ -85,19 +85,22 @@ output = copy.deepcopy(scan_2D_template_main)
 ## Include x quantity
 x = copy.deepcopy(scan_2D_template_individual)
 x["header"]["name"] = x_label
-x["values"] = [float(val) for val in scan_2d_values[x_name]] + list(scan_2d_values_bestfit[x_name])
+x["header"]["units"] = ""
+x["values"] = [{"value": float(val)} for val in scan_2d_values[x_name]] + [{"value": val} for val in scan_2d_values_bestfit[x_name]]
 output["independent_variables"].append(x)
 
 ## Include y quantity
 y = copy.deepcopy(scan_2D_template_individual)
 y["header"]["name"] = y_label
-y["values"] = [float(val) for val in scan_2d_values[y_name]] + list(scan_2d_values_bestfit[y_name])
+y["header"]["units"] = ""
+y["values"] = [{"value": float(val)} for val in scan_2d_values[y_name]] + [{"value": val} for val in scan_2d_values_bestfit[y_name]]
 output["independent_variables"].append(y)
 
 ## Include deltaNLL
 dNLL = copy.deepcopy(scan_2D_template_individual)
-dNLL["header"]["name"] = "r$-\delta\log\mathcal{L}$"
-dNLL["values"] = [float(val) for val in scan_2d_values["deltaNLL"]] + list(scan_2d_values_bestfit["deltaNLL"])
+dNLL["header"]["name"] = r"$-\delta\log\mathcal{L}$"
+dNLL["header"]["units"] = ""
+dNLL["values"] = [{"value": float(val)} for val in scan_2d_values["deltaNLL"]] + [{"value": val} for val in scan_2d_values_bestfit["deltaNLL"]]
 output["dependent_variables"].append(dNLL)
 
 with open(os.path.join(args.output_directory, args.output_file), "w") as out:
