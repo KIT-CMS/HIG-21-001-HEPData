@@ -154,7 +154,7 @@ done
 
 ## MSSM limits
 
-### mh125 limits (Figur 12a)
+### mh125 limits (Figure 12a)
 
 ```bash
 ./create_2D_exclusion_contours_yaml.py \
@@ -164,7 +164,7 @@ done
     --x-quantity '$m_A$:GeV' --y-quantity '$\tan\beta$:'  --min-n-points 10
 ```
 
-### mh125EFT limits (Figur 12b)
+### mh125EFT limits (Figure 12b)
 
 ```bash
 ./create_2D_exclusion_contours_yaml.py \
