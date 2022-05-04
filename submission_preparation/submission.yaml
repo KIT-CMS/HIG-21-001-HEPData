@@ -837,7 +837,7 @@ data_file: limit_mssm_mh125EFT_obs.yaml
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
-description: "Observed $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h\\,\\text{EFT}}^{125}$ scenario.
+description: "Observed $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h,\\,\\text{EFT}}^{125}$ scenario.
               Numerical values provided in this table correspond to the observed contour of Figure 12a of the publication."
 keywords:
 - name: reactions
@@ -853,7 +853,7 @@ data_file: limit_mssm_mh125EFT_exp0.yaml
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
-description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h\\,\\text{EFT}}^{125}$ scenario,
+description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h,\\,\\text{EFT}}^{125}$ scenario,
               evaluated at the median of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               Numerical values provided in this table correspond to the expected median contour of Figure 12a of the publication."
 keywords:
@@ -870,7 +870,7 @@ data_file: limit_mssm_mh125EFT_exp-1.yaml
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
-description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h\\,\\text{EFT}}^{125}$ scenario,
+description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h,\\,\\text{EFT}}^{125}$ scenario,
               evaluated at the $16\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               This contour is part of the $68\\%$ confidence interval band.
               Numerical values provided in this table correspond to the expected $16\\%$ quantile contour of Figure 12a of the publication."
@@ -888,7 +888,7 @@ data_file: limit_mssm_mh125EFT_exp+1.yaml
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
-description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h\\,\\text{EFT}}^{125}$ scenario,
+description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h,\\,\\text{EFT}}^{125}$ scenario,
               evaluated at the $84\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               This contour is part of the $68\\%$ confidence interval band.
               Numerical values provided in this table correspond to the expected $84\\%$ quantile contour of Figure 12a of the publication."
@@ -906,7 +906,7 @@ data_file: limit_mssm_mh125EFT_exp-2.yaml
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
-description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h\\,\\text{EFT}}^{125}$ scenario,
+description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h,\\,\\text{EFT}}^{125}$ scenario,
               evaluated at the $2.5\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               This contour is part of the $95\\%$ confidence interval band.
               Numerical values provided in this table correspond to the expected $2.5\\%$ quantile contour of Figure 12a of the publication."
@@ -924,7 +924,7 @@ data_file: limit_mssm_mh125EFT_exp+2.yaml
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
-description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h\\,\\text{EFT}}^{125}$ scenario,
+description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h,\\,\\text{EFT}}^{125}$ scenario,
               evaluated at the $97.5\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               This contour is part of the $95\\%$ confidence interval band.
               Numerical values provided in this table correspond to the expected $97.5\\%$ quantile contour of Figure 12a of the publication."

@@ -1,3 +1,4 @@
 data
 *.gz
 */
+!submission_preparation/submission.yaml
