@@ -38,7 +38,7 @@ parser.add_argument(
     help="Main output directory name for submission to HEPData",
 )
 parser.add_argument(
-    "--additional-qualifiers", nargs="*", help="A list of additional qualifiers, given as name:value" # Like the process label (long version)
+    "--additional-qualifiers", nargs="*", help="A list of additional qualifiers, given as name:value", default=[] # Like the process label (long version)
 )
 
 args = parser.parse_args()
