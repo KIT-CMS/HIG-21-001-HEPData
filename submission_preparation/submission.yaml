@@ -741,7 +741,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table 12a Observed
+name: Table Figure 12a Observed
 ---
 data_file: limit_mssm_mh125_exp0.yaml
 #additional_resources:
@@ -758,7 +758,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table 12a Median Expected
+name: Table Figure 12a Median Expected
 ---
 data_file: limit_mssm_mh125_exp-1.yaml
 #additional_resources:
@@ -776,7 +776,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table 12a 16% Expected
+name: Table Figure 12a 16% Expected
 ---
 data_file: limit_mssm_mh125_exp+1.yaml
 #additional_resources:
@@ -794,7 +794,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table 12a 84% Expected
+name: Table Figure 12a 84% Expected
 ---
 data_file: limit_mssm_mh125_exp-2.yaml
 #additional_resources:
@@ -812,7 +812,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table 12a 2.5% Expected
+name: Table Figure 12a 2.5% Expected
 ---
 data_file: limit_mssm_mh125_exp+2.yaml
 #additional_resources:
@@ -830,7 +830,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table 12a 97.5% Expected
+name: Table Figure 12a 97.5% Expected
 ---
 data_file: limit_mssm_mh125EFT_obs.yaml
 #additional_resources:
@@ -846,7 +846,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table 12b Observed
+name: Table Figure 12b Observed
 ---
 data_file: limit_mssm_mh125EFT_exp0.yaml
 #additional_resources:
@@ -863,7 +863,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table 12b Median Expected
+name: Table Figure 12b Median Expected
 ---
 data_file: limit_mssm_mh125EFT_exp-1.yaml
 #additional_resources:
@@ -881,7 +881,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table 12b 16% Expected
+name: Table Figure 12b 16% Expected
 ---
 data_file: limit_mssm_mh125EFT_exp+1.yaml
 #additional_resources:
@@ -899,7 +899,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table 12b 84% Expected
+name: Table Figure 12b 84% Expected
 ---
 data_file: limit_mssm_mh125EFT_exp-2.yaml
 #additional_resources:
@@ -917,7 +917,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table 12b 2.5% Expected
+name: Table Figure 12b 2.5% Expected
 ---
 data_file: limit_mssm_mh125EFT_exp+2.yaml
 #additional_resources:
@@ -935,4 +935,4 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table 12b 97.5% Expected
+name: Table Figure 12b 97.5% Expected
