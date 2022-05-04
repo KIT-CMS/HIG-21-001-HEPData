@@ -151,3 +151,15 @@ do
         --y-quantity 'r_bbH:$\sigma(bb\phi)B(\phi\rightarrow\tau\tau)$:pb' --upper-value 1000
 done
 ```
+
+## MSSM limits
+
+### mh125 limits (Figur 12a)
+
+```bash
+./create_2D_exclusion_contours_yaml.py \
+    --input data/model-dependent-limits/asymptotic_grid_2022-04-29_mh125.root \
+    --type-string 'MSSM $M_h^{125}$ interpretation' --output-file limit_mssm_mh125.yaml \
+    --output-directory submission_preparation \
+    --x-quantity '$m_A$:GeV' --y-quantity '$\tan\beta$:'  --min-n-points 10
+```
