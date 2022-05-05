@@ -119,20 +119,21 @@ for bg in backgrounds:
     ### Nominal bin content + all systematic variations
     for i in range(n_bins):
         value = copy.deepcopy(event_template_values)
-        central = nominal_shape.GetBinContent(i+1) if nominal_shape.GetBinContent(i+1) > args.min_bin_content else 0
+        central = nominal_shape.GetBinContent(i+1) if abs(nominal_shape.GetBinContent(i+1)) > args.min_bin_content else 0
         value["value"] = central
         for syst in systnames:
             up = bg_dir.Get(bg+"_"+syst+"_Up")
-            up_val = up.GetBinContent(i+1) if up.GetBinContent(i+1) > args.min_bin_content else 0
+            up_val = up.GetBinContent(i+1) if abs(up.GetBinContent(i+1)) > args.min_bin_content else 0
             down = bg_dir.Get(bg+"_"+syst+"_Down")
-            down_val = down.GetBinContent(i+1) if down.GetBinContent(i+1) > args.min_bin_content else 0
+            down_val = down.GetBinContent(i+1) if abs(down.GetBinContent(i+1)) > args.min_bin_content else 0
             if sum([central, down_val, up_val]) != 0:
                 error = {"label" : syst}
                 error["asymerror"] = {
                     "minus" : down_val - central,
                     "plus" : up_val - central,
                 }
-                value["errors"].append(error)
+                if abs(error["asymerror"]["plus"])  > args.min_bin_content or abs(error["asymerror"]["minus"]) > args.min_bin_content:
+                    value["errors"].append(error)
         bg_events["values"].append(value)
     output["dependent_variables"].append(bg_events)
 
