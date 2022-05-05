@@ -5,9 +5,15 @@ import yaml
 import copy
 import os
 import ROOT as r
+import re
 
 from argparse import ArgumentParser
 
+def sorted_nicely(l):
+    """ Sort the given iterable in the way that humans expect: alphanumeric sort (in bash, that's 'sort -V')"""
+    convert = lambda text: int(text) if text.isdigit() else text
+    alphanum_key = lambda key: [ convert(c) for c in re.split('([0-9]+)', key) ]
+    return sorted(l, key = alphanum_key)
 
 # Parsing arguments
 parser = ArgumentParser(
@@ -37,6 +43,9 @@ parser.add_argument(
 )
 parser.add_argument(
     "--min-bin-content", required=True, type=float, help="Minimum meaningful number in a bin, lower values are set to 0"
+)
+parser.add_argument(
+    "--signal-pattern", required=True, help="Regular expression to match signal and avoid e.g. masses via groups. Should contain a group for process name and for mass"
 )
 
 args = parser.parse_args()
@@ -81,7 +90,7 @@ inputfile = r.TFile.Open(args.input, "read")
 ## Determine processes
 processes = [k.GetName() for k in inputfile.GetListOfKeys()]
 backgrounds = set(processes).intersection(set(config["backgrounds"]))
-signals = set(processes).difference(backgrounds).difference(set("data_obs"))
+signals = set(processes).difference(backgrounds).difference(set(["data_obs"]))
 
 ## Extract information on binning from data_obs histogram
 data_obs = inputfile.Get("data_obs/data_obs")
@@ -107,7 +116,7 @@ data_events["values"] = [{"value": int(round(data_obs.GetBinContent(i+1)))} for 
 output["dependent_variables"].append(data_events)
 
 ## Extract information on backgrounds
-for bg in backgrounds:
+for bg in sorted_nicely(backgrounds):
     bg_dir = inputfile.Get(bg)
     ### Get nominal shape
     nominal_shape = bg_dir.Get(bg)
@@ -136,6 +145,40 @@ for bg in backgrounds:
                     value["errors"].append(error)
         bg_events["values"].append(value)
     output["dependent_variables"].append(bg_events)
+
+## Extract information on signals
+for sig in sorted_nicely(signals):
+    sig_dir = inputfile.Get(sig)
+    ### Determine name and mass from regex
+    matching = re.match(args.signal_pattern, sig)
+    name, mass = matching.groups()
+    ### Get nominal shape
+    nominal_shape = sig_dir.Get(sig)
+    ### Determine systematic names
+    systnames = set([k.GetName().replace("_Up","").replace("_Down","").replace(sig+"_","") for k in sig_dir.GetListOfKeys() if "Up" in k.GetName() or "Down" in k.GetName()])
+    sig_events = copy.deepcopy(distribution_template_individual)
+    sig_events["header"]["name"] = "Events"
+    sig_events["qualifiers"].append({"name": "Process", "value": config["signals"][name].replace("@MASS@",mass)})
+    ### Nominal bin content + all systematic variations
+    for i in range(n_bins):
+        value = copy.deepcopy(event_template_values)
+        central = nominal_shape.GetBinContent(i+1) if abs(nominal_shape.GetBinContent(i+1)) > args.min_bin_content else 0
+        value["value"] = central
+        for syst in systnames:
+            up = sig_dir.Get(sig+"_"+syst+"_Up")
+            up_val = up.GetBinContent(i+1) if abs(up.GetBinContent(i+1)) > args.min_bin_content else 0
+            down = sig_dir.Get(sig+"_"+syst+"_Down")
+            down_val = down.GetBinContent(i+1) if abs(down.GetBinContent(i+1)) > args.min_bin_content else 0
+            if sum([central, down_val, up_val]) != 0:
+                error = {"label" : syst}
+                error["asymerror"] = {
+                    "minus" : down_val - central,
+                    "plus" : up_val - central,
+                }
+                if abs(error["asymerror"]["plus"])  > args.min_bin_content or abs(error["asymerror"]["minus"]) > args.min_bin_content:
+                    value["errors"].append(error)
+        sig_events["values"].append(value)
+    output["dependent_variables"].append(sig_events)
 
 with open(os.path.join(args.output_directory, args.output_file), "w") as out:
     yaml.dump(output, out)
