@@ -1525,3 +1525,20 @@ keywords:
 - name: cmenergies
   values: [13000.0, 13000]
 name: Table Figure 12b 97.5% Expected
+---
+data_file: htt_tt_35_2018_hepdata.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
+              Numerical values provided in this table correspond to Figure 7f of the publication, but restricted to 2018 data-taking year.
+              All distributions are considered before the fit to data is performed in contrast to the figure in the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Figure 7f
