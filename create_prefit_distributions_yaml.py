@@ -92,7 +92,8 @@ high_edges = [data_obs.GetBinLowEdge(i+1) + data_obs.GetBinWidth(i+1) for i in r
 ## Define variable distribution
 distribution = copy.deepcopy(distribution_template_individual)
 distribution.pop("qualifiers")
-distribution["header"]["name"] = args.distribution_quantity
+distribution["header"]["name"] = d_label
+distribution["header"]["units"] = d_units
 for low, high in zip(low_edges, high_edges):
     distribution["values"].append({"low": low, "high": high})
 
