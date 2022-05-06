@@ -130,7 +130,7 @@ for bg in sorted_nicely(backgrounds):
         value = copy.deepcopy(event_template_values)
         central = nominal_shape.GetBinContent(i+1) if abs(nominal_shape.GetBinContent(i+1)) > args.min_bin_content else 0
         value["value"] = central
-        for syst in systnames:
+        for syst in sorted_nicely(systnames):
             up = bg_dir.Get(bg+"_"+syst+"_Up")
             up_val = up.GetBinContent(i+1) if abs(up.GetBinContent(i+1)) > args.min_bin_content else 0
             down = bg_dir.Get(bg+"_"+syst+"_Down")
@@ -164,7 +164,7 @@ for sig in sorted_nicely(signals):
         value = copy.deepcopy(event_template_values)
         central = nominal_shape.GetBinContent(i+1) if abs(nominal_shape.GetBinContent(i+1)) > args.min_bin_content else 0
         value["value"] = central
-        for syst in systnames:
+        for syst in sorted_nicely(systnames):
             up = sig_dir.Get(sig+"_"+syst+"_Up")
             up_val = up.GetBinContent(i+1) if abs(up.GetBinContent(i+1)) > args.min_bin_content else 0
             down = sig_dir.Get(sig+"_"+syst+"_Down")

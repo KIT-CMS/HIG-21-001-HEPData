@@ -5,7 +5,7 @@ backgrounds:
     VVL: Diboson+single $t$ 
     ZL: $Z/\gamma^\ast\rightarrow\ell\ell$
     wFakes: W+jets
-    jetFakes: Jet$\rightarrow^{}\tau_{h}$
+    jetFakes: Jet$\rightarrow\tau_{h}$
     ggH125: $ggH(125)$
     qqH125: $qqH(125)$
     bbH125: $bbH(125)$
@@ -15,4 +15,4 @@ signals:
     ggh_b: $gg\phi(@MASS@)$ b-only
     ggh_i: $gg\phi(@MASS@)$ tb-interference
 categories:
-    htt_tt_35_2018: $^{}\tau_{h}^{}\tau_{h}$, b tag, 2018
+    htt_tt_35_2018: $\tau_{h}\tau_{h}$, b tag, 2018
