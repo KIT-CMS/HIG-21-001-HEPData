@@ -47,6 +47,9 @@ parser.add_argument(
 parser.add_argument(
     "--signal-pattern", required=True, help="Regular expression to match signal and avoid e.g. masses via groups. Should contain a group for process name and for mass"
 )
+parser.add_argument(
+    "--mode", required=True, choices=["grouped", "individual"], help="Determines, how to process individual processes in terms of nominal shapes and systematic uncertainties"
+)
 
 args = parser.parse_args()
 
@@ -76,6 +79,48 @@ event_template_values = {
     "value": 0.0,
     "errors": [],
 }
+
+## Extract information on processes
+def create_info_for_proc(process, is_signal, signal_pattern, inputfile, mode, analysis_configuration):
+    events = copy.deepcopy(distribution_template_individual)
+    if mode == "individual":
+        proc_dir = inputfile.Get(process)
+        name, mass = process, None
+        if is_signal:
+            ### Determine name and mass from regex
+            matching = re.match(signal_pattern, process)
+            name, mass = matching.groups()
+        ### Get nominal shape
+        nominal_shape = proc_dir.Get(process)
+        n_bins_proc = nominal_shape.GetNbinsX()
+        systnames = set([k.GetName().replace("_Up","").replace("_Down","").replace(process+"_","") for k in proc_dir.GetListOfKeys() if "Up" in k.GetName() or "Down" in k.GetName()])
+        events["header"]["name"] = "Events"
+        if is_signal:
+            events["qualifiers"].append({"name": "Process", "value": config["signals"][name].replace("@MASS@",mass)})
+        else:
+            events["qualifiers"].append({"name": "Process", "value": config["backgrounds"][name]})
+        ### Nominal bin content + all systematic variations
+        for i in range(n_bins_proc):
+            value = copy.deepcopy(event_template_values)
+            central = nominal_shape.GetBinContent(i+1) if abs(nominal_shape.GetBinContent(i+1)) > args.min_bin_content else 0
+            value["value"] = central
+            for syst in sorted_nicely(systnames):
+                up = proc_dir.Get(process+"_"+syst+"_Up")
+                up_val = up.GetBinContent(i+1) if abs(up.GetBinContent(i+1)) > args.min_bin_content else 0
+                down = proc_dir.Get(process+"_"+syst+"_Down")
+                down_val = down.GetBinContent(i+1) if abs(down.GetBinContent(i+1)) > args.min_bin_content else 0
+                if sum([central, down_val, up_val]) != 0:
+                    error = {"label" : syst}
+                    error["asymerror"] = {
+                        "minus" : down_val - central,
+                        "plus" : up_val - central,
+                    }
+                    if abs(error["asymerror"]["plus"])  > args.min_bin_content or abs(error["asymerror"]["minus"]) > args.min_bin_content:
+                        value["errors"].append(error)
+            events["values"].append(value)
+    elif mode == "grouped":
+        pass
+    return events
 
 # Setup directory if it does not exist
 if not os.path.isdir(args.output_directory):
@@ -117,68 +162,11 @@ output["dependent_variables"].append(data_events)
 
 ## Extract information on backgrounds
 for bg in sorted_nicely(backgrounds):
-    bg_dir = inputfile.Get(bg)
-    ### Get nominal shape
-    nominal_shape = bg_dir.Get(bg)
-    ### Determine systematic names
-    systnames = set([k.GetName().replace("_Up","").replace("_Down","").replace(bg+"_","") for k in bg_dir.GetListOfKeys() if "Up" in k.GetName() or "Down" in k.GetName()])
-    bg_events = copy.deepcopy(distribution_template_individual)
-    bg_events["header"]["name"] = "Events"
-    bg_events["qualifiers"].append({"name": "Process", "value": config["backgrounds"][bg]})
-    ### Nominal bin content + all systematic variations
-    for i in range(n_bins):
-        value = copy.deepcopy(event_template_values)
-        central = nominal_shape.GetBinContent(i+1) if abs(nominal_shape.GetBinContent(i+1)) > args.min_bin_content else 0
-        value["value"] = central
-        for syst in sorted_nicely(systnames):
-            up = bg_dir.Get(bg+"_"+syst+"_Up")
-            up_val = up.GetBinContent(i+1) if abs(up.GetBinContent(i+1)) > args.min_bin_content else 0
-            down = bg_dir.Get(bg+"_"+syst+"_Down")
-            down_val = down.GetBinContent(i+1) if abs(down.GetBinContent(i+1)) > args.min_bin_content else 0
-            if sum([central, down_val, up_val]) != 0:
-                error = {"label" : syst}
-                error["asymerror"] = {
-                    "minus" : down_val - central,
-                    "plus" : up_val - central,
-                }
-                if abs(error["asymerror"]["plus"])  > args.min_bin_content or abs(error["asymerror"]["minus"]) > args.min_bin_content:
-                    value["errors"].append(error)
-        bg_events["values"].append(value)
-    output["dependent_variables"].append(bg_events)
+    output["dependent_variables"].append(create_info_for_proc(bg, False, None, inputfile, args.mode, config))
 
 ## Extract information on signals
 for sig in sorted_nicely(signals):
-    sig_dir = inputfile.Get(sig)
-    ### Determine name and mass from regex
-    matching = re.match(args.signal_pattern, sig)
-    name, mass = matching.groups()
-    ### Get nominal shape
-    nominal_shape = sig_dir.Get(sig)
-    ### Determine systematic names
-    systnames = set([k.GetName().replace("_Up","").replace("_Down","").replace(sig+"_","") for k in sig_dir.GetListOfKeys() if "Up" in k.GetName() or "Down" in k.GetName()])
-    sig_events = copy.deepcopy(distribution_template_individual)
-    sig_events["header"]["name"] = "Events"
-    sig_events["qualifiers"].append({"name": "Process", "value": config["signals"][name].replace("@MASS@",mass)})
-    ### Nominal bin content + all systematic variations
-    for i in range(n_bins):
-        value = copy.deepcopy(event_template_values)
-        central = nominal_shape.GetBinContent(i+1) if abs(nominal_shape.GetBinContent(i+1)) > args.min_bin_content else 0
-        value["value"] = central
-        for syst in sorted_nicely(systnames):
-            up = sig_dir.Get(sig+"_"+syst+"_Up")
-            up_val = up.GetBinContent(i+1) if abs(up.GetBinContent(i+1)) > args.min_bin_content else 0
-            down = sig_dir.Get(sig+"_"+syst+"_Down")
-            down_val = down.GetBinContent(i+1) if abs(down.GetBinContent(i+1)) > args.min_bin_content else 0
-            if sum([central, down_val, up_val]) != 0:
-                error = {"label" : syst}
-                error["asymerror"] = {
-                    "minus" : down_val - central,
-                    "plus" : up_val - central,
-                }
-                if abs(error["asymerror"]["plus"])  > args.min_bin_content or abs(error["asymerror"]["minus"]) > args.min_bin_content:
-                    value["errors"].append(error)
-        sig_events["values"].append(value)
-    output["dependent_variables"].append(sig_events)
+    output["dependent_variables"].append(create_info_for_proc(sig, True, args.signal_pattern, inputfile, args.mode, config))
 
 with open(os.path.join(args.output_directory, args.output_file), "w") as out:
     yaml.dump(output, out)
