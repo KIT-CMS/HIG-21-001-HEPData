@@ -83,7 +83,9 @@ event_template_values = {
 ## Extract information on processes
 def create_info_for_proc(process, is_signal, signal_pattern, inputfile, mode, analysis_configuration):
     events = copy.deepcopy(distribution_template_individual)
-    if mode == "individual":
+    events["header"]["name"] = "Events"
+    procs = [k.GetName() for k in inputfile.GetListOfKeys()]
+    if mode == "individual" or is_signal == True or (is_signal == False and process in procs):
         proc_dir = inputfile.Get(process)
         name, mass = process, None
         if is_signal:
@@ -94,7 +96,6 @@ def create_info_for_proc(process, is_signal, signal_pattern, inputfile, mode, an
         nominal_shape = proc_dir.Get(process)
         n_bins_proc = nominal_shape.GetNbinsX()
         systnames = set([k.GetName().replace("_Up","").replace("_Down","").replace(process+"_","") for k in proc_dir.GetListOfKeys() if "Up" in k.GetName() or "Down" in k.GetName()])
-        events["header"]["name"] = "Events"
         if is_signal:
             events["qualifiers"].append({"name": "Process", "value": config["signals"][name].replace("@MASS@",mass)})
         else:
@@ -119,7 +120,76 @@ def create_info_for_proc(process, is_signal, signal_pattern, inputfile, mode, an
                         value["errors"].append(error)
             events["values"].append(value)
     elif mode == "grouped":
-        pass
+        proc_type = "signals" if is_signal else "backgrounds"
+        config_procs = set(analysis_configuration[proc_type][process]["members"])
+        considered_procs = list(config_procs.intersection(set(procs)))
+        if is_signal:
+            events["qualifiers"].append({"name": "Process", "value": config["signals"][process]["name"].replace("@MASS@",mass)})
+        else:
+            events["qualifiers"].append({"name": "Process", "value": config["backgrounds"][process]["name"]})
+        ### Get nominal shape
+        nominal_shape = inputfile.Get(considered_procs[0]).Get(considered_procs[0]).Clone()
+        for p in considered_procs[1:]:
+            nominal_shape.Add(inputfile.Get(p).Get(p))
+        n_bins_proc = nominal_shape.GetNbinsX()
+        ### Setup systematics determinations
+        systematics = {}
+        systematics_per_proc = {}
+        for p in considered_procs:
+            pdir = inputfile.Get(p)
+            systematics_per_proc[p] = set([k.GetName().replace("_Up","").replace("_Down","").replace(p+"_","") for k in pdir.GetListOfKeys() if "Up" in k.GetName() or "Down" in k.GetName()])
+            for syst in systematics_per_proc[p]:
+                systematics[syst] = { "Up": None, "Down": None}
+        systematics_notype = set([syst.replace("norm_", "").replace("shape", "") for syst in systematics])
+        systematics_shape_and_norm = set()
+        if len(systematics) != len(systematics_notype):
+            print(f"WARNING: encountered systematics which are both shape & norm for processes within on grouped process {process}")
+            systematics_shape_and_norm = set([syst for syst in systematics_notype for syst_with_type in systematics if re.match(syst, syst_with_type)])
+            print("\t",systematics_shape_and_norm)
+        ### Determine systematic variations for grouped process
+        for syst in systematics:
+            for direction in systematics[syst]:
+                for p in systematics_per_proc.keys():
+                    if systematics[syst][direction]:
+                        pdir = inputfile.Get(p)
+                        hist_name = ""
+                        if syst in systematics_per_proc[p]: # process has the considered systematic uncertainty
+                            hist_name = p + "_" + syst + "_" + direction
+                        else:
+                            hist_name = p
+                        #print(f"\tAdding to systematic {syst} for direction {direction} histogram {hist_name}")
+                        systematics[syst][direction].Add(pdir.Get(hist_name))
+                    else:
+                        pdir = inputfile.Get(p)
+                        hist_name = ""
+                        if syst in systematics_per_proc[p]: # process has the considered systematic uncertainty
+                            hist_name = p + "_" + syst + "_" + direction
+                        else:
+                            hist_name = p 
+                        #print(f"\tInitiating systematic {syst} for direction {direction} with {hist_name}")
+                        systematics[syst][direction] = pdir.Get(hist_name).Clone()
+        ### Clean up the case, if a systematic is both norm and shape across different processes
+        for syst in systematics_shape_and_norm:
+            for direction in systematics["shape_"+syst]:
+                systematics["shape_"+syst][direction].Add(systematics["norm_"+syst][direction])
+            systematics.pop("norm_"+syst)
+        ### Nominal bin content + all systematic variations
+        for i in range(n_bins_proc):
+            value = copy.deepcopy(event_template_values)
+            central = nominal_shape.GetBinContent(i+1) if abs(nominal_shape.GetBinContent(i+1)) > args.min_bin_content else 0
+            value["value"] = central
+            for syst in sorted_nicely(systematics):
+                up_val = systematics[syst]["Up"].GetBinContent(i+1) if abs(systematics[syst]["Up"].GetBinContent(i+1)) > args.min_bin_content else 0
+                down_val = systematics[syst]["Down"].GetBinContent(i+1) if abs(systematics[syst]["Down"].GetBinContent(i+1)) > args.min_bin_content else 0
+                if sum([central, down_val, up_val]) != 0:
+                    error = {"label" : syst}
+                    error["asymerror"] = {
+                        "minus" : down_val - central,
+                        "plus" : up_val - central,
+                    }
+                    if abs(error["asymerror"]["plus"])  > args.min_bin_content or abs(error["asymerror"]["minus"]) > args.min_bin_content:
+                        value["errors"].append(error)
+            events["values"].append(value)
     return events
 
 # Setup directory if it does not exist
@@ -134,8 +204,29 @@ inputfile = r.TFile.Open(args.input, "read")
 
 ## Determine processes
 processes = [k.GetName() for k in inputfile.GetListOfKeys()]
-backgrounds = set(processes).intersection(set(config["backgrounds"]))
-signals = set(processes).difference(backgrounds).difference(set(["data_obs"]))
+backgrounds = set()
+signals = set()
+if args.mode == "individual":
+    backgrounds = set(processes).intersection(set(config["backgrounds"]))
+    signals = set([proc for proc in processes for sig in set(config["signals"]) if re.match(sig, proc)])
+elif args.mode == "grouped":
+    for bg in config["backgrounds"]:
+        if isinstance(config["backgrounds"][bg], str):
+            if bg in processes:
+                backgrounds.add(bg)
+        elif isinstance(config["backgrounds"][bg], dict):
+            for bg_procs in config["backgrounds"][bg]["members"]:
+                if bg_procs in processes:
+                    backgrounds.add(bg)
+                    break
+    for sig in config["signals"]:
+        if isinstance(config["signals"][sig], str):
+            for proc in processes:
+                if re.match(sig, proc):
+                    signals.add(proc)
+        elif isinstance(config["signals"][sig], dict):
+            print("ERROR: grouping of signals not supported due to possibility of several mass hypotheses")
+            exit(1)
 
 ## Extract information on binning from data_obs histogram
 data_obs = inputfile.Get("data_obs/data_obs")
