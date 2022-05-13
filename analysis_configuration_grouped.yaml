@@ -22,12 +22,12 @@ signals:
     ggh_t: $gg\phi$ t-only, $m_{\phi}=@MASS@\text{ GeV},\text{ }\sigma B = 1\text{ pb}$
     ggh_b: $gg\phi$ b-only, $m_{\phi}=@MASS@\text{ GeV},\text{ }\sigma B = 1\text{ pb}$
     ggh_i: $gg\phi$ tb-interference, $m_{\phi}=@MASS@\text{ GeV},\text{ }\sigma B = 1\text{ pb}$
-    VLQ_betaRd33_0_matched_M: VLQ signal (BM1), $m_{U}=@MASS@\text{ TeV},\text{ }g_{U}=1$
-    VLQ_betaRd33_0_matched_interference_M: VLQ interference (BM1), $m_{U}=@MASS@\text{ TeV},\text{ }g_{U}=1$
-    VLQ_betaRd33_minus1_matched_M: VLQ signal (BM2), $m_{U}=@MASS@\text{ TeV},\text{ }g_{U}=1$
-    VLQ_betaRd33_minus1_matched_interference_M: VLQ interference (BM2), $m_{U}=@MASS@\text{ TeV},\text{ }g_{U}=1$
-    VLQ_betaRd33_0_offdiag0_matched_M: VLQ signal (BM3), $m_{U}=@MASS@\text{ TeV},\text{ }g_{U}=1$
-    VLQ_betaRd33_0_offdiag0_matched_interference_M: VLQ interference (BM3), $m_{U}=@MASS@\text{ TeV},\text{ }g_{U}=1$
+    VLQ_betaRd33_0_matched_M: VLQ signal (BM 1), $m_{U}=@MASS@\text{ TeV},\text{ }g_{U}=1$
+    VLQ_betaRd33_0_matched_interference_M: VLQ interference (BM 1), $m_{U}=@MASS@\text{ TeV},\text{ }g_{U}=1$
+    VLQ_betaRd33_minus1_matched_M: VLQ signal (BM 2), $m_{U}=@MASS@\text{ TeV},\text{ }g_{U}=1$
+    VLQ_betaRd33_minus1_matched_interference_M: VLQ interference (BM 2), $m_{U}=@MASS@\text{ TeV},\text{ }g_{U}=1$
+    VLQ_betaRd33_0_offdiag0_matched_M: VLQ signal (BM 3), $m_{U}=@MASS@\text{ TeV},\text{ }g_{U}=1$
+    VLQ_betaRd33_0_offdiag0_matched_interference_M: VLQ interference (BM 3), $m_{U}=@MASS@\text{ TeV},\text{ }g_{U}=1$
 categories:
     htt_tt_32_2016: $\tau_{h}\tau_{h}$, No b tag, 2016
     htt_tt_35_2016: $\tau_{h}\tau_{h}$, b tag, 2016
