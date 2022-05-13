@@ -20,5 +20,16 @@ signals:
     ggh_t: $gg\phi$ t-only with $m_{\phi}=@MASS@\text{ GeV}$ @1pb
     ggh_b: $gg\phi$ b-only with $m_{\phi}=@MASS@\text{ GeV}$ @1pb
     ggh_i: $gg\phi$ tb-interference with $m_{\phi}=@MASS@\text{ GeV}$ @1pb
+    VLQ_betaRd33_0_matched_M: VLQ signal from BM1 with $m_{U}=@MASS@\text{ TeV}$ @$g_{U}=1$
+    VLQ_betaRd33_0_matched_interference_M: VLQ interference from BM1 with $m_{U}=@MASS@\text{ TeV}$ @$g_{U}=1$
+    VLQ_betaRd33_minus1_matched_M: VLQ signal from BM2 with $m_{U}=@MASS@\text{ TeV}$ @$g_{U}=1$
+    VLQ_betaRd33_minus1_matched_interference_M: VLQ interference from BM2 with $m_{U}=@MASS@\text{ TeV}$ @$g_{U}=1$
+    VLQ_betaRd33_0_offdiag0_matched_M: VLQ signal from BM3 with $m_{U}=@MASS@\text{ TeV}$ @$g_{U}=1$
+    VLQ_betaRd33_0_offdiag0_matched_interference_M: VLQ interference from BM3 with $m_{U}=@MASS@\text{ TeV}$ @$g_{U}=1$
 categories:
+    htt_tt_32_2016: $\tau_{h}\tau_{h}$, no b tag, 2016
+    htt_tt_35_2016: $\tau_{h}\tau_{h}$, b tag, 2016
+    htt_tt_32_2017: $\tau_{h}\tau_{h}$, no b tag, 2017
+    htt_tt_35_2017: $\tau_{h}\tau_{h}$, b tag, 2017
+    htt_tt_32_2018: $\tau_{h}\tau_{h}$, no b tag, 2018
     htt_tt_35_2018: $\tau_{h}\tau_{h}$, b tag, 2018

@@ -173,3 +173,16 @@ done
     --output-directory submission_preparation \
     --x-quantity '$m_A$:GeV' --y-quantity '$\tan\beta$:'  --min-n-points 10
 ```
+
+## Post-fit distributions high-mass analysis (including VLQ signals)
+
+### htt_tt_35_2018 category
+
+```bash
+./create_postfit_distributions_yaml.py \
+    --input htt_tt_35_2018_hepdata.root --analysis-configuration analysis_configuration_grouped.yaml \
+    --output-file htt_tt_35_2018_hepdata_grouped_postfit.yaml --distribution-quantity '$m_{T}^{tot}$:GeV' \
+    --category htt_tt_35_2018 --output-directory submission_preparation --min-bin-content 1e-4 --signal-pattern '(.*)_(\d*)' --mode grouped \
+    --additional-inputs htt_tt_35_2018_hepdata_vlq_bm1.root htt_tt_35_2018_hepdata_vlq_bm2.root htt_tt_35_2018_hepdata_vlq_bm3.root \
+    --additional-signals 'VLQ.*'
+```
