@@ -18,10 +18,10 @@ def sorted_nicely(l):
 
 # Parsing arguments
 parser = ArgumentParser(
-    description="Script to create HEPData .yaml file from prefit shape distributions."
+    description="Script to create HEPData .yaml file from postfit shape distributions."
 )
 parser.add_argument(
-    "--input", required=True, help="Input ROOT file with prefit shapes and their uncertainties"
+    "--input", required=True, help="Input ROOT file with postfit shapes and their uncertainties"
 )
 parser.add_argument(
     "--analysis-configuration",
@@ -50,6 +50,12 @@ parser.add_argument(
 )
 parser.add_argument(
     "--mode", required=True, choices=["grouped", "individual"], help="Determines, how to process individual processes in terms of nominal shapes and systematic uncertainties"
+)
+parser.add_argument(
+    "--additional-inputs", default=[], nargs="*", help="Additional input ROOT files with postfit shapes and their uncertainties for additional signals. Default: %(default)s"
+)
+parser.add_argument(
+    "--additional-signals", default=None, help="Pattern of additional signals provided in additional ROOT inputs files. Default: %(default)s"
 )
 
 args = parser.parse_args()
@@ -96,6 +102,8 @@ def create_info_for_proc(process, is_signal, signal_pattern, inputfile, mode, an
             ### Determine name and mass from regex
             matching = re.match(signal_pattern, process)
             name, mass = matching.groups()
+            if "VLQ" in process:
+                mass = str(int(mass) // 1000)
         ### Get nominal shape
         nominal_shape = proc_dir.Get(process)
         n_bins_proc = nominal_shape.GetNbinsX()
@@ -146,7 +154,12 @@ def create_info_for_proc(process, is_signal, signal_pattern, inputfile, mode, an
         config_procs = set(analysis_configuration[proc_type][process]["members"])
         considered_procs = list(config_procs.intersection(set(procs)))
         if is_signal:
-            events["qualifiers"].append({"name": "Process", "value": config["signals"][process]["name"].replace("@MASS@",mass)})
+            ### Determine name and mass from regex
+            matching = re.match(signal_pattern, process)
+            name, mass = matching.groups()
+            if "VLQ" in process:
+                mass = str(int(mass) // 1000)
+            events["qualifiers"].append({"name": "Process", "value": config["signals"][name]["name"].replace("@MASS@",mass)})
         else:
             events["qualifiers"].append({"name": "Process", "value": config["backgrounds"][process]["name"]})
         ### Get nominal shape
@@ -302,6 +315,17 @@ for sig in sorted_nicely(signals):
     events = create_info_for_proc(sig, True, args.signal_pattern, inputfile, args.mode, config)
     if events:
         output["dependent_variables"].append(events)
+
+## Extract information on additional signals, if provided
+if args.additional_inputs:
+    for fname in args.additional_inputs:
+        add_sig_input = r.TFile.Open(fname, "read")
+        additional_signals = set()
+        for sig in sorted_nicely([k.GetName() for k in add_sig_input.GetListOfKeys()]):
+            if re.match(args.additional_signals, sig):
+                events = create_info_for_proc(sig, True, args.signal_pattern, add_sig_input, args.mode, config)
+                if events:
+                    output["dependent_variables"].append(events)
 
 with open(os.path.join(args.output_directory, args.output_file), "w") as out:
     yaml.dump(output, out)
