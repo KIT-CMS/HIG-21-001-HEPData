@@ -52,33 +52,32 @@ if not os.path.isdir(args.output_directory):
 
 # Obtain desired information from ROOT file
 df = pd.read_csv(args.input)
-print(df.head())
+
+frac_labels = {
+    "ggh_t_frac": '$gg\phi$ t-only',
+    "ggh_b_frac": '$gg\phi$ b-only',
+    "ggh_i_frac": '$gg\phi$ tb-interference',
+}
 
 # Setting up the .yaml file dict
 output = copy.deepcopy(sm_ggh_frac_template_main)
 
-## Include x parameter
-x = copy.deepcopy(sm_ggh_frac_template_individual)
-x.pop("qualifiers")
-x["header"]["name"] = "Nuisance parameter (x)"
-x["header"]["units"] = ""
-x["values"] = [{"value": val} for val in df.iloc[:, 0].values]
-output["independent_variables"].append(x)
-
-## Include y quantity
-y = copy.deepcopy(sm_ggh_frac_template_individual)
-y.pop("qualifiers")
-y["header"]["name"] = "Nuisance parameter (y)"
-y["header"]["units"] = ""
-y["values"] = [{"value": val} for val in df.iloc[:, 1].values]
-output["independent_variables"].append(y)
+## Include mass parameter
+mass = copy.deepcopy(sm_ggh_frac_template_individual)
+mass.pop("qualifiers")
+mass["header"]["name"] = '$m_\phi$'
+mass["header"]["units"] = "GeV"
+mass["values"] = [{"value": val} for val in df["MH"]]
+output["independent_variables"].append(mass)
 
 ## Include correlation coefficient
-corr = copy.deepcopy(sm_ggh_frac_template_individual)
-corr["header"]["name"] = "Correlation coefficient"
-corr["header"]["units"] = '%'
-corr["values"] = [{"value": round(val * 100.0)} for val in df.iloc[:, 2].values]
-output["dependent_variables"].append(corr)
+for frac in frac_labels:
+    fracinfo = copy.deepcopy(sm_ggh_frac_template_individual)
+    fracinfo["header"]["name"] = 'Fraction of the cross-section $\sigma(gg\phi)$ as expected from SM'
+    fracinfo["header"]["units"] = ''
+    fracinfo["qualifiers"].append({"name": r"Contribution", "value": frac_labels[frac]})
+    fracinfo["values"] = [{"value": val} for val in df[frac]]
+    output["dependent_variables"].append(fracinfo)
 
 with open(os.path.join(args.output_directory, args.output_file), "w") as out:
     yaml.dump(output, out)

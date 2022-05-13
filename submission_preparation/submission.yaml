@@ -1822,7 +1822,24 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Correlation High-mass analysis
+name: Table Correlation High-mass Analysis
+---
+data_file: sm_ggh_fractions.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Fractions of the cross-section $\sigma(gg\\phi)$ as expected from SM for the loop
+              contributions with only top quarks, only bottom quarks and from the top-bottom interference.
+              These values are used to scale the corresponding signal components for a given mass $m_\\phi$."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table SM Gluon Fusion Fractions
 ---
 data_file: htt_tt_35_2018_hepdata.yaml
 #additional_resources:
