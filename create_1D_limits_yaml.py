@@ -38,8 +38,9 @@ parser.add_argument(
     help="Main output directory name for submission to HEPData",
 )
 parser.add_argument(
-    "--additional-qualifiers", nargs="*", help="A list of additional qualifiers, given as name:value", default=[] # Like the process label (long version)
+    "--additional-qualifiers", nargs="*", help="A list of additional qualifiers, given as name:value. Default: %(default)s", default=[] # Like the process label (long version)
 )
+parser.add_argument("--limit-name-replacement", help="A different qualifier name instead of 'Limit'. Default: %(default)s", default=None)
 
 args = parser.parse_args()
 
@@ -58,7 +59,7 @@ limit_template_1D_individual = {
     "qualifiers": [
         {"name": r"Centre-of-mass energy $\sqrt{s}$", "units": "GeV", "value": 13000},
         {"name": r"Integrated luminosity", "units": "fb$^{-1}$", "value": 138},
-        {"name": r"Limit", "value": "RESULT"},
+        {"name": args.limit_name_replacement if args.limit_name_replacement else r"Limit", "value": "RESULT"},
         {"name": r"Type", "value": "TYPE"},
     ],
     "values": [],
