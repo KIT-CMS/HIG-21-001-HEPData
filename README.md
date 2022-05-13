@@ -318,3 +318,11 @@ done
     --output-file  correlations_highmass.yaml --output-directory submission_preparation \
     --additional-qualifiers "Maximum likelihood fit:Background only fit in the \"High-mass\" analysis"
 ```
+
+## SM ggphi fracions
+
+```bash
+./create_sm_ggh_fractions_yaml.py \
+    --input sm_ggh_fractions.csv \
+    --output-file sm_ggh_fractions.yaml --output-directory submission_preparation
+```
