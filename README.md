@@ -120,6 +120,65 @@ Repository to collect helper scripts to create inputs for HEPData of HIG-21-001 
     --additional-qualifiers 'Higgs boson production:Gluon fusion $gg\phi$'
 ```
 
+### bbphi with ggphi profiled (Aux. Figure 32)
+
+```bash
+./create_1D_limits_yaml.py \
+    --inputs data/pvalues/mssm_bbH_lowonly_pvalue_cmb.json data/pvalues/mssm_bbH_highonly_pvalue_cmb.json \
+    --process '$bb\phi$' --type-string '$gg\phi$ profiled' \
+    --output-file pvalues_bbphi.yaml --output-directory submission_preparation \
+    --mass-quantity '$m_\phi$:GeV' --limit-quantity 'Local significance for a $bb\phi$ signal:' \
+    --limit-name-replacement 'Local significance' \
+    --additional-qualifiers 'Higgs boson production:b associated $bb\phi$'
+```
+
+### ggphi with bbphi set to 0 (Aux. Figure 33)
+
+```bash
+./create_1D_limits_yaml.py \
+    --inputs data/pvalues/mssm_ggH_lowonly_freezebbH_pvalue_cmb.json data/pvalues/mssm_ggH_highonly_freezebbH_pvalue_cmb.json \
+    --process '$gg\phi$' --type-string '$bb\phi$ set to zero' \
+    --output-file pvalues_ggphi_freeze_bbphi.yaml --output-directory submission_preparation \
+    --mass-quantity '$m_\phi$:GeV' --limit-quantity 'Local significance for a $gg\phi$ signal:' \
+    --limit-name-replacement 'Local significance' \
+    --additional-qualifiers 'Higgs boson production:Gluon fusion $gg\phi$'
+```
+
+### bbphi with ggphi set to 0 (Aux. Figure 34)
+
+```bash
+./create_1D_limits_yaml.py \
+    --inputs data/pvalues/mssm_bbH_lowonly_freezeggH_pvalue_cmb.json data/pvalues/mssm_bbH_highonly_freezeggH_pvalue_cmb.json \
+    --process '$bb\phi$' --type-string '$gg\phi$ set to zero' \
+    --output-file pvalues_bbphi_freeze_ggphi.yaml --output-directory submission_preparation \
+    --mass-quantity '$m_\phi$:GeV' --limit-quantity 'Local significance for a bb\phi$ signal:' \
+    --limit-name-replacement 'Local significance' \
+    --additional-qualifiers 'Higgs boson production:b associated $bb\phi$'
+```
+
+### ggphi (t-only) with bbphi profiled (Aux. Figure 35)
+
+```bash
+./create_1D_limits_yaml.py \
+    --inputs data/pvalues/mssm_ggH_lowonly_Tonly_pvalue_cmb.json data/pvalues/mssm_ggH_highonly_Tonly_pvalue_cmb.json \
+    --process '$gg\phi$' --type-string '$bb\phi$ profiled; $gg\phi$ with t quark only' \
+    --output-file pvalues_ggphi_tonly.yaml --output-directory submission_preparation \
+    --mass-quantity '$m_\phi$:GeV' --limit-quantity 'Local significance for a $gg\phi$ signal:' \
+    --limit-name-replacement 'Local significance' \
+    --additional-qualifiers 'Higgs boson production:Gluon fusion $gg\phi$'
+```
+
+### ggphi (b-only) with bbphi profiled (Aux. Figure 36)
+
+```bash
+./create_1D_limits_yaml.py \
+    --inputs data/pvalues/mssm_ggH_lowonly_Bonly_pvalue_cmb.json data/pvalues/mssm_ggH_highonly_Bonly_pvalue_cmb.json \
+    --process '$gg\phi$' --type-string '$bb\phi$ profiled; $gg\phi$ with b quark only' \
+    --output-file pvalues_ggphi_bonly.yaml --output-directory submission_preparation \
+    --mass-quantity '$m_\phi$:GeV' --limit-quantity 'Local significance for a $gg\phi$ signal:' \
+    --limit-name-replacement 'Local significance' \
+    --additional-qualifiers 'Higgs boson production:Gluon fusion $gg\phi$'
+```
 
 ## Commands to create 2D Likelihood scans HEPData
 
