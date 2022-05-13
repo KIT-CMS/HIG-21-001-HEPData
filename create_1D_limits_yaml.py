@@ -108,7 +108,7 @@ obs["header"]["units"] = l_units
 
 ### Replace placeholders
 for q in obs["qualifiers"]:
-    if "Limit" in q["name"]:
+    if "Limit" in q["name"] or args.limit_name_replacement in q["name"]:
         q["value"] = q["value"].replace("RESULT", "Observed")
     elif "Type" in q["name"]:
         q["value"] = q["value"].replace("TYPE", args.type_string)

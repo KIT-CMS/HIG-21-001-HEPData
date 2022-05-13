@@ -105,6 +105,22 @@ Repository to collect helper scripts to create inputs for HEPData of HIG-21-001 
     --additional-qualifiers 'BSM physics:$U_{1}$ t-channel exchange'
 ```
 
+## Commands to create 1D Significances for HEPData
+
+
+### ggphi with bbphi profiled (Aux. Figure 31)
+
+```bash
+./create_1D_limits_yaml.py \
+    --inputs data/pvalues/mssm_ggH_lowonly_pvalue_cmb.json data/pvalues/mssm_ggH_highonly_pvalue_cmb.json \
+    --process '$gg\phi$' --type-string '$bb\phi$ profiled' \
+    --output-file pvalues_ggphi.yaml --output-directory submission_preparation \
+    --mass-quantity '$m_\phi$:GeV' --limit-quantity 'Local significance for a $gg\phi$ signal:' \
+    --limit-name-replacement 'Local significance' \
+    --additional-qualifiers 'Higgs boson production:Gluon fusion $gg\phi$'
+```
+
+
 ## Commands to create 2D Likelihood scans HEPData
 
 ### Yt-Yb scans for A
