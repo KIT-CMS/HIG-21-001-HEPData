@@ -6,6 +6,7 @@ import copy
 import os
 import ROOT as r
 import re
+import numpy as np
 
 from argparse import ArgumentParser
 
@@ -80,6 +81,9 @@ event_template_values = {
     "errors": [],
 }
 
+debug_systs = True
+#debug_systs = False
+
 ## Extract information on processes
 def create_info_for_proc(process, is_signal, signal_pattern, inputfile, mode, analysis_configuration):
     events = copy.deepcopy(distribution_template_individual)
@@ -95,7 +99,11 @@ def create_info_for_proc(process, is_signal, signal_pattern, inputfile, mode, an
         ### Get nominal shape
         nominal_shape = proc_dir.Get(process)
         n_bins_proc = nominal_shape.GetNbinsX()
+        abs_integral = np.sum([abs(nominal_shape.GetBinContent(i+1)) for i in range(n_bins_proc)])
+        if abs_integral == 0:
+            return None
         systnames = set([k.GetName().replace("_Up","").replace("_Down","").replace(process+"_","") for k in proc_dir.GetListOfKeys() if "Up" in k.GetName() or "Down" in k.GetName()])
+        considered_systematics = set()
         if is_signal:
             events["qualifiers"].append({"name": "Process", "value": config["signals"][name].replace("@MASS@",mass)})
         else:
@@ -103,22 +111,36 @@ def create_info_for_proc(process, is_signal, signal_pattern, inputfile, mode, an
         ### Nominal bin content + all systematic variations
         for i in range(n_bins_proc):
             value = copy.deepcopy(event_template_values)
-            central = nominal_shape.GetBinContent(i+1) if abs(nominal_shape.GetBinContent(i+1)) > args.min_bin_content else 0
+            central = round(nominal_shape.GetBinContent(i+1), int(np.log10(round(1./args.min_bin_content)))) if abs(nominal_shape.GetBinContent(i+1)) / abs_integral > args.min_bin_content else 0
             value["value"] = central
             for syst in sorted_nicely(systnames):
                 up = proc_dir.Get(process+"_"+syst+"_Up")
-                up_val = up.GetBinContent(i+1) if abs(up.GetBinContent(i+1)) > args.min_bin_content else 0
                 down = proc_dir.Get(process+"_"+syst+"_Down")
-                down_val = down.GetBinContent(i+1) if abs(down.GetBinContent(i+1)) > args.min_bin_content else 0
+                if central:
+                    up_val = round(up.GetBinContent(i+1), int(np.log10(round(1./args.min_bin_content)))) if abs(up.GetBinContent(i+1)) / abs(central) > args.min_bin_content else 0
+                    down_val = round(down.GetBinContent(i+1), int(np.log10(round(1./args.min_bin_content)))) if abs(down.GetBinContent(i+1)) / abs(central) > args.min_bin_content else 0
+                else:
+                    up_val = round(up.GetBinContent(i+1), int(np.log10(round(1./args.min_bin_content)))) if abs(up.GetBinContent(i+1)) / abs_integral > args.min_bin_content else 0
+                    down_val = round(down.GetBinContent(i+1), int(np.log10(round(1./args.min_bin_content)))) if abs(down.GetBinContent(i+1)) / abs_integral > args.min_bin_content else 0
                 if sum([central, down_val, up_val]) != 0:
                     error = {"label" : syst}
                     error["asymerror"] = {
-                        "minus" : down_val - central,
-                        "plus" : up_val - central,
+                        "minus" : round(down_val - central, int(np.log10(round(1./args.min_bin_content)))),
+                        "plus" : round(up_val - central, int(np.log10(round(1./args.min_bin_content)))),
                     }
-                    if abs(error["asymerror"]["plus"])  > args.min_bin_content or abs(error["asymerror"]["minus"]) > args.min_bin_content:
-                        value["errors"].append(error)
+                    if central:
+                        if abs(error["asymerror"]["plus"]) / abs(central) > args.min_bin_content or abs(error["asymerror"]["minus"]) / abs(central) > args.min_bin_content:
+                            value["errors"].append(error)
+                            considered_systematics.add(syst)
+                    else:
+                        if abs(error["asymerror"]["plus"]) / abs_integral > args.min_bin_content or abs(error["asymerror"]["minus"]) / abs_integral > args.min_bin_content:
+                            value["errors"].append(error)
+                            considered_systematics.add(syst)
             events["values"].append(value)
+        if debug_systs:
+            print(process)
+            for syst in sorted_nicely(considered_systematics):
+                print(f"\t{syst}")
     elif mode == "grouped":
         proc_type = "signals" if is_signal else "backgrounds"
         config_procs = set(analysis_configuration[proc_type][process]["members"])
@@ -132,6 +154,9 @@ def create_info_for_proc(process, is_signal, signal_pattern, inputfile, mode, an
         for p in considered_procs[1:]:
             nominal_shape.Add(inputfile.Get(p).Get(p))
         n_bins_proc = nominal_shape.GetNbinsX()
+        abs_integral = np.sum([abs(nominal_shape.GetBinContent(i+1)) for i in range(n_bins_proc)])
+        if abs_integral == 0:
+            return None
         ### Setup systematics determinations
         systematics = {}
         systematics_per_proc = {}
@@ -168,6 +193,7 @@ def create_info_for_proc(process, is_signal, signal_pattern, inputfile, mode, an
                             hist_name = p 
                         #print(f"\tInitiating systematic {syst} for direction {direction} with {hist_name}")
                         systematics[syst][direction] = pdir.Get(hist_name).Clone()
+        considered_systematics = set()
         ### Clean up the case, if a systematic is both norm and shape across different processes
         for syst in systematics_shape_and_norm:
             for direction in systematics["shape_"+syst]:
@@ -176,20 +202,34 @@ def create_info_for_proc(process, is_signal, signal_pattern, inputfile, mode, an
         ### Nominal bin content + all systematic variations
         for i in range(n_bins_proc):
             value = copy.deepcopy(event_template_values)
-            central = nominal_shape.GetBinContent(i+1) if abs(nominal_shape.GetBinContent(i+1)) > args.min_bin_content else 0
+            central = round(nominal_shape.GetBinContent(i+1), int(np.log10(round(1./args.min_bin_content)))) if abs(nominal_shape.GetBinContent(i+1)) / abs_integral > args.min_bin_content else 0
             value["value"] = central
             for syst in sorted_nicely(systematics):
-                up_val = systematics[syst]["Up"].GetBinContent(i+1) if abs(systematics[syst]["Up"].GetBinContent(i+1)) > args.min_bin_content else 0
-                down_val = systematics[syst]["Down"].GetBinContent(i+1) if abs(systematics[syst]["Down"].GetBinContent(i+1)) > args.min_bin_content else 0
+                if central:
+                    up_val = round(systematics[syst]["Up"].GetBinContent(i+1), int(np.log10(round(1./args.min_bin_content)))) if abs(systematics[syst]["Up"].GetBinContent(i+1)) / abs(central) > args.min_bin_content else 0
+                    down_val = round(systematics[syst]["Down"].GetBinContent(i+1), int(np.log10(round(1./args.min_bin_content)))) if abs(systematics[syst]["Down"].GetBinContent(i+1)) / abs(central) > args.min_bin_content else 0
+                else:
+                    up_val = round(systematics[syst]["Up"].GetBinContent(i+1), int(np.log10(round(1./args.min_bin_content)))) if abs(systematics[syst]["Up"].GetBinContent(i+1)) / abs_integral > args.min_bin_content else 0
+                    down_val = round(systematics[syst]["Down"].GetBinContent(i+1), int(np.log10(round(1./args.min_bin_content)))) if abs(systematics[syst]["Down"].GetBinContent(i+1)) / abs_integral > args.min_bin_content else 0
                 if sum([central, down_val, up_val]) != 0:
                     error = {"label" : syst}
                     error["asymerror"] = {
-                        "minus" : down_val - central,
-                        "plus" : up_val - central,
+                        "minus" : round(down_val - central, int(np.log10(round(1./args.min_bin_content)))),
+                        "plus" : round(up_val - central, int(np.log10(round(1./args.min_bin_content)))),
                     }
-                    if abs(error["asymerror"]["plus"])  > args.min_bin_content or abs(error["asymerror"]["minus"]) > args.min_bin_content:
-                        value["errors"].append(error)
+                    if central:
+                        if abs(error["asymerror"]["plus"]) / abs(central) > args.min_bin_content or abs(error["asymerror"]["minus"]) / abs(central) > args.min_bin_content:
+                            value["errors"].append(error)
+                            considered_systematics.add(syst)
+                    else:
+                        if abs(error["asymerror"]["plus"]) / abs_integral > args.min_bin_content or abs(error["asymerror"]["minus"]) / abs_integral > args.min_bin_content:
+                            value["errors"].append(error)
+                            considered_systematics.add(syst)
             events["values"].append(value)
+        if debug_systs:
+            print(process)
+            for syst in sorted_nicely(considered_systematics):
+                print(f"\t{syst}")
     return events
 
 # Setup directory if it does not exist
@@ -253,11 +293,15 @@ output["dependent_variables"].append(data_events)
 
 ## Extract information on backgrounds
 for bg in sorted_nicely(backgrounds):
-    output["dependent_variables"].append(create_info_for_proc(bg, False, None, inputfile, args.mode, config))
+    events = create_info_for_proc(bg, False, None, inputfile, args.mode, config)
+    if events:
+        output["dependent_variables"].append(events)
 
 ## Extract information on signals
 for sig in sorted_nicely(signals):
-    output["dependent_variables"].append(create_info_for_proc(sig, True, args.signal_pattern, inputfile, args.mode, config))
+    events = create_info_for_proc(sig, True, args.signal_pattern, inputfile, args.mode, config)
+    if events:
+        output["dependent_variables"].append(events)
 
 with open(os.path.join(args.output_directory, args.output_file), "w") as out:
     yaml.dump(output, out)
