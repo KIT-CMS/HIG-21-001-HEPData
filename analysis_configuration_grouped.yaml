@@ -16,9 +16,9 @@ backgrounds:
             qqH125: $qqH(125)$
             bbH125: $bbH(125)$
 signals:
-    bbh: $bb\phi(@MASS@)$
-    ggh_t: $gg\phi(@MASS@)$ t-only
-    ggh_b: $gg\phi(@MASS@)$ b-only
-    ggh_i: $gg\phi(@MASS@)$ tb-interference
+    bbh: $bb\phi$ with $m_{\phi}=@MASS@)\text{ GeV}$ @1pb
+    ggh_t: $gg\phi$ t-only with $m_{\phi}=@MASS@\text{ GeV}$ @1pb
+    ggh_b: $gg\phi$ b-only with $m_{\phi}=@MASS@\text{ GeV}$ @1pb
+    ggh_i: $gg\phi$ tb-interference with $m_{\phi}=@MASS@\text{ GeV}$ @1pb
 categories:
     htt_tt_35_2018: $\tau_{h}\tau_{h}$, b tag, 2018
