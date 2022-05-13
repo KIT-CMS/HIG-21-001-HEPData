@@ -148,6 +148,108 @@ keywords:
   values: [13000.0, 13000]
 name: Table Aux. Figure 40
 ---
+data_file: pvalues_ggphi.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Local significance for a $gg\\phi$ signal in a mass range of $60\\leq m_\\phi\\leq 3500\\text{ GeV}$.
+              In this case, $bb\\phi$ production rate has been profiled. Numerical values provided in this
+              table correspond to Figure 31 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 31
+---
+data_file: pvalues_bbphi.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Local significance for a $bb\\phi$ signal in a mass range of $60\\leq m_\\phi\\leq 3500\\text{ GeV}$.
+              In this case, $gg\\phi$ production rate has been profiled. Numerical values provided in this
+              table correspond to Figure 32 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 32
+---
+data_file: pvalues_ggphi_freeze_bbphi.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Local significance for a $gg\\phi$ signal in a mass range of $60\\leq m_\\phi\\leq 3500\\text{ GeV}$.
+              In this case, $bb\\phi$ production rate has been fixed to zero. Numerical values provided in this
+              table correspond to Figure 33 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 33
+---
+data_file: pvalues_bbphi_freeze_ggphi.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Local significance for a $bb\\phi$ signal in a mass range of $60\\leq m_\\phi\\leq 3500\\text{ GeV}$.
+              In this case, $gg\\phi$ production rate has been fixed to zero. Numerical values provided in this
+              table correspond to Figure 34 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 34
+---
+data_file: pvalues_ggphi_tonly.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Local significance for a $gg\\phi$ signal in a mass range of $60\\leq m_\\phi\\leq 3500\\text{ GeV}$.
+              In this case, $bb\\phi$ production rate has been profiled and only top quarks have been considered in the $gg\\phi$ loop.
+              Numerical values provided in this table correspond to Figure 35 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 35
+---
+data_file: pvalues_ggphi_bonly.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Local significance for a $gg\\phi$ signal in a mass range of $60\\leq m_\\phi\\leq 3500\\text{ GeV}$.
+              In this case, $bb\\phi$ production rate has been profiled and only bottom quarks have been considered in the $gg\\phi$ loop.
+              Numerical values provided in this table correspond to Figure 36 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 36
+---
 data_file: 2D_scan_ggphi_qqphi_m95.yaml
 #additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
