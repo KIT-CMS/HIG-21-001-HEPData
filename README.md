@@ -314,7 +314,7 @@ done
 ### High-mass analysis
 ```bash
 ./create_2D_correlation_yaml.py \
-    --input fit_mdf_correlations.csv \
+    --input fit_mdf_correlations.csv --min-correlation 0.011 \
     --output-file  correlations_highmass.yaml --output-directory submission_preparation \
     --additional-qualifiers "Maximum likelihood fit:Background only fit in the \"High-mass\" analysis"
 ```
