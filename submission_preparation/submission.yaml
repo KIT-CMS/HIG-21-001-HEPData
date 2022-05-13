@@ -1418,6 +1418,186 @@ keywords:
   values: [13000.0, 13000]
 name: Table Figure 10i
 ---
+data_file: vlq_1D_scan_bm1_mU1.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a vector leptoquark with $m_{U} = 1\\text{ TeV}$,
+              in the VLQ BM 1 scenario. The scan is performed in the $g_{U}$ coupling, for three different categorization strategies,
+              combining only \"No b tag\" categories, only \"b tag\" categories, and all categories.
+              Numerical values provided in this table correspond to Figure 107 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 107
+---
+data_file: vlq_1D_scan_bm1_mU2.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a vector leptoquark with $m_{U} = 2\\text{ TeV}$,
+              in the VLQ BM 1 scenario. The scan is performed in the $g_{U}$ coupling, for three different categorization strategies,
+              combining only \"No b tag\" categories, only \"b tag\" categories, and all categories.
+              Numerical values provided in this table correspond to Figure 108 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 108
+---
+data_file: vlq_1D_scan_bm1_mU3.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a vector leptoquark with $m_{U} = 3\\text{ TeV}$,
+              in the VLQ BM 1 scenario. The scan is performed in the $g_{U}$ coupling, for three different categorization strategies,
+              combining only \"No b tag\" categories, only \"b tag\" categories, and all categories.
+              Numerical values provided in this table correspond to Figure 109 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 109
+---
+data_file: vlq_1D_scan_bm1_mU4.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a vector leptoquark with $m_{U} = 4\\text{ TeV}$,
+              in the VLQ BM 1 scenario. The scan is performed in the $g_{U}$ coupling, for three different categorization strategies,
+              combining only \"No b tag\" categories, only \"b tag\" categories, and all categories.
+              Numerical values provided in this table correspond to Figure 110 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 110
+---
+data_file: vlq_1D_scan_bm1_mU5.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a vector leptoquark with $m_{U} = 5\\text{ TeV}$,
+              in the VLQ BM 1 scenario. The scan is performed in the $g_{U}$ coupling, for three different categorization strategies,
+              combining only \"No b tag\" categories, only \"b tag\" categories, and all categories.
+              Numerical values provided in this table correspond to Figure 111 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 111
+---
+data_file: vlq_1D_scan_bm2_mU1.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a vector leptoquark with $m_{U} = 1\\text{ TeV}$,
+              in the VLQ BM 2 scenario. The scan is performed in the $g_{U}$ coupling, for three different categorization strategies,
+              combining only \"No b tag\" categories, only \"b tag\" categories, and all categories.
+              Numerical values provided in this table correspond to Figure 112 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 112
+---
+data_file: vlq_1D_scan_bm2_mU2.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a vector leptoquark with $m_{U} = 2\\text{ TeV}$,
+              in the VLQ BM 2 scenario. The scan is performed in the $g_{U}$ coupling, for three different categorization strategies,
+              combining only \"No b tag\" categories, only \"b tag\" categories, and all categories.
+              Numerical values provided in this table correspond to Figure 113 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 113
+---
+data_file: vlq_1D_scan_bm2_mU3.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a vector leptoquark with $m_{U} = 3\\text{ TeV}$,
+              in the VLQ BM 2 scenario. The scan is performed in the $g_{U}$ coupling, for three different categorization strategies,
+              combining only \"No b tag\" categories, only \"b tag\" categories, and all categories.
+              Numerical values provided in this table correspond to Figure 114 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 114
+---
+data_file: vlq_1D_scan_bm2_mU4.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a vector leptoquark with $m_{U} = 4\\text{ TeV}$,
+              in the VLQ BM 2 scenario. The scan is performed in the $g_{U}$ coupling, for three different categorization strategies,
+              combining only \"No b tag\" categories, only \"b tag\" categories, and all categories.
+              Numerical values provided in this table correspond to Figure 115 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 115
+---
+data_file: vlq_1D_scan_bm2_mU5.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a vector leptoquark with $m_{U} = 5\\text{ TeV}$,
+              in the VLQ BM 2 scenario. The scan is performed in the $g_{U}$ coupling, for three different categorization strategies,
+              combining only \"No b tag\" categories, only \"b tag\" categories, and all categories.
+              Numerical values provided in this table correspond to Figure 116 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 116
+---
 data_file: limit_mssm_mh125_obs.yaml
 #additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
