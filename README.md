@@ -227,6 +227,53 @@ do
 done
 ```
 
+## Commands for VLQ 1D Likelihood scans HEPData
+
+### VLQ BM 1 scans
+
+```bash
+for m in 1 2 3 4 5;
+do
+    ./create_1D_limits_yaml.py \
+        --inputs "data/vlq_hep_data/scans/vlq_scan_betaRd33_0_mU${m}000_combined.json:Combined" \
+                 "data/vlq_hep_data/scans/vlq_scan_betaRd33_0_mU${m}000_nobtag.json:No b tag" \
+                 "data/vlq_hep_data/scans/vlq_scan_betaRd33_0_mU${m}000_btag.json:b tag" \
+        --output-file vlq_1D_scan_bm1_mU${m}.yaml --output-directory submission_preparation \
+        --additional-qualifiers'BSM physics:VLQ BM 1 interpretation' \
+        --mass-hypothesis ${m} --x-quantity '$g_U$:'
+done
+```
+
+### VLQ BM 2 scans
+
+```bash
+for m in 1 2 3 4 5;
+do
+    ./create_1D_limits_yaml.py \
+        --inputs "data/vlq_hep_data/scans/vlq_scan_betaRd33_minus1_mU${m}000_combined.json:Combined" \
+                 "data/vlq_hep_data/scans/vlq_scan_betaRd33_minus1_mU${m}000_nobtag.json:No b tag" \
+                 "data/vlq_hep_data/scans/vlq_scan_betaRd33_minus1_mU${m}000_btag.json:b tag" \
+        --output-file vlq_1D_scan_bm2_mU${m}.yaml --output-directory submission_preparation \
+        --additional-qualifiers'BSM physics:VLQ BM 2 interpretation' \
+        --mass-hypothesis ${m} --x-quantity '$g_U$:'
+done
+```
+
+### VLQ BM 3 scans
+
+```bash
+for m in 1 2 3 4 5;
+do
+    ./create_1D_limits_yaml.py \
+        --inputs "data/vlq_hep_data/scans/vlq_scan_betaRd33_0_offdiag0_mU${m}000_combined.json:Combined" \
+                 "data/vlq_hep_data/scans/vlq_scan_betaRd33_0_offdiag0_mU${m}000_nobtag.json:No b tag" \
+                 "data/vlq_hep_data/scans/vlq_scan_betaRd33_0_offdiag0_mU${m}000_btag.json:b tag" \
+        --output-file vlq_1D_scan_bm3_mU${m}.yaml --output-directory submission_preparation \
+        --additional-qualifiers'BSM physics:VLQ BM 3 interpretation' \
+        --mass-hypothesis ${m} --x-quantity '$g_U$:'
+done
+```
+
 ## MSSM limits
 
 ### mh125 limits (Figure 12a)
