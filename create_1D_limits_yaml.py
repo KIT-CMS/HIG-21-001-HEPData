@@ -131,17 +131,19 @@ for q in exp68["qualifiers"]:
 
 ### Fill in limit results
 for m in masses:
-    value = copy.deepcopy(limit_template_expvalues)
-    central = results[str(m)]["exp0"]
-    value["value"] = central
-    error = {}
-    error["asymerror"] = dict(
-        minus=results[str(m)]["exp-1"] - central,
-        plus=results[str(m)]["exp+1"] - central,
-    )
-    value["errors"].append(error)
-    exp68["values"].append(value)
-output["dependent_variables"].append(exp68)
+    if "exp0" in results[str(m)]:
+        value = copy.deepcopy(limit_template_expvalues)
+        central = results[str(m)]["exp0"]
+        value["value"] = central
+        error = {}
+        error["asymerror"] = dict(
+            minus=results[str(m)]["exp-1"] - central,
+            plus=results[str(m)]["exp+1"] - central,
+        )
+        value["errors"].append(error)
+        exp68["values"].append(value)
+if exp68["values"]:
+    output["dependent_variables"].append(exp68)
 
 ## Include Expected +/-95 %
 exp95 = copy.deepcopy(limit_template_1D_individual)
@@ -157,17 +159,19 @@ for q in exp95["qualifiers"]:
 
 ### Fill in limit results
 for m in masses:
-    value = copy.deepcopy(limit_template_expvalues)
-    central = results[str(m)]["exp0"]
-    value["value"] = central
-    error = {}
-    error["asymerror"] = dict(
-        minus=results[str(m)]["exp-2"] - central,
-        plus=results[str(m)]["exp+2"] - central,
-    )
-    value["errors"].append(error)
-    exp95["values"].append(value)
-output["dependent_variables"].append(exp95)
+    if "exp0" in results[str(m)]:
+        value = copy.deepcopy(limit_template_expvalues)
+        central = results[str(m)]["exp0"]
+        value["value"] = central
+        error = {}
+        error["asymerror"] = dict(
+            minus=results[str(m)]["exp-2"] - central,
+            plus=results[str(m)]["exp+2"] - central,
+        )
+        value["errors"].append(error)
+        exp95["values"].append(value)
+if exp95["values"]:
+    output["dependent_variables"].append(exp95)
 
 with open(os.path.join(args.output_directory, args.output_file), "w") as out:
     yaml.dump(output, out)
