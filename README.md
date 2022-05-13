@@ -234,7 +234,7 @@ done
 ```bash
 for m in 1 2 3 4 5;
 do
-    ./create_1D_limits_yaml.py \
+    ./create_1D_vlq_scans_yaml.py \
         --inputs "data/vlq_hep_data/scans/vlq_scan_betaRd33_0_mU${m}000_combined.json:Combined" \
                  "data/vlq_hep_data/scans/vlq_scan_betaRd33_0_mU${m}000_nobtag.json:No b tag" \
                  "data/vlq_hep_data/scans/vlq_scan_betaRd33_0_mU${m}000_btag.json:b tag" \
@@ -249,7 +249,7 @@ done
 ```bash
 for m in 1 2 3 4 5;
 do
-    ./create_1D_limits_yaml.py \
+    ./create_1D_vlq_scans_yaml.py \
         --inputs "data/vlq_hep_data/scans/vlq_scan_betaRd33_minus1_mU${m}000_combined.json:Combined" \
                  "data/vlq_hep_data/scans/vlq_scan_betaRd33_minus1_mU${m}000_nobtag.json:No b tag" \
                  "data/vlq_hep_data/scans/vlq_scan_betaRd33_minus1_mU${m}000_btag.json:b tag" \
@@ -264,7 +264,7 @@ done
 ```bash
 for m in 1 2 3 4 5;
 do
-    ./create_1D_limits_yaml.py \
+    ./create_1D_vlq_scans_yaml.py \
         --inputs "data/vlq_hep_data/scans/vlq_scan_betaRd33_0_offdiag0_mU${m}000_combined.json:Combined" \
                  "data/vlq_hep_data/scans/vlq_scan_betaRd33_0_offdiag0_mU${m}000_nobtag.json:No b tag" \
                  "data/vlq_hep_data/scans/vlq_scan_betaRd33_0_offdiag0_mU${m}000_btag.json:b tag" \
