@@ -8,6 +8,8 @@ backgrounds:
             VVL: Diboson+single $t$ 
             ZL: $Z/\gamma^\ast\rightarrow\ell\ell$
             wFakes: W+jets
+            W: W+jets
+            QCD: QCD multijet
             jetFakes: Jet$\rightarrow\tau_{h}$
     H125:
         name: $H(125)$
@@ -16,20 +18,20 @@ backgrounds:
             qqH125: $qqH(125)$
             bbH125: $bbH(125)$
 signals:
-    bbh: $bb\phi$ with $m_{\phi}=@MASS@)\text{ GeV}$ @1pb
-    ggh_t: $gg\phi$ t-only with $m_{\phi}=@MASS@\text{ GeV}$ @1pb
-    ggh_b: $gg\phi$ b-only with $m_{\phi}=@MASS@\text{ GeV}$ @1pb
-    ggh_i: $gg\phi$ tb-interference with $m_{\phi}=@MASS@\text{ GeV}$ @1pb
-    VLQ_betaRd33_0_matched_M: VLQ signal from BM1 with $m_{U}=@MASS@\text{ TeV}$ @$g_{U}=1$
-    VLQ_betaRd33_0_matched_interference_M: VLQ interference from BM1 with $m_{U}=@MASS@\text{ TeV}$ @$g_{U}=1$
-    VLQ_betaRd33_minus1_matched_M: VLQ signal from BM2 with $m_{U}=@MASS@\text{ TeV}$ @$g_{U}=1$
-    VLQ_betaRd33_minus1_matched_interference_M: VLQ interference from BM2 with $m_{U}=@MASS@\text{ TeV}$ @$g_{U}=1$
-    VLQ_betaRd33_0_offdiag0_matched_M: VLQ signal from BM3 with $m_{U}=@MASS@\text{ TeV}$ @$g_{U}=1$
-    VLQ_betaRd33_0_offdiag0_matched_interference_M: VLQ interference from BM3 with $m_{U}=@MASS@\text{ TeV}$ @$g_{U}=1$
+    bbh: $bb\phi$, $m_{\phi}=@MASS@\text{ GeV},\text{ }\sigma B = 1\text{ pb}$
+    ggh_t: $gg\phi$ t-only, $m_{\phi}=@MASS@\text{ GeV},\text{ }\sigma B = 1\text{ pb}$
+    ggh_b: $gg\phi$ b-only, $m_{\phi}=@MASS@\text{ GeV},\text{ }\sigma B = 1\text{ pb}$
+    ggh_i: $gg\phi$ tb-interference, $m_{\phi}=@MASS@\text{ GeV},\text{ }\sigma B = 1\text{ pb}$
+    VLQ_betaRd33_0_matched_M: VLQ signal (BM1), $m_{U}=@MASS@\text{ TeV},\text{ }g_{U}=1$
+    VLQ_betaRd33_0_matched_interference_M: VLQ interference (BM1), $m_{U}=@MASS@\text{ TeV},\text{ }g_{U}=1$
+    VLQ_betaRd33_minus1_matched_M: VLQ signal (BM2), $m_{U}=@MASS@\text{ TeV},\text{ }g_{U}=1$
+    VLQ_betaRd33_minus1_matched_interference_M: VLQ interference (BM2), $m_{U}=@MASS@\text{ TeV},\text{ }g_{U}=1$
+    VLQ_betaRd33_0_offdiag0_matched_M: VLQ signal (BM3), $m_{U}=@MASS@\text{ TeV},\text{ }g_{U}=1$
+    VLQ_betaRd33_0_offdiag0_matched_interference_M: VLQ interference (BM3), $m_{U}=@MASS@\text{ TeV},\text{ }g_{U}=1$
 categories:
-    htt_tt_32_2016: $\tau_{h}\tau_{h}$, no b tag, 2016
+    htt_tt_32_2016: $\tau_{h}\tau_{h}$, No b tag, 2016
     htt_tt_35_2016: $\tau_{h}\tau_{h}$, b tag, 2016
-    htt_tt_32_2017: $\tau_{h}\tau_{h}$, no b tag, 2017
+    htt_tt_32_2017: $\tau_{h}\tau_{h}$, No b tag, 2017
     htt_tt_35_2017: $\tau_{h}\tau_{h}$, b tag, 2017
-    htt_tt_32_2018: $\tau_{h}\tau_{h}$, no b tag, 2018
+    htt_tt_32_2018: $\tau_{h}\tau_{h}$, No b tag, 2018
     htt_tt_35_2018: $\tau_{h}\tau_{h}$, b tag, 2018
