@@ -2456,7 +2456,16 @@ data_file: htt_tt_35_2018_hepdata.yaml
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 7f of the publication, but restricted to 2018 data-taking year.
-              All distributions are considered before the fit to data is performed in contrast to the figure in the publication."
+              All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
+              Some details on how the distributions should be used:\n\n
+
+              1) All given uncertainties correspond to systematic uncertainties.\n
+              2) Upper values ('plus' in the yaml file) correspond to an upward systematic variation of the parameter.\n
+              3) Lower values ('minus' in the yaml file) correspond to a downward systematic variation of the parameter.\n
+              4) These variations can have both positive and negative values, depending on the modelled effect.\n
+              5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
+              6) Systematic uncertainties with $\\texttt{prop_}$ in the name treat limited statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
+              7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. These parameters can be modelled with a Gaussian kernel.\n"
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
