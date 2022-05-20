@@ -1418,6 +1418,614 @@ keywords:
   values: [13000.0, 13000]
 name: Table Figure 10i
 ---
+data_file: 2D_scan_ggphi_bbphi_m60_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $60\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 10a of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Figure 10a Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m80_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $80\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 41 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 41 Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m95_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $95\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 42 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 42 Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m100_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $100\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 10b of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Figure 10b Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m120_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $120\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 43 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 43 Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m125_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $125\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 10c of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Figure 10c Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m130_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $130\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 44 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 44 Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m140_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $140\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 45 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 45 Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m160_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $160\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 10d of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Figure 10d Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m180_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $180\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 46 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 46 Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m200_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $200\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 47 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 47 Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m250_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $250\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 10e of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Figure 10e Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m300_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $300\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 48 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 48 Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m350_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $350\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 49 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 49 Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m400_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $400\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 50 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 50 Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m450_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $450\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 51 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 51 Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m500_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $500\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 10f of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Figure 10f Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m600_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $600\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 52 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 52 Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m700_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $700\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 53 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 53 Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m800_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $800\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 54 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 54 Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m900_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $900\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 55 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 55 Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m1000_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $1000\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 10g of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Figure 10g Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m1200_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $1200\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 10h of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Figure 10h Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m1400_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $1400\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 56 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 56 Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m1600_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $1600\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 57 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 57 Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m1800_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $1800\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 58 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 58 Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m2000_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $2000\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 59 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 59 Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m2300_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $2300\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 60 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 60 Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m2600_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $2600\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 61 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 61 Asimov
+---
+data_file: 2D_scan_ggphi_bbphi_m2900_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $2900\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 62 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 62 Asimov 
+---
+data_file: 2D_scan_ggphi_bbphi_m3200_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $3200\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 63 of the auxilliary material of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 63 Asimov 
+---
+data_file: 2D_scan_ggphi_bbphi_m3500_Asimov.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $3500\\text{ GeV}$,
+              produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
+              The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
+              both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
+              Numerical values provided in this table correspond to Figure 10i of the publication, but evaluated on Asimov pseudodata."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Figure 10i Asimov
+---
 data_file: vlq_1D_scan_bm1_mU1.yaml
 #additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
