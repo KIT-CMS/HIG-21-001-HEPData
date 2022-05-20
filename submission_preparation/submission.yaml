@@ -2464,7 +2464,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               3) Lower values ('minus' in the yaml file) correspond to a downward systematic variation of the parameter.\n
               4) These variations can have both positive and negative values, depending on the modelled effect.\n
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
-              6) Systematic uncertainties with $\\texttt{prop_}$ in the name treat limited statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
+              6) Systematic uncertainties with 'prop_' in the name treat limited statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. These parameters can be modelled with a Gaussian kernel.\n"
 keywords:
 - name: reactions
