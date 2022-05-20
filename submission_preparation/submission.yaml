@@ -1340,7 +1340,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Aux. Figure 60 
+name: Table Aux. Figure 60
 ---
 data_file: 2D_scan_ggphi_bbphi_m2600.yaml
 #additional_resources:
@@ -1359,7 +1359,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Aux. Figure 61 
+name: Table Aux. Figure 61
 ---
 data_file: 2D_scan_ggphi_bbphi_m2900.yaml
 #additional_resources:
@@ -1378,7 +1378,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Aux. Figure 62 
+name: Table Aux. Figure 62
 ---
 data_file: 2D_scan_ggphi_bbphi_m3200.yaml
 #additional_resources:
@@ -1397,7 +1397,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Aux. Figure 63 
+name: Table Aux. Figure 63
 ---
 data_file: 2D_scan_ggphi_bbphi_m3500.yaml
 #additional_resources:
@@ -1986,7 +1986,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Aux. Figure 62 Asimov 
+name: Table Aux. Figure 62 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m3200_Asimov.yaml
 #additional_resources:
@@ -2005,7 +2005,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Aux. Figure 63 Asimov 
+name: Table Aux. Figure 63 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m3500_Asimov.yaml
 #additional_resources:
