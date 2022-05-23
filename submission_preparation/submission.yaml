@@ -2465,7 +2465,8 @@ description: "Observed and expected distributions of the variable chosen for sta
               4) These variations can have both positive and negative values, depending on the modelled effect.\n
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
-              7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. These parameters can be modelled with a Gaussian kernel.\n"
+              7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. These parameters can be modelled with a Gaussian kernel.\n
+              8) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
