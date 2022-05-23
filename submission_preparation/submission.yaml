@@ -2460,8 +2460,8 @@ description: "Observed and expected distributions of the variable chosen for sta
               Some details on how the distributions should be used:\n\n
 
               1) All given uncertainties correspond to systematic variations of $\\pm1\\sigma$.\n
-              2) Upper values ('plus' in the yaml file) correspond to an upward systematic variation of the parameter ($\\plus1\\sigma$).\n
-              3) Lower values ('minus' in the yaml file) correspond to a downward systematic variation of the parameter ($\\plus-\\sigma$).\n
+              2) Upper values ('plus' in the yaml file) correspond to an upward systematic variation of the parameter ($+1\\sigma$).\n
+              3) Lower values ('minus' in the yaml file) correspond to a downward systematic variation of the parameter ($-1\\sigma$).\n
               4) These variations can have both positive and negative values, depending on the modelled effect.\n
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
