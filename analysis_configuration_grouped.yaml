@@ -12,11 +12,18 @@ backgrounds:
             QCD: QCD multijet
             jetFakes: Jet$\rightarrow\tau_{h}$
     H125:
-        name: $H(125)$
+        name: $H(125)\rightarrow\tau\tau$
         members:
-            ggH125: $ggH(125)$
-            qqH125: $qqH(125)$
-            bbH125: $bbH(125)$
+            ggH125: $ggH(125)\rightarrow\tau\tau$
+            qqH125: $qqH(125)\rightarrow\tau\tau$
+            bbH125: $bbH(125)\rightarrow\tau\tau$
+    HWW125:
+        name: $H(125)\rightarrow WW\rightarrow2\ell2\nu$
+        members:
+            ggHWW125: $ggH(125)\rightarrow WW\rightarrow2\ell2\nu$
+            qqHWW125: $qqH(125)\rightarrow WW\rightarrow2\ell2\nu$
+            WHWW125: $WH(125)\rightarrow WW\rightarrow2\ell2\nu$
+            ZHWW125: $ZH(125)\rightarrow WW\rightarrow2\ell2\nu$
 signals:
     bbh: $bb\phi$, $m_{\phi}=@MASS@\text{ GeV},\text{ }\sigma B = 1\text{ pb}$
     ggh_t: $gg\phi$ t-only, $m_{\phi}=@MASS@\text{ GeV},\text{ }\sigma B = 1\text{ pb}$
