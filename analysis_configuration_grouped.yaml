@@ -36,6 +36,55 @@ signals:
     VLQ_betaRd33_0_offdiag0_matched_M: VLQ signal (BM 3), $m_{U}=@MASS@\text{ TeV},\text{ }g_{U}=1$
     VLQ_betaRd33_0_offdiag0_matched_interference_M: VLQ interference (BM 3), $m_{U}=@MASS@\text{ TeV},\text{ }g_{U}=1$
 categories:
+    # emu final state, highmass categories
+    htt_em_2_2016: $t\bar{t}(e\mu)$ control region, 2016
+    htt_em_32_2016: $e\mu$, No b tag, High-$D_{\zeta}$, 2016
+    htt_em_33_2016: $e\mu$, No b tag, Medium-$D_{\zeta}$, 2016
+    htt_em_34_2016: $e\mu$, No b tag, Low-$D_{\zeta}$, 2016
+    htt_em_35_2016: $e\mu$, b tag, High-$D_{\zeta}$, 2016
+    htt_em_36_2016: $e\mu$, b tag, Medium-$D_{\zeta}$, 2016
+    htt_em_37_2016: $e\mu$, b tag, Low-$D_{\zeta}$, 2016
+    htt_em_2_2017: $t\bar{t}(e\mu)$ control region, 2017
+    htt_em_32_2017: $e\mu$, No b tag, High-$D_{\zeta}$, 2017
+    htt_em_33_2017: $e\mu$, No b tag, Medium-$D_{\zeta}$, 2017
+    htt_em_34_2017: $e\mu$, No b tag, Low-$D_{\zeta}$, 2017
+    htt_em_35_2017: $e\mu$, b tag, High-$D_{\zeta}$, 2017
+    htt_em_36_2017: $e\mu$, b tag, Medium-$D_{\zeta}$, 2017
+    htt_em_37_2017: $e\mu$, b tag, Low-$D_{\zeta}$, 2017
+    htt_em_2_2018: $t\bar{t}(e\mu)$ control region, 2018
+    htt_em_32_2018: $e\mu$, No b tag, High-$D_{\zeta}$, 2018
+    htt_em_33_2018: $e\mu$, No b tag, Medium-$D_{\zeta}$, 2018
+    htt_em_34_2018: $e\mu$, No b tag, Low-$D_{\zeta}$, 2018
+    htt_em_35_2018: $e\mu$, b tag, High-$D_{\zeta}$, 2018
+    htt_em_36_2018: $e\mu$, b tag, Medium-$D_{\zeta}$, 2018
+    htt_em_37_2018: $e\mu$, b tag, Low-$D_{\zeta}$, 2018
+    # etau final state, highmass categories
+    htt_et_32_2016: $e\tau_{h}$, No b tag, Tight-$m_{T}$, 2016
+    htt_et_33_2016: $e\tau_{h}$, No b tag, Loose-$m_{T}$, 2016
+    htt_et_35_2016: $e\tau_{h}$, b tag, Tight-$m_{T}$, 2016
+    htt_et_36_2016: $e\tau_{h}$, b tag, Loose-$m_{T}$, 2016
+    htt_et_32_2017: $e\tau_{h}$, No b tag, Tight-$m_{T}$, 2017
+    htt_et_33_2017: $e\tau_{h}$, No b tag, Loose-$m_{T}$, 2017
+    htt_et_35_2017: $e\tau_{h}$, b tag, Tight-$m_{T}$, 2017
+    htt_et_36_2017: $e\tau_{h}$, b tag, Loose-$m_{T}$, 2017
+    htt_et_32_2018: $e\tau_{h}$, No b tag, Tight-$m_{T}$, 2018
+    htt_et_33_2018: $e\tau_{h}$, No b tag, Loose-$m_{T}$, 2018
+    htt_et_35_2018: $e\tau_{h}$, b tag, Tight-$m_{T}$, 2018
+    htt_et_36_2018: $e\tau_{h}$, b tag, Loose-$m_{T}$, 2018
+    # mutau final state, highmass categories
+    htt_mt_32_2016: $\mu\tau_{h}$, No b tag, Tight-$m_{T}$, 2016
+    htt_mt_33_2016: $\mu\tau_{h}$, No b tag, Loose-$m_{T}$, 2016
+    htt_mt_35_2016: $\mu\tau_{h}$, b tag, Tight-$m_{T}$, 2016
+    htt_mt_36_2016: $\mu\tau_{h}$, b tag, Loose-$m_{T}$, 2016
+    htt_mt_32_2017: $\mu\tau_{h}$, No b tag, Tight-$m_{T}$, 2017
+    htt_mt_33_2017: $\mu\tau_{h}$, No b tag, Loose-$m_{T}$, 2017
+    htt_mt_35_2017: $\mu\tau_{h}$, b tag, Tight-$m_{T}$, 2017
+    htt_mt_36_2017: $\mu\tau_{h}$, b tag, Loose-$m_{T}$, 2017
+    htt_mt_32_2018: $\mu\tau_{h}$, No b tag, Tight-$m_{T}$, 2018
+    htt_mt_33_2018: $\mu\tau_{h}$, No b tag, Loose-$m_{T}$, 2018
+    htt_mt_35_2018: $\mu\tau_{h}$, b tag, Tight-$m_{T}$, 2018
+    htt_mt_36_2018: $\mu\tau_{h}$, b tag, Loose-$m_{T}$, 2018
+    # tautau final state, highmass categories
     htt_tt_32_2016: $\tau_{h}\tau_{h}$, No b tag, 2016
     htt_tt_35_2016: $\tau_{h}\tau_{h}$, b tag, 2016
     htt_tt_32_2017: $\tau_{h}\tau_{h}$, No b tag, 2017
