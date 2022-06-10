@@ -329,3 +329,4 @@ if args.additional_inputs:
 
 with open(os.path.join(args.output_directory, args.output_file), "w") as out:
     yaml.dump(output, out)
+    exit(0)
