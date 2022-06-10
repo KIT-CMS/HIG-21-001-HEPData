@@ -120,38 +120,38 @@ categories:
     htt_et_132_2016: $e\tau_{h}$, No b tag, Tight-$m_{T}$, $p_{T}^{\tau\tau} < 50$ GeV, 2016
     htt_et_232_2016: $e\tau_{h}$, No b tag, Tight-$m_{T}$, $50 < p_{T}^{\tau\tau} < 100$ GeV, 2016
     htt_et_332_2016: $e\tau_{h}$, No b tag, Tight-$m_{T}$, $100 < p_{T}^{\tau\tau} < 200$ GeV, 2016
-    htt_et_332_2016: $e\tau_{h}$, No b tag, Tight-$m_{T}$, $p_{T}^{\tau\tau} > 200$ GeV, 2016
+    htt_et_432_2016: $e\tau_{h}$, No b tag, Tight-$m_{T}$, $p_{T}^{\tau\tau} > 200$ GeV, 2016
     htt_et_132_2017: $e\tau_{h}$, No b tag, Tight-$m_{T}$, $p_{T}^{\tau\tau} < 50$ GeV, 2017
     htt_et_232_2017: $e\tau_{h}$, No b tag, Tight-$m_{T}$, $50 < p_{T}^{\tau\tau} < 100$ GeV, 2017
     htt_et_332_2017: $e\tau_{h}$, No b tag, Tight-$m_{T}$, $100 < p_{T}^{\tau\tau} < 200$ GeV, 2017
-    htt_et_332_2017: $e\tau_{h}$, No b tag, Tight-$m_{T}$, $p_{T}^{\tau\tau} > 200$ GeV, 2017
+    htt_et_432_2017: $e\tau_{h}$, No b tag, Tight-$m_{T}$, $p_{T}^{\tau\tau} > 200$ GeV, 2017
     htt_et_132_2018: $e\tau_{h}$, No b tag, Tight-$m_{T}$, $p_{T}^{\tau\tau} < 50$ GeV, 2018
     htt_et_232_2018: $e\tau_{h}$, No b tag, Tight-$m_{T}$, $50 < p_{T}^{\tau\tau} < 100$ GeV, 2018
     htt_et_332_2018: $e\tau_{h}$, No b tag, Tight-$m_{T}$, $100 < p_{T}^{\tau\tau} < 200$ GeV, 2018
-    htt_et_332_2018: $e\tau_{h}$, No b tag, Tight-$m_{T}$, $p_{T}^{\tau\tau} > 200$ GeV, 2018
+    htt_et_432_2018: $e\tau_{h}$, No b tag, Tight-$m_{T}$, $p_{T}^{\tau\tau} > 200$ GeV, 2018
     # mutau final state, lowmass categories
     htt_mt_132_2016: $\mu\tau_{h}$, No b tag, Tight-$m_{T}$, $p_{T}^{\tau\tau} < 50$ GeV, 2016
     htt_mt_232_2016: $\mu\tau_{h}$, No b tag, Tight-$m_{T}$, $50 < p_{T}^{\tau\tau} < 100$ GeV, 2016
     htt_mt_332_2016: $\mu\tau_{h}$, No b tag, Tight-$m_{T}$, $100 < p_{T}^{\tau\tau} < 200$ GeV, 2016
-    htt_mt_332_2016: $\mu\tau_{h}$, No b tag, Tight-$m_{T}$, $p_{T}^{\tau\tau} > 200$ GeV, 2016
+    htt_mt_432_2016: $\mu\tau_{h}$, No b tag, Tight-$m_{T}$, $p_{T}^{\tau\tau} > 200$ GeV, 2016
     htt_mt_132_2017: $\mu\tau_{h}$, No b tag, Tight-$m_{T}$, $p_{T}^{\tau\tau} < 50$ GeV, 2017
     htt_mt_232_2017: $\mu\tau_{h}$, No b tag, Tight-$m_{T}$, $50 < p_{T}^{\tau\tau} < 100$ GeV, 2017
     htt_mt_332_2017: $\mu\tau_{h}$, No b tag, Tight-$m_{T}$, $100 < p_{T}^{\tau\tau} < 200$ GeV, 2017
-    htt_mt_332_2017: $\mu\tau_{h}$, No b tag, Tight-$m_{T}$, $p_{T}^{\tau\tau} > 200$ GeV, 2017
+    htt_mt_432_2017: $\mu\tau_{h}$, No b tag, Tight-$m_{T}$, $p_{T}^{\tau\tau} > 200$ GeV, 2017
     htt_mt_132_2018: $\mu\tau_{h}$, No b tag, Tight-$m_{T}$, $p_{T}^{\tau\tau} < 50$ GeV, 2018
     htt_mt_232_2018: $\mu\tau_{h}$, No b tag, Tight-$m_{T}$, $50 < p_{T}^{\tau\tau} < 100$ GeV, 2018
     htt_mt_332_2018: $\mu\tau_{h}$, No b tag, Tight-$m_{T}$, $100 < p_{T}^{\tau\tau} < 200$ GeV, 2018
-    htt_mt_332_2018: $\mu\tau_{h}$, No b tag, Tight-$m_{T}$, $p_{T}^{\tau\tau} > 200$ GeV, 2018
+    htt_mt_432_2018: $\mu\tau_{h}$, No b tag, Tight-$m_{T}$, $p_{T}^{\tau\tau} > 200$ GeV, 2018
     # tautau final state, lowmass categories
     htt_tt_132_2016: $\tau_{h}\tau_{h}$, No b tag, $p_{T}^{\tau\tau} < 50$ GeV, 2016
     htt_tt_232_2016: $\tau_{h}\tau_{h}$, No b tag, $50 < p_{T}^{\tau\tau} < 100$ GeV, 2016
     htt_tt_332_2016: $\tau_{h}\tau_{h}$, No b tag, $100 < p_{T}^{\tau\tau} < 200$ GeV, 2016
-    htt_tt_332_2016: $\tau_{h}\tau_{h}$, No b tag, $p_{T}^{\tau\tau} > 200$ GeV, 2016
+    htt_tt_432_2016: $\tau_{h}\tau_{h}$, No b tag, $p_{T}^{\tau\tau} > 200$ GeV, 2016
     htt_tt_132_2017: $\tau_{h}\tau_{h}$, No b tag, $p_{T}^{\tau\tau} < 50$ GeV, 2017
     htt_tt_232_2017: $\tau_{h}\tau_{h}$, No b tag, $50 < p_{T}^{\tau\tau} < 100$ GeV, 2017
     htt_tt_332_2017: $\tau_{h}\tau_{h}$, No b tag, $100 < p_{T}^{\tau\tau} < 200$ GeV, 2017
-    htt_tt_332_2017: $\tau_{h}\tau_{h}$, No b tag, $p_{T}^{\tau\tau} > 200$ GeV, 2017
+    htt_tt_432_2017: $\tau_{h}\tau_{h}$, No b tag, $p_{T}^{\tau\tau} > 200$ GeV, 2017
     htt_tt_132_2018: $\tau_{h}\tau_{h}$, No b tag, $p_{T}^{\tau\tau} < 50$ GeV, 2018
     htt_tt_232_2018: $\tau_{h}\tau_{h}$, No b tag, $50 < p_{T}^{\tau\tau} < 100$ GeV, 2018
     htt_tt_332_2018: $\tau_{h}\tau_{h}$, No b tag, $100 < p_{T}^{\tau\tau} < 200$ GeV, 2018
-    htt_tt_332_2018: $\tau_{h}\tau_{h}$, No b tag, $p_{T}^{\tau\tau} > 200$ GeV, 2018
+    htt_tt_432_2018: $\tau_{h}\tau_{h}$, No b tag, $p_{T}^{\tau\tau} > 200$ GeV, 2018
