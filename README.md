@@ -332,10 +332,21 @@ for c in `cat lowmass_ptbinned_categories.txt`; do
 done
 ```
 
-## Post-fit distributions low-mass analysis (b tag categories and em CR as in the high-mass analysis)
+## Post-fit distributions low-mass analysis (b tag categories)
 
 ```bash
-for c in `cat lowmass_btag_emcr_categories.txt`; do
+for c in `cat lowmass_btag_categories.txt`; do
+./create_postfit_distributions_yaml.py \
+    --input data/low-mass-shapes-hepdata/${c}_hepdata.root --analysis-configuration analysis_configuration_grouped.yaml \
+    --output-file ${c}_hepdata_grouped_postfit_lowmass.yaml --distribution-quantity '$m_{\tau\tau}$:GeV'  \
+    --category ${c} --output-directory submission_preparation --min-bin-content 1e-4 --signal-pattern '(.*)_(\d*)' --mode grouped
+done
+```
+
+## Post-fit distributions low-mass analysis (em control region categories)
+
+```bash
+for c in `cat lowmass_emcr_categories.txt`; do
 ./create_postfit_distributions_yaml.py \
     --input data/low-mass-shapes-hepdata/${c}_hepdata.root --analysis-configuration analysis_configuration_grouped.yaml \
     --output-file ${c}_hepdata_grouped_postfit_lowmass.yaml --distribution-quantity '$m_{T}^{tot}$:GeV'  \
