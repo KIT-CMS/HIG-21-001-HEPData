@@ -310,15 +310,26 @@ done
 
 ## Post-fit distributions high-mass analysis (including VLQ signals)
 
-### htt_tt_35_2018 category
+```bash
+for c in `cat highmass_categories.txt`; do
+./create_postfit_distributions_yaml.py \
+    --input data/high-mass-shapes-hepdata/${c}_hepdata.root --analysis-configuration analysis_configuration_grouped.yaml \
+    --output-file ${c}_hepdata_grouped_postfit.yaml --distribution-quantity '$m_{T}^{tot}$:GeV' \
+    --category ${c} --output-directory submission_preparation --min-bin-content 1e-4 --signal-pattern '(.*)_(\d*)' --mode grouped \
+    --additional-inputs data/high-mass-vlq-bm-1-shapes-hepdata/${c}_hepdata.root data/high-mass-vlq-bm-2-shapes-hepdata/${c}_hepdata.root data/high-mass-vlq-bm-3-shapes-hepdata/${c}_hepdata.root \
+    --additional-signals 'VLQ.*'
+done
+```
+
+## Post-fit distributions low-mass analysis (only pt-binned categories)
 
 ```bash
+for c in `cat lowmass_categories.txt`; do
 ./create_postfit_distributions_yaml.py \
-    --input htt_tt_35_2018_hepdata.root --analysis-configuration analysis_configuration_grouped.yaml \
-    --output-file htt_tt_35_2018_hepdata_grouped_postfit.yaml --distribution-quantity '$m_{T}^{tot}$:GeV' \
-    --category htt_tt_35_2018 --output-directory submission_preparation --min-bin-content 1e-4 --signal-pattern '(.*)_(\d*)' --mode grouped \
-    --additional-inputs htt_tt_35_2018_hepdata_vlq_bm1.root htt_tt_35_2018_hepdata_vlq_bm2.root htt_tt_35_2018_hepdata_vlq_bm3.root \
-    --additional-signals 'VLQ.*'
+    --input data/low-mass-shapes-hepdata/${c}_hepdata.root --analysis-configuration analysis_configuration_grouped.yaml \
+    --output-file ${c}_hepdata_grouped_postfit.yaml --distribution-quantity '$m_{\tau\tau}$:GeV' \
+    --category ${c} --output-directory submission_preparation --min-bin-content 1e-4 --signal-pattern '(.*)_(\d*)' --mode grouped
+done
 ```
 
 ## Correlation coefficients of nuisance parameters after a BG only fit
