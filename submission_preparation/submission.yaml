@@ -2638,8 +2638,8 @@ data_file: htt_tt_35_2016_hepdata_grouped_postfit_lowmass.yaml
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
-description: "Observed and expected distributions of the variable chosen for statistical inference in the low-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7f of the publication, but restricted to 2016 data-taking year.
+description: "Observed and expected distributions of the variable chosen for statistical inference in the low-mass analysis $m_{\\tau\\tau}$.
+              Numerical values provided in this table correspond to Figure 7 of the auxilliary material of the publication, but restricted to 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -2659,15 +2659,15 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7f 2016 Low-mass
+name: Table Aux. Figure 7 2016 Low-mass
 ---
 data_file: htt_tt_35_2017_hepdata_grouped_postfit_lowmass.yaml
 #additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
-description: "Observed and expected distributions of the variable chosen for statistical inference in the low-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7f of the publication, but restricted to 2017 data-taking year.
+description: "Observed and expected distributions of the variable chosen for statistical inference in the low-mass analysis $m_{\\tau\\tau}$.
+              Numerical values provided in this table correspond to Figure 7 of the auxilliary material of the publication, but restricted to 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -2687,15 +2687,15 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7f 2017 Low-mass
+name: Table Aux. Figure 7 2017 Low-mass
 ---
 data_file: htt_tt_35_2018_hepdata_grouped_postfit_lowmass.yaml
 #additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
-description: "Observed and expected distributions of the variable chosen for statistical inference in the low-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7f of the publication, but restricted to 2018 data-taking year.
+description: "Observed and expected distributions of the variable chosen for statistical inference in the low-mass analysis $m_{\\tau\\tau}$.
+              Numerical values provided in this table correspond to Figure 7 of the auxilliary material of the publication, but restricted to 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -2715,4 +2715,4 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7f 2018 Low-mass
+name: Table Aux. Figure 7 2018 Low-mass
