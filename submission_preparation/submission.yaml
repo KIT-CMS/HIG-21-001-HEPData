@@ -2465,6 +2465,90 @@ keywords:
   values: [13000.0, 13000]
 name: Table SM Gluon Fusion Fractions
 ---
+data_file: htt_em_32_2016_hepdata_grouped_postfit_highmass.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
+              Numerical values provided in this table correspond to Figure 25 of the auxilliary material of the publication, but restricted to 2016 data-taking year.
+              All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
+              Some details on how the distributions should be used:\n\n
+
+              1) All given uncertainties correspond to systematic variations of $\\pm1\\sigma$.\n
+              2) Upper values ('plus' in the yaml file) correspond to an upward systematic variation of the parameter ($+1\\sigma$).\n
+              3) Lower values ('minus' in the yaml file) correspond to a downward systematic variation of the parameter ($-1\\sigma$).\n
+              4) These variations can have both positive and negative values, depending on the modelled effect.\n
+              5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
+              6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
+              7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 25 2016 High-mass
+---
+data_file: htt_em_32_2017_hepdata_grouped_postfit_highmass.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
+              Numerical values provided in this table correspond to Figure 25 of the auxilliary material of the publication, but restricted to and 2017 data-taking year.
+              All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
+              Some details on how the distributions should be used:\n\n
+
+              1) All given uncertainties correspond to systematic variations of $\\pm1\\sigma$.\n
+              2) Upper values ('plus' in the yaml file) correspond to an upward systematic variation of the parameter ($+1\\sigma$).\n
+              3) Lower values ('minus' in the yaml file) correspond to a downward systematic variation of the parameter ($-1\\sigma$).\n
+              4) These variations can have both positive and negative values, depending on the modelled effect.\n
+              5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
+              6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
+              7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 25 2017 High-mass
+---
+data_file: htt_em_32_2018_hepdata_grouped_postfit_highmass.yaml
+#additional_resources:
+#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
+#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
+#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
+              Numerical values provided in this table correspond to Figure 25 of the auxilliary material of the publication, but restricted to and 2018 data-taking year.
+              All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
+              Some details on how the distributions should be used:\n\n
+
+              1) All given uncertainties correspond to systematic variations of $\\pm1\\sigma$.\n
+              2) Upper values ('plus' in the yaml file) correspond to an upward systematic variation of the parameter ($+1\\sigma$).\n
+              3) Lower values ('minus' in the yaml file) correspond to a downward systematic variation of the parameter ($-1\\sigma$).\n
+              4) These variations can have both positive and negative values, depending on the modelled effect.\n
+              5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
+              6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
+              7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 25 2018 High-mass
+---
 data_file: htt_em_33_2016_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
@@ -2575,7 +2659,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7a 2016 High-mass
+name: Table Figure 7b 2016 High-mass
 ---
 data_file: htt_em_36_2017_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -2603,7 +2687,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7a 2017 High-mass
+name: Table Figure 7b 2017 High-mass
 ---
 data_file: htt_em_36_2018_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
