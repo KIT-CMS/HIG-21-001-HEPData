@@ -315,7 +315,7 @@ for c in `cat highmass_categories.txt`; do
 ./create_postfit_distributions_yaml.py \
     --input data/high-mass-shapes-hepdata/${c}_hepdata.root --analysis-configuration analysis_configuration_grouped.yaml \
     --output-file ${c}_hepdata_grouped_postfit_highmass.yaml --distribution-quantity '$m_{T}^{tot}$:GeV' \
-    --category ${c} --output-directory submission_preparation --min-bin-content 1e-4 --signal-pattern '(.*)_(\d*)' --mode grouped \
+    --category ${c} --output-directory submission_preparation --min-bin-content 1.1e-4 --signal-pattern '(.*)_(\d*)' --mode grouped \
     --additional-inputs data/high-mass-vlq-bm-1-shapes-hepdata/${c}_hepdata.root data/high-mass-vlq-bm-2-shapes-hepdata/${c}_hepdata.root data/high-mass-vlq-bm-3-shapes-hepdata/${c}_hepdata.root \
     --additional-signals 'VLQ.*'
 done
@@ -328,7 +328,7 @@ for c in `cat lowmass_ptbinned_categories.txt`; do
 ./create_postfit_distributions_yaml.py \
     --input data/low-mass-shapes-hepdata/${c}_hepdata.root --analysis-configuration analysis_configuration_grouped.yaml \
     --output-file ${c}_hepdata_grouped_postfit_lowmass.yaml --distribution-quantity '$m_{\tau\tau}$:GeV' \
-    --category ${c} --output-directory submission_preparation --min-bin-content 1e-4 --signal-pattern '(.*)_(\d*)' --mode grouped
+    --category ${c} --output-directory submission_preparation --min-bin-content 1.1e-4 --signal-pattern '(.*)_(\d*)' --mode grouped
 done
 ```
 
@@ -339,7 +339,7 @@ for c in `cat lowmass_btag_categories.txt`; do
 ./create_postfit_distributions_yaml.py \
     --input data/low-mass-shapes-hepdata/${c}_hepdata.root --analysis-configuration analysis_configuration_grouped.yaml \
     --output-file ${c}_hepdata_grouped_postfit_lowmass.yaml --distribution-quantity '$m_{\tau\tau}$:GeV'  \
-    --category ${c} --output-directory submission_preparation --min-bin-content 1e-4 --signal-pattern '(.*)_(\d*)' --mode grouped
+    --category ${c} --output-directory submission_preparation --min-bin-content 1.1e-4 --signal-pattern '(.*)_(\d*)' --mode grouped
 done
 ```
 
@@ -350,7 +350,7 @@ for c in `cat lowmass_emcr_categories.txt`; do
 ./create_postfit_distributions_yaml.py \
     --input data/low-mass-shapes-hepdata/${c}_hepdata.root --analysis-configuration analysis_configuration_grouped.yaml \
     --output-file ${c}_hepdata_grouped_postfit_lowmass.yaml --distribution-quantity '$m_{T}^{tot}$:GeV'  \
-    --category ${c} --output-directory submission_preparation --min-bin-content 1e-4 --signal-pattern '(.*)_(\d*)' --mode grouped
+    --category ${c} --output-directory submission_preparation --min-bin-content 1.1e-4 --signal-pattern '(.*)_(\d*)' --mode grouped
 done
 ```
 
@@ -359,9 +359,17 @@ done
 ### High-mass analysis
 ```bash
 ./create_2D_correlation_yaml.py \
-    --input fit_mdf_correlations.csv --min-correlation 0.011 \
+    --input fit_mdf_correlations_highmass.csv --min-correlation 0.011 \
     --output-file  correlations_highmass.yaml --output-directory submission_preparation \
     --additional-qualifiers "Maximum likelihood fit:Background only fit in the \"High-mass\" analysis"
+```
+
+### Low-mass analysis
+```bash
+./create_2D_correlation_yaml.py \
+    --input fit_mdf_correlations_lowmass.csv --min-correlation 0.011 \
+    --output-file  correlations_lowmass.yaml --output-directory submission_preparation \
+    --additional-qualifiers "Maximum likelihood fit:Background only fit in the \"Low-mass\" analysis"
 ```
 
 ## SM ggphi fracions
