@@ -95,7 +95,7 @@ Repository to collect helper scripts to create inputs for HEPData of HIG-21-001 
     --additional-qualifiers 'BSM physics:$U_{1}$ t-channel exchange'
 ```
 
-### VLQ BM 2 limits (Figure 11b)
+### VLQ BM 3 limits (Aux. Figure 92)
 
 ```bash
 ./create_1D_limits_yaml.py \
