@@ -2470,7 +2470,7 @@ data_file: htt_em_2_2016_hepdata_grouped_postfit_highmass.yaml
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
-description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
+description: "Observed and expected distributions of the variable chosen for statistical inference in the $t\\bar{t}$ control region $m_{T}^{tot}$ for high-mass analysis.
               Numerical values provided in this table correspond to the $t\\bar{t}$ control region of the publication, restricted to 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
@@ -2491,15 +2491,15 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table $t\bar{t}$ Control Region 2016
+name: Table $t\bar{t}$ Control Region 2016 High-Mass
 ---
 data_file: htt_em_2_2017_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
-description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to the $t\\bar{t}$ control region of the publication, restricted to and 2017 data-taking year.
+description: "Observed and expected distributions of the variable chosen for statistical inference in the $t\\bar{t}$ control region $m_{T}^{tot}$ for high-mass analysis.
+              Numerical values provided in this table correspond to the $t\\bar{t}$ control region of the publication, restricted to 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -2519,15 +2519,15 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table $t\bar{t}$ Control Region 2017
+name: Table $t\bar{t}$ Control Region 2017 High-Mass
 ---
 data_file: htt_em_2_2018_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
-description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to the $t\\bar{t}$ control region of the publication, restricted to and 2018 data-taking year.
+description: "Observed and expected distributions of the variable chosen for statistical inference in the $t\\bar{t}$ control region $m_{T}^{tot}$ for high-mass analysis.
+              Numerical values provided in this table correspond to the $t\\bar{t}$ control region of the publication, restricted to 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -2547,7 +2547,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table $t\bar{t}$ Control Region 2018
+name: Table $t\bar{t}$ Control Region 2018 High-Mass
 ---
 data_file: htt_em_32_2016_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
