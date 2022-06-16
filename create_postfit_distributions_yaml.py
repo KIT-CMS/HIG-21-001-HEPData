@@ -186,8 +186,8 @@ def create_info_for_proc(process, is_signal, signal_pattern, inputfile, mode, an
                 up_comparison_hist.Divide(nominal_hist)
                 down_comparison_hist = pdir.Get(p+"_"+syst+"_Down").Clone()
                 down_comparison_hist.Divide(nominal_hist)
-                up_vals = np.array([round(up_comparison_hist.GetBinContent(i+1),4) for i in range(up_comparison_hist.GetNbinsX())])
-                down_vals = np.array([round(down_comparison_hist.GetBinContent(i+1),4) for i in range(down_comparison_hist.GetNbinsX())])
+                up_vals = np.array([round(up_comparison_hist.GetBinContent(i+1),3) for i in range(up_comparison_hist.GetNbinsX())])
+                down_vals = np.array([round(down_comparison_hist.GetBinContent(i+1),3) for i in range(down_comparison_hist.GetNbinsX())])
                 nominal_vals = np.ones(nominal_hist.GetNbinsX())
                 if not (np.all(up_vals == nominal_vals) and np.all(down_vals == nominal_vals)):
                     systematics[syst] = { "Up": None, "Down": None}
