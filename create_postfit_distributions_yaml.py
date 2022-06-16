@@ -186,14 +186,11 @@ def create_info_for_proc(process, is_signal, signal_pattern, inputfile, mode, an
                 up_comparison_hist.Divide(nominal_hist)
                 down_comparison_hist = pdir.Get(p+"_"+syst+"_Down").Clone()
                 down_comparison_hist.Divide(nominal_hist)
-                nominal_comparison_hist = pdir.Get(p).Clone()
-                nominal_comparison_hist.Divide(nominal_hist)
-                up_val = round(up_comparison_hist.Integral(),4)
-                down_val = round(down_comparison_hist.Integral(),4)
-                nominal_val = round(nominal_comparison_hist.Integral(), 4)
-                if not (up_val == nominal_val and down_val == nominal_val):
+                up_vals = np.array([round(up_comparison_hist.GetBinContent(i+1),4) for i in range(up_comparison_hist.GetNbinsX())])
+                down_vals = np.array([round(down_comparison_hist.GetBinContent(i+1),4) for i in range(down_comparison_hist.GetNbinsX())])
+                nominal_vals = np.ones(nominal_hist.GetNbinsX())
+                if not (np.all(up_vals == nominal_vals) and np.all(down_vals == nominal_vals)):
                     systematics[syst] = { "Up": None, "Down": None}
-                    # print(p,syst,up_val,nominal_val,down_val)
         systematics_notype = set([syst.replace("norm_", "").replace("shape", "") for syst in systematics])
         systematics_shape_and_norm = set()
         if len(systematics) != len(systematics_notype):
