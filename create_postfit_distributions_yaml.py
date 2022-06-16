@@ -179,9 +179,21 @@ def create_info_for_proc(process, is_signal, signal_pattern, inputfile, mode, an
         systematics_per_proc = {}
         for p in considered_procs:
             pdir = inputfile.Get(p)
+            nominal_hist = pdir.Get(p)
             systematics_per_proc[p] = set([k.GetName().replace("_Up","").replace("_Down","").replace(p+"_","") for k in pdir.GetListOfKeys() if "Up" in k.GetName() or "Down" in k.GetName()])
             for syst in systematics_per_proc[p]:
-                systematics[syst] = { "Up": None, "Down": None}
+                up_comparison_hist = pdir.Get(p+"_"+syst+"_Up").Clone()
+                up_comparison_hist.Divide(nominal_hist)
+                down_comparison_hist = pdir.Get(p+"_"+syst+"_Down").Clone()
+                down_comparison_hist.Divide(nominal_hist)
+                nominal_comparison_hist = pdir.Get(p).Clone()
+                nominal_comparison_hist.Divide(nominal_hist)
+                up_val = round(up_comparison_hist.Integral(),4)
+                down_val = round(down_comparison_hist.Integral(),4)
+                nominal_val = round(nominal_comparison_hist.Integral(), 4)
+                if not (up_val == nominal_val and down_val == nominal_val):
+                    systematics[syst] = { "Up": None, "Down": None}
+                    # print(p,syst,up_val,nominal_val,down_val)
         systematics_notype = set([syst.replace("norm_", "").replace("shape", "") for syst in systematics])
         systematics_shape_and_norm = set()
         if len(systematics) != len(systematics_notype):
