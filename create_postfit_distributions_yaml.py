@@ -186,8 +186,8 @@ def create_info_for_proc(process, is_signal, signal_pattern, inputfile, mode, an
                 up_comparison_hist.Divide(nominal_hist)
                 down_comparison_hist = pdir.Get(p+"_"+syst+"_Down").Clone()
                 down_comparison_hist.Divide(nominal_hist)
-                up_vals = np.array([round(up_comparison_hist.GetBinContent(i+1),3) for i in range(up_comparison_hist.GetNbinsX())])
-                down_vals = np.array([round(down_comparison_hist.GetBinContent(i+1),3) for i in range(down_comparison_hist.GetNbinsX())])
+                up_vals = np.array([round(up_comparison_hist.GetBinContent(i+1),int(np.log10(round(1./args.min_bin_content)))) for i in range(up_comparison_hist.GetNbinsX())])
+                down_vals = np.array([round(down_comparison_hist.GetBinContent(i+1),int(np.log10(round(1./args.min_bin_content)))) for i in range(down_comparison_hist.GetNbinsX())])
                 nominal_vals = np.ones(nominal_hist.GetNbinsX())
                 if not (np.all(up_vals == nominal_vals) and np.all(down_vals == nominal_vals)):
                     systematics[syst] = { "Up": None, "Down": None}
@@ -229,10 +229,8 @@ def create_info_for_proc(process, is_signal, signal_pattern, inputfile, mode, an
         for i in range(n_bins_proc):
             value = copy.deepcopy(event_template_values)
             central = 0
-            if abs(nominal_shape.GetBinContent(i+1)) / abs_integral > args.min_bin_content:
+            if abs(nominal_shape.GetBinContent(i+1)) / abs_integral > args.min_bin_content or abs(systematics[syst]["Down"].GetBinContent(i+1)) >= 0.1:
                 central = round(nominal_shape.GetBinContent(i+1), int(np.log10(round(1./args.min_bin_content))))
-            elif abs(nominal_shape.GetBinContent(i+1)) >= 0.1:
-                central = round(nominal_shape.GetBinContent(i+1), 1)
             value["value"] = central
             for syst in sorted_nicely(systematics):
                 if central:
@@ -240,15 +238,13 @@ def create_info_for_proc(process, is_signal, signal_pattern, inputfile, mode, an
                     down_val = round(systematics[syst]["Down"].GetBinContent(i+1), int(np.log10(round(1./args.min_bin_content)))) if abs(systematics[syst]["Down"].GetBinContent(i+1)) / abs(central) > args.min_bin_content else 0
                 else:
                     up_val = 0
-                    if abs(systematics[syst]["Up"].GetBinContent(i+1)) / abs_integral > args.min_bin_content:
+                    if abs(systematics[syst]["Up"].GetBinContent(i+1)) / abs_integral > args.min_bin_content or abs(systematics[syst]["Down"].GetBinContent(i+1)) >= 0.1:
                         up_val = round(systematics[syst]["Up"].GetBinContent(i+1), int(np.log10(round(1./args.min_bin_content))))
                     elif abs(systematics[syst]["Up"].GetBinContent(i+1)) >= 0.1:
                         up_val = round(systematics[syst]["Up"].GetBinContent(i+1), 1)
                     down_val = 0
-                    if abs(systematics[syst]["Down"].GetBinContent(i+1)) / abs_integral > args.min_bin_content:
+                    if abs(systematics[syst]["Down"].GetBinContent(i+1)) / abs_integral > args.min_bin_content or abs(systematics[syst]["Down"].GetBinContent(i+1)) >= 0.1:
                         down_val = round(systematics[syst]["Down"].GetBinContent(i+1), int(np.log10(round(1./args.min_bin_content))))
-                    elif abs(systematics[syst]["Down"].GetBinContent(i+1)) >= 0.1:
-                        down_val = round(systematics[syst]["Down"].GetBinContent(i+1), 1)
 
                 if sum([central, down_val, up_val]) != 0:
                     error = {"label" : syst}
