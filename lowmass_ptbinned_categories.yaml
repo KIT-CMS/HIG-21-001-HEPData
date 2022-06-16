@@ -1,0 +1,66 @@
+catlist:
+    - htt_em_132_2016
+    - htt_em_232_2016
+    - htt_em_332_2016
+    - htt_em_432_2016
+    - htt_em_133_2016
+    - htt_em_233_2016
+    - htt_em_333_2016
+    - htt_em_433_2016
+    - htt_em_132_2017
+    - htt_em_232_2017
+    - htt_em_332_2017
+    - htt_em_432_2017
+    - htt_em_133_2017
+    - htt_em_233_2017
+    - htt_em_333_2017
+    - htt_em_433_2017
+    - htt_em_132_2018
+    - htt_em_232_2018
+    - htt_em_332_2018
+    - htt_em_432_2018
+    - htt_em_133_2018
+    - htt_em_233_2018
+    - htt_em_333_2018
+    - htt_em_433_2018
+    - htt_et_132_2016
+    - htt_et_232_2016
+    - htt_et_332_2016
+    - htt_et_432_2016
+    - htt_et_132_2017
+    - htt_et_232_2017
+    - htt_et_332_2017
+    - htt_et_432_2017
+    - htt_et_132_2018
+    - htt_et_232_2018
+    - htt_et_332_2018
+    - htt_et_432_2018
+    - htt_mt_132_2016
+    - htt_mt_232_2016
+    - htt_mt_332_2016
+    - htt_mt_432_2016
+    - htt_mt_132_2017
+    - htt_mt_232_2017
+    - htt_mt_332_2017
+    - htt_mt_432_2017
+    - htt_mt_132_2018
+    - htt_mt_232_2018
+    - htt_mt_332_2018
+    - htt_mt_432_2018
+    - htt_tt_132_2016
+    - htt_tt_232_2016
+    - htt_tt_332_2016
+    - htt_tt_432_2016
+    - htt_tt_132_2017
+    - htt_tt_232_2017
+    - htt_tt_332_2017
+    - htt_tt_432_2017
+    - htt_tt_132_2018
+    - htt_tt_232_2018
+    - htt_tt_332_2018
+    - htt_tt_432_2018
+quantity: $m_{\tau\tau}$:GeV
+input_folder: low-mass-shapes-hepdata
+output_file_postfix: lowmass
+additional_inputs:
+additional_signals:

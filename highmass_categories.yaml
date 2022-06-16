@@ -1,0 +1,57 @@
+catlist:
+    - htt_em_2_2016
+    - htt_em_32_2016
+    - htt_em_33_2016
+    - htt_em_34_2016
+    - htt_em_35_2016
+    - htt_em_36_2016
+    - htt_em_37_2016
+    - htt_em_2_2017
+    - htt_em_32_2017
+    - htt_em_33_2017
+    - htt_em_34_2017
+    - htt_em_35_2017
+    - htt_em_36_2017
+    - htt_em_37_2017
+    - htt_em_2_2018
+    - htt_em_32_2018
+    - htt_em_33_2018
+    - htt_em_34_2018
+    - htt_em_35_2018
+    - htt_em_36_2018
+    - htt_em_37_2018
+    - htt_et_32_2016
+    - htt_et_33_2016
+    - htt_et_35_2016
+    - htt_et_36_2016
+    - htt_et_32_2017
+    - htt_et_33_2017
+    - htt_et_35_2017
+    - htt_et_36_2017
+    - htt_et_32_2018
+    - htt_et_33_2018
+    - htt_et_35_2018
+    - htt_et_36_2018
+    - htt_mt_32_2016
+    - htt_mt_33_2016
+    - htt_mt_35_2016
+    - htt_mt_36_2016
+    - htt_mt_32_2017
+    - htt_mt_33_2017
+    - htt_mt_35_2017
+    - htt_mt_36_2017
+    - htt_mt_32_2018
+    - htt_mt_33_2018
+    - htt_mt_35_2018
+    - htt_mt_36_2018
+    - htt_tt_32_2016
+    - htt_tt_35_2016
+    - htt_tt_32_2017
+    - htt_tt_35_2017
+    - htt_tt_32_2018
+    - htt_tt_35_2018
+quantity: $m_{T}^{tot}$:GeV
+input_folder: high-mass-shapes-hepdata
+output_file_postfix: highmass
+additional_inputs: data/high-mass-vlq-bm-1-shapes-hepdata/{CAT}_hepdata.root data/high-mass-vlq-bm-2-shapes-hepdata/{CAT}_hepdata.root data/high-mass-vlq-bm-3-shapes-hepdata/{CAT}_hepdata.root
+additional_signals: VLQ.*

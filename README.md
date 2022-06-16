@@ -308,50 +308,9 @@ done
     --x-quantity '$m_A$:GeV' --y-quantity '$\tan\beta$:'  --min-n-points 10
 ```
 
-## Post-fit distributions high-mass analysis (including VLQ signals)
-
+## Post-fit distributions for all analyses (low- and high-mass)
 ```bash
-for c in `cat highmass_categories.txt`; do
-./create_postfit_distributions_yaml.py \
-    --input data/high-mass-shapes-hepdata/${c}_hepdata.root --analysis-configuration analysis_configuration_grouped.yaml \
-    --output-file ${c}_hepdata_grouped_postfit_highmass.yaml --distribution-quantity '$m_{T}^{tot}$:GeV' \
-    --category ${c} --output-directory submission_preparation --min-bin-content 1.1e-4 --signal-pattern '(.*)_(\d*)' --mode grouped \
-    --additional-inputs data/high-mass-vlq-bm-1-shapes-hepdata/${c}_hepdata.root data/high-mass-vlq-bm-2-shapes-hepdata/${c}_hepdata.root data/high-mass-vlq-bm-3-shapes-hepdata/${c}_hepdata.root \
-    --additional-signals 'VLQ.*'
-done
-```
-
-## Post-fit distributions low-mass analysis (only pt-binned no b tag categories)
-
-```bash
-for c in `cat lowmass_ptbinned_categories.txt`; do
-./create_postfit_distributions_yaml.py \
-    --input data/low-mass-shapes-hepdata/${c}_hepdata.root --analysis-configuration analysis_configuration_grouped.yaml \
-    --output-file ${c}_hepdata_grouped_postfit_lowmass.yaml --distribution-quantity '$m_{\tau\tau}$:GeV' \
-    --category ${c} --output-directory submission_preparation --min-bin-content 1.2e-4 --signal-pattern '(.*)_(\d*)' --mode grouped
-done
-```
-
-## Post-fit distributions low-mass analysis (b tag categories)
-
-```bash
-for c in `cat lowmass_btag_categories.txt`; do
-./create_postfit_distributions_yaml.py \
-    --input data/low-mass-shapes-hepdata/${c}_hepdata.root --analysis-configuration analysis_configuration_grouped.yaml \
-    --output-file ${c}_hepdata_grouped_postfit_lowmass.yaml --distribution-quantity '$m_{\tau\tau}$:GeV'  \
-    --category ${c} --output-directory submission_preparation --min-bin-content 1.2e-4 --signal-pattern '(.*)_(\d*)' --mode grouped
-done
-```
-
-## Post-fit distributions low-mass analysis (em control region categories)
-
-```bash
-for c in `cat lowmass_emcr_categories.txt`; do
-./create_postfit_distributions_yaml.py \
-    --input data/low-mass-shapes-hepdata/${c}_hepdata.root --analysis-configuration analysis_configuration_grouped.yaml \
-    --output-file ${c}_hepdata_grouped_postfit_lowmass.yaml --distribution-quantity '$m_{T}^{tot}$:GeV'  \
-    --category ${c} --output-directory submission_preparation --min-bin-content 1.2e-4 --signal-pattern '(.*)_(\d*)' --mode grouped
-done
+./create_postfit_shapes_all_categories.py --n-threads 6 --categories-configurations *categories.yaml
 ```
 
 ## Correlation coefficients of nuisance parameters after a BG only fit
