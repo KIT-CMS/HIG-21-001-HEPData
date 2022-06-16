@@ -125,8 +125,12 @@ def create_info_for_proc(process, is_signal, signal_pattern, inputfile, mode, an
                 up = proc_dir.Get(process+"_"+syst+"_Up")
                 down = proc_dir.Get(process+"_"+syst+"_Down")
                 if central:
-                    up_val = round(up.GetBinContent(i+1), int(np.log10(round(1./args.min_bin_content/abs(central))))) if abs(up.GetBinContent(i+1)) / abs(central) > args.min_bin_content else 0
-                    down_val = round(down.GetBinContent(i+1), int(np.log10(round(1./args.min_bin_content/abs(central))))) if abs(down.GetBinContent(i+1)) / abs(central) > args.min_bin_content else 0
+                    if central >= 1:
+                        up_val = round(up.GetBinContent(i+1), int(np.log10(round(1./args.min_bin_content)))) if abs(up.GetBinContent(i+1)) / abs(central) > args.min_bin_content else 0
+                        down_val = round(down.GetBinContent(i+1), int(np.log10(round(1./args.min_bin_content)))) if abs(down.GetBinContent(i+1)) / abs(central) > args.min_bin_content else 0
+                    else:
+                        up_val = round(up.GetBinContent(i+1), int(np.log10(round(1./args.min_bin_content/abs(central))))) if abs(up.GetBinContent(i+1)) / abs(central) > args.min_bin_content else 0
+                        down_val = round(down.GetBinContent(i+1), int(np.log10(round(1./args.min_bin_content/abs(central))))) if abs(down.GetBinContent(i+1)) / abs(central) > args.min_bin_content else 0
                 else:
                     up_val = round(up.GetBinContent(i+1), int(np.log10(round(1./args.min_bin_content)))) if abs(up.GetBinContent(i+1)) / abs_integral > args.min_bin_content else 0
                     down_val = round(down.GetBinContent(i+1), int(np.log10(round(1./args.min_bin_content)))) if abs(down.GetBinContent(i+1)) / abs_integral > args.min_bin_content else 0
