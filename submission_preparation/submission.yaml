@@ -2482,7 +2482,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -2510,7 +2510,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -2538,7 +2538,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -2566,7 +2566,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -2594,7 +2594,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -2622,7 +2622,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -2650,7 +2650,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -2678,7 +2678,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -2706,7 +2706,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -2734,7 +2734,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -2762,7 +2762,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -2790,7 +2790,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -2818,7 +2818,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -2846,7 +2846,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -2874,7 +2874,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -2902,7 +2902,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -2930,7 +2930,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -2958,7 +2958,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -2986,7 +2986,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3014,7 +3014,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3042,7 +3042,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3070,7 +3070,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3098,7 +3098,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3126,7 +3126,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3154,7 +3154,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3182,7 +3182,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3210,7 +3210,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3238,7 +3238,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3266,7 +3266,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3294,7 +3294,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3322,7 +3322,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3350,7 +3350,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3378,7 +3378,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3407,7 +3407,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3435,7 +3435,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3463,7 +3463,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3491,7 +3491,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3519,7 +3519,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3547,7 +3547,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3575,7 +3575,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3603,7 +3603,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3631,7 +3631,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3659,7 +3659,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3687,7 +3687,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3715,7 +3715,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3743,7 +3743,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3771,7 +3771,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3799,7 +3799,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3827,7 +3827,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3855,7 +3855,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3883,7 +3883,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation High-mass Analysis'."
 keywords:
 - name: reactions
@@ -3911,7 +3911,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -3939,7 +3939,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -3967,7 +3967,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -3995,7 +3995,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4023,7 +4023,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4051,7 +4051,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4079,7 +4079,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4107,7 +4107,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4135,7 +4135,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4163,7 +4163,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4191,7 +4191,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4219,7 +4219,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4247,7 +4247,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4275,7 +4275,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4303,7 +4303,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4331,7 +4331,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4359,7 +4359,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4387,7 +4387,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4415,7 +4415,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4443,7 +4443,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4471,7 +4471,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4499,7 +4499,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4527,7 +4527,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4555,7 +4555,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4583,7 +4583,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4611,7 +4611,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4639,7 +4639,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4667,7 +4667,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4695,7 +4695,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4723,7 +4723,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4751,7 +4751,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4779,7 +4779,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4807,7 +4807,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4835,7 +4835,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4863,7 +4863,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4891,7 +4891,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4919,7 +4919,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4947,7 +4947,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -4975,7 +4975,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5003,7 +5003,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5031,7 +5031,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5059,7 +5059,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5087,7 +5087,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5115,7 +5115,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5143,7 +5143,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5171,7 +5171,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5199,7 +5199,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5227,7 +5227,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5255,7 +5255,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5283,7 +5283,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5311,7 +5311,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5339,7 +5339,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5367,7 +5367,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5395,7 +5395,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5423,7 +5423,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5451,7 +5451,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5479,7 +5479,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5507,7 +5507,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5535,7 +5535,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5563,7 +5563,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5591,7 +5591,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5619,7 +5619,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5647,7 +5647,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5675,7 +5675,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5703,7 +5703,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5731,7 +5731,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5759,7 +5759,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5787,7 +5787,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5815,7 +5815,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5843,7 +5843,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5871,7 +5871,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5899,7 +5899,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5927,7 +5927,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5955,7 +5955,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -5983,7 +5983,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -6011,7 +6011,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -6039,7 +6039,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
@@ -6067,7 +6067,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston lite' approach.\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution.\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian kernel.\n
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Post-fit correlations of nuisance parameters modelling these systematic uncertainties are given in 'Table Correlation Low-mass Analysis'."
 keywords:
 - name: reactions
