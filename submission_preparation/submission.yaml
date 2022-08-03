@@ -63,10 +63,10 @@ keywords:
 name: Table Figure 10b
 ---
 data_file: limit_ggphi_freeze_bbphi.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Aux_Figure_037.pdf'}
+- {description: thumbnail image file, location: 'Aux_Figure_037.pdf'}
 description: "Expected and observed $95\\%\\text{ CL}$ upper limits on the product of the cross
               sections and branching fraction for the decay into $\\tau$ leptons for $gg\\phi$
               production in a mass range of $60\\leq m_\\phi\\leq 3500\\text{ GeV}$, in addition to
@@ -84,10 +84,10 @@ keywords:
 name: Table Aux. Figure 37
 ---
 data_file: limit_bbphi_freeze_ggphi.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Aux_Figure_038.pdf'}
+- {description: thumbnail image file, location: 'Aux_Figure_038.pdf'}
 description: "Expected and observed $95\\%\\text{ CL}$ upper limits on the product of the cross
               sections and branching fraction for the decay into $\\tau$ leptons for $bb\\phi$
               production in a mass range of $60\\leq m_\\phi\\leq 3500\\text{ GeV}$, in addition to
@@ -105,10 +105,10 @@ keywords:
 name: Table Aux. Figure 38
 ---
 data_file: limit_ggphi_tonly.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Aux_Figure_039.pdf'}
+- {description: thumbnail image file, location: 'Aux_Figure_039.pdf'}
 description: "Expected and observed $95\\%\\text{ CL}$ upper limits on the product of the cross
               sections and branching fraction for the decay into $\\tau$ leptons for $gg\\phi$
               production in a mass range of $60\\leq m_\\phi\\leq 3500\\text{ GeV}$, in addition to
@@ -127,10 +127,10 @@ keywords:
 name: Table Aux. Figure 39
 ---
 data_file: limit_ggphi_bonly.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Aux_Figure_040.pdf'}
+- {description: thumbnail image file, location: 'Aux_Figure_040.pdf'}
 description: "Expected and observed $95\\%\\text{ CL}$ upper limits on the product of the cross
               sections and branching fraction for the decay into $\\tau$ leptons for $gg\\phi$
               production in a mass range of $60\\leq m_\\phi\\leq 3500\\text{ GeV}$, in addition to
