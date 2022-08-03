@@ -283,10 +283,11 @@ keywords:
 name: Table Aux. Figure 64
 ---
 data_file: 2D_scan_Yt_Yb_H_m60.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file pdf, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file pdf, location: 'Aux_Figure_065.pdf'}
+#- {description: image file png, location: 'Aux_Figure_065.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_065.pdf'}
 description: "Scan of the likelihood function for the search for a scalar resonance ($H$) with a mass of $60\\text{ GeV}$,
               produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggH$ and $bbH$
               processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
@@ -304,10 +305,11 @@ keywords:
 name: Table Aux. Figure 65
 ---
 data_file: 2D_scan_Yt_Yb_A_m60.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file pdf, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file pdf, location: 'Aux_Figure_066.pdf'}
+#- {description: image file png, location: 'Aux_Figure_066.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_066.pdf'}
 description: "Scan of the likelihood function for the search for a pseudoscalar resonance ($A$) with a mass of $60\\text{ GeV}$,
               produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggA$ and $bbA$
               processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
@@ -327,10 +329,11 @@ keywords:
 name: Table Aux. Figure 66
 ---
 data_file: 2D_scan_Yt_Yb_H_m80.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file pdf, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file pdf, location: 'Aux_Figure_067.pdf'}
+#- {description: image file png, location: 'Aux_Figure_067.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_067.pdf'}
 description: "Scan of the likelihood function for the search for a scalar resonance ($H$) with a mass of $80\\text{ GeV}$,
               produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggH$ and $bbH$
               processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
@@ -348,10 +351,11 @@ keywords:
 name: Table Aux. Figure 67
 ---
 data_file: 2D_scan_Yt_Yb_A_m80.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file pdf, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file pdf, location: 'Aux_Figure_068.pdf'}
+#- {description: image file png, location: 'Aux_Figure_068.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_068.pdf'}
 description: "Scan of the likelihood function for the search for a pseudoscalar resonance ($A$) with a mass of $80\\text{ GeV}$,
               produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggA$ and $bbA$
               processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
@@ -371,10 +375,11 @@ keywords:
 name: Table Aux. Figure 68
 ---
 data_file: 2D_scan_Yt_Yb_H_m95.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file pdf, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file pdf, location: 'Aux_Figure_069.pdf'}
+#- {description: image file png, location: 'Aux_Figure_069.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_069.pdf'}
 description: "Scan of the likelihood function for the search for a scalar resonance ($H$) with a mass of $95\\text{ GeV}$,
               produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggH$ and $bbH$
               processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
@@ -392,10 +397,11 @@ keywords:
 name: Table Aux. Figure 69
 ---
 data_file: 2D_scan_Yt_Yb_A_m95.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file pdf, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file pdf, location: 'Aux_Figure_070.pdf'}
+#- {description: image file png, location: 'Aux_Figure_070.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_070.pdf'}
 description: "Scan of the likelihood function for the search for a pseudoscalar resonance ($A$) with a mass of $95\\text{ GeV}$,
               produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggA$ and $bbA$
               processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
@@ -415,10 +421,11 @@ keywords:
 name: Table Aux. Figure 70
 ---
 data_file: 2D_scan_Yt_Yb_H_m100.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file pdf, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file pdf, location: 'Aux_Figure_071.pdf'}
+#- {description: image file png, location: 'Aux_Figure_071.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_071.pdf'}
 description: "Scan of the likelihood function for the search for a scalar resonance ($H$) with a mass of $100\\text{ GeV}$,
               produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggH$ and $bbH$
               processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
@@ -436,10 +443,11 @@ keywords:
 name: Table Aux. Figure 71
 ---
 data_file: 2D_scan_Yt_Yb_A_m100.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file pdf, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file pdf, location: 'Aux_Figure_072.pdf'}
+#- {description: image file png, location: 'Aux_Figure_072.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_072.pdf'}
 description: "Scan of the likelihood function for the search for a pseudoscalar resonance ($A$) with a mass of $100\\text{ GeV}$,
               produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggA$ and $bbA$
               processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
@@ -459,10 +467,11 @@ keywords:
 name: Table Aux. Figure 72
 ---
 data_file: 2D_scan_Yt_Yb_H_m120.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file pdf, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file pdf, location: 'Aux_Figure_073.pdf'}
+#- {description: image file png, location: 'Aux_Figure_073.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_073.pdf'}
 description: "Scan of the likelihood function for the search for a scalar resonance ($H$) with a mass of $120\\text{ GeV}$,
               produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggH$ and $bbH$
               processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
@@ -480,10 +489,11 @@ keywords:
 name: Table Aux. Figure 73
 ---
 data_file: 2D_scan_Yt_Yb_A_m120.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file pdf, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file pdf, location: 'Aux_Figure_074.pdf'}
+#- {description: image file png, location: 'Aux_Figure_074.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_074.pdf'}
 description: "Scan of the likelihood function for the search for a pseudoscalar resonance ($A$) with a mass of $120\\text{ GeV}$,
               produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggA$ and $bbA$
               processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
@@ -503,10 +513,11 @@ keywords:
 name: Table Aux. Figure 74
 ---
 data_file: 2D_scan_Yt_Yb_H_m125.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file pdf, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file pdf, location: 'Aux_Figure_075.pdf'}
+#- {description: image file png, location: 'Aux_Figure_075.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_075.pdf'}
 description: "Scan of the likelihood function for the search for a scalar resonance ($H$) with a mass of $125\\text{ GeV}$,
               produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggH$ and $bbH$
               processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
@@ -524,10 +535,11 @@ keywords:
 name: Table Aux. Figure 75
 ---
 data_file: 2D_scan_Yt_Yb_A_m125.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file pdf, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file pdf, location: 'Aux_Figure_076.pdf'}
+#- {description: image file png, location: 'Aux_Figure_076.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_076.pdf'}
 description: "Scan of the likelihood function for the search for a pseudoscalar resonance ($A$) with a mass of $125\\text{ GeV}$,
               produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggA$ and $bbA$
               processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
@@ -547,10 +559,11 @@ keywords:
 name: Table Aux. Figure 76
 ---
 data_file: 2D_scan_Yt_Yb_H_m130.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file pdf, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file pdf, location: 'Aux_Figure_077.pdf'}
+#- {description: image file png, location: 'Aux_Figure_077.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_077.pdf'}
 description: "Scan of the likelihood function for the search for a scalar resonance ($H$) with a mass of $130\\text{ GeV}$,
               produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggH$ and $bbH$
               processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
@@ -568,10 +581,11 @@ keywords:
 name: Table Aux. Figure 77
 ---
 data_file: 2D_scan_Yt_Yb_A_m130.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file pdf, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file pdf, location: 'Aux_Figure_078.pdf'}
+#- {description: image file png, location: 'Aux_Figure_078.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_078.pdf'}
 description: "Scan of the likelihood function for the search for a pseudoscalar resonance ($A$) with a mass of $130\\text{ GeV}$,
               produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggA$ and $bbA$
               processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
@@ -591,10 +605,11 @@ keywords:
 name: Table Aux. Figure 78
 ---
 data_file: 2D_scan_Yt_Yb_H_m140.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file pdf, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file pdf, location: 'Aux_Figure_079.pdf'}
+#- {description: image file png, location: 'Aux_Figure_079.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_079.pdf'}
 description: "Scan of the likelihood function for the search for a scalar resonance ($H$) with a mass of $140\\text{ GeV}$,
               produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggH$ and $bbH$
               processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
@@ -612,10 +627,11 @@ keywords:
 name: Table Aux. Figure 79
 ---
 data_file: 2D_scan_Yt_Yb_A_m140.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file pdf, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file pdf, location: 'Aux_Figure_080.pdf'}
+#- {description: image file png, location: 'Aux_Figure_080.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_080.pdf'}
 description: "Scan of the likelihood function for the search for a pseudoscalar resonance ($A$) with a mass of $140\\text{ GeV}$,
               produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggA$ and $bbA$
               processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
@@ -635,10 +651,11 @@ keywords:
 name: Table Aux. Figure 80
 ---
 data_file: 2D_scan_Yt_Yb_H_m160.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file pdf, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file pdf, location: 'Aux_Figure_081.pdf'}
+#- {description: image file png, location: 'Aux_Figure_081.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_081.pdf'}
 description: "Scan of the likelihood function for the search for a scalar resonance ($H$) with a mass of $160\\text{ GeV}$,
               produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggH$ and $bbH$
               processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
@@ -656,10 +673,11 @@ keywords:
 name: Table Aux. Figure 81
 ---
 data_file: 2D_scan_Yt_Yb_A_m160.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file pdf, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file pdf, location: 'Aux_Figure_082.pdf'}
+#- {description: image file png, location: 'Aux_Figure_082.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_082.pdf'}
 description: "Scan of the likelihood function for the search for a pseudoscalar resonance ($A$) with a mass of $160\\text{ GeV}$,
               produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggA$ and $bbA$
               processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
@@ -679,10 +697,11 @@ keywords:
 name: Table Aux. Figure 82
 ---
 data_file: 2D_scan_Yt_Yb_H_m180.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file pdf, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file pdf, location: 'Aux_Figure_083.pdf'}
+#- {description: image file png, location: 'Aux_Figure_083.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_083.pdf'}
 description: "Scan of the likelihood function for the search for a scalar resonance ($H$) with a mass of $180\\text{ GeV}$,
               produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggH$ and $bbH$
               processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
@@ -700,10 +719,11 @@ keywords:
 name: Table Aux. Figure 83
 ---
 data_file: 2D_scan_Yt_Yb_A_m180.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file pdf, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file pdf, location: 'Aux_Figure_084.pdf'}
+#- {description: image file png, location: 'Aux_Figure_084.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_084.pdf'}
 description: "Scan of the likelihood function for the search for a pseudoscalar resonance ($A$) with a mass of $180\\text{ GeV}$,
               produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggA$ and $bbA$
               processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
@@ -723,10 +743,11 @@ keywords:
 name: Table Aux. Figure 84
 ---
 data_file: 2D_scan_Yt_Yb_H_m200.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file pdf, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file pdf, location: 'Aux_Figure_085.pdf'}
+#- {description: image file png, location: 'Aux_Figure_085.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_085.pdf'}
 description: "Scan of the likelihood function for the search for a scalar resonance ($H$) with a mass of $200\\text{ GeV}$,
               produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggH$ and $bbH$
               processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
@@ -744,10 +765,11 @@ keywords:
 name: Table Aux. Figure 85
 ---
 data_file: 2D_scan_Yt_Yb_A_m200.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file pdf, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file pdf, location: 'Aux_Figure_086.pdf'}
+#- {description: image file png, location: 'Aux_Figure_086.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_086.pdf'}
 description: "Scan of the likelihood function for the search for a pseudoscalar resonance ($A$) with a mass of $200\\text{ GeV}$,
               produced via gluon-fusion or in association with b quarks. For this scan, we assume the $ggA$ and $bbA$
               processes are only influenced by the Yukawa couplings to the top and bottom quarks and we scale the cross sections predicted
