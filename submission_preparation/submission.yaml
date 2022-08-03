@@ -20,10 +20,10 @@ comment: "Three searches are presented for signatures of physics beyond the stan
 #- {id: 1663234, type: inspire}
 ---
 data_file: limit_ggphi.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_010-a.pdf'}
+- {description: thumbnail image file, location: 'Figure_010-a.pdf'}
 description: "Expected and observed $95\\%\\text{ CL}$ upper limits on the product of the cross
               sections and branching fraction for the decay into $\\tau$ leptons for $gg\\phi$
               production in a mass range of $60\\leq m_\\phi\\leq 3500\\text{ GeV}$, in addition to
@@ -43,10 +43,10 @@ keywords:
 name: Table Figure 10a
 ---
 data_file: limit_bbphi.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_010-b.pdf'}
+- {description: thumbnail image file, location: 'Figure_010-b.pdf'}
 description: "Expected and observed $95\\%\\text{ CL}$ upper limits on the product of the cross
               sections and branching fraction for the decay into $\\tau$ leptons for $bb\\phi$
               production in a mass range of $60\\leq m_\\phi\\leq 3500\\text{ GeV}$, in addition to
@@ -754,10 +754,10 @@ keywords:
 name: Table Aux. Figure 86
 ---
 data_file: limit_vlq_bm1.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_012-a.pdf'}
+- {description: thumbnail image file, location: 'Figure_012-a.pdf'}
 description: "Expected and observed $95\\%\\text{ CL}$ upper limits on $g_U$ in the VLQ BM 1 scenario
               in a mass range of $1\\leq m_U\\leq 5\\text{ TeV}$.
               The central $68$ and $95\\%$ intervals are given in addition to the
@@ -773,10 +773,10 @@ keywords:
 name: Table Figure 12a
 ---
 data_file: limit_vlq_bm2.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_012-b.pdf'}
+- {description: thumbnail image file, location: 'Figure_012-b.pdf'}
 description: "Expected and observed $95\\%\\text{ CL}$ upper limits on $g_U$ in the VLQ BM 2 scenario
               in a mass range of $1\\leq m_U\\leq 5\\text{ TeV}$.
               The central $68$ and $95\\%$ intervals are given in addition to the
@@ -811,10 +811,10 @@ keywords:
 name: Table Aux. Figure 92
 ---
 data_file: 2D_scan_ggphi_bbphi_m60.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_011-a.pdf'}
+- {description: thumbnail image file, location: 'Figure_011-a.pdf'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $60\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -868,10 +868,10 @@ keywords:
 name: Table Aux. Figure 42
 ---
 data_file: 2D_scan_ggphi_bbphi_m100.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_011-b.pdf'}
+- {description: thumbnail image file, location: 'Figure_011-b.pdf'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $100\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -906,10 +906,10 @@ keywords:
 name: Table Aux. Figure 43
 ---
 data_file: 2D_scan_ggphi_bbphi_m125.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_011-c.pdf'}
+- {description: thumbnail image file, location: 'Figure_011-c.pdf'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $125\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -963,10 +963,10 @@ keywords:
 name: Table Aux. Figure 45
 ---
 data_file: 2D_scan_ggphi_bbphi_m160.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_011-d.pdf'}
+- {description: thumbnail image file, location: 'Figure_011-d.pdf'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $160\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1020,10 +1020,10 @@ keywords:
 name: Table Aux. Figure 47
 ---
 data_file: 2D_scan_ggphi_bbphi_m250.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_011-e.pdf'}
+- {description: thumbnail image file, location: 'Figure_011-e.pdf'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $250\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1115,10 +1115,10 @@ keywords:
 name: Table Aux. Figure 51
 ---
 data_file: 2D_scan_ggphi_bbphi_m500.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_011-f.pdf'}
+- {description: thumbnail image file, location: 'Figure_011-f.pdf'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $500\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1210,10 +1210,10 @@ keywords:
 name: Table Aux. Figure 55
 ---
 data_file: 2D_scan_ggphi_bbphi_m1000.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_011-g.pdf'}
+- {description: thumbnail image file, location: 'Figure_011-g.pdf'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $1000\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1229,10 +1229,10 @@ keywords:
 name: Table Figure 11g
 ---
 data_file: 2D_scan_ggphi_bbphi_m1200.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_011-h.pdf'}
+- {description: thumbnail image file, location: 'Figure_011-h.pdf'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $1200\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1400,10 +1400,10 @@ keywords:
 name: Table Aux. Figure 63
 ---
 data_file: 2D_scan_ggphi_bbphi_m3500.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_011-i.pdf'}
+- {description: thumbnail image file, location: 'Figure_011-i.pdf'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $3500\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1419,10 +1419,10 @@ keywords:
 name: Table Figure 11i
 ---
 data_file: 2D_scan_ggphi_bbphi_m60_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_011-a.pdf'}
+- {description: thumbnail image file, location: 'Figure_011-a.pdf'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $60\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1476,10 +1476,10 @@ keywords:
 name: Table Aux. Figure 42 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m100_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_011-b.pdf'}
+- {description: thumbnail image file, location: 'Figure_011-b.pdf'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $100\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1514,10 +1514,10 @@ keywords:
 name: Table Aux. Figure 43 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m125_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_011-c.pdf'}
+- {description: thumbnail image file, location: 'Figure_011-c.pdf'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $125\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1571,10 +1571,10 @@ keywords:
 name: Table Aux. Figure 45 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m160_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_011-d.pdf'}
+- {description: thumbnail image file, location: 'Figure_011-d.pdf'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $160\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1628,10 +1628,10 @@ keywords:
 name: Table Aux. Figure 47 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m250_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_011-e.pdf'}
+- {description: thumbnail image file, location: 'Figure_011-e.pdf'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $250\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1723,10 +1723,10 @@ keywords:
 name: Table Aux. Figure 51 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m500_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_011-f.pdf'}
+- {description: thumbnail image file, location: 'Figure_011-f.pdf'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $500\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1818,10 +1818,10 @@ keywords:
 name: Table Aux. Figure 55 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m1000_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_011-g.pdf'}
+- {description: thumbnail image file, location: 'Figure_011-g.pdf'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $1000\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1837,10 +1837,10 @@ keywords:
 name: Table Figure 11g Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m1200_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_011-h.pdf'}
+- {description: thumbnail image file, location: 'Figure_011-h.pdf'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $1200\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -2008,10 +2008,10 @@ keywords:
 name: Table Aux. Figure 63 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m3500_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_011-i.pdf'}
+- {description: thumbnail image file, location: 'Figure_011-i.pdf'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $3500\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -2207,10 +2207,10 @@ keywords:
 name: Table Aux. Figure 116
 ---
 data_file: limit_mssm_mh125_obs.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_013-a.pdf'}
+- {description: thumbnail image file, location: 'Figure_013-a.pdf'}
 description: "Observed $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h}^{125}$ scenario.
               Numerical values provided in this table correspond to the observed contour of Figure 13a of the publication."
 keywords:
@@ -2223,10 +2223,10 @@ keywords:
 name: Table Figure 13a Observed
 ---
 data_file: limit_mssm_mh125_exp0.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_013-a.pdf'}
+- {description: thumbnail image file, location: 'Figure_013-a.pdf'}
 description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h}^{125}$ scenario,
               evaluated at the median of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               Numerical values provided in this table correspond to the expected median contour of Figure 13a of the publication."
@@ -2240,10 +2240,10 @@ keywords:
 name: Table Figure 13a Median Expected
 ---
 data_file: limit_mssm_mh125_exp-1.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_013-a.pdf'}
+- {description: thumbnail image file, location: 'Figure_013-a.pdf'}
 description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h}^{125}$ scenario,
               evaluated at the $16\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               This contour is part of the $68\\%$ confidence interval band.
@@ -2258,10 +2258,10 @@ keywords:
 name: Table Figure 13a 16% Expected
 ---
 data_file: limit_mssm_mh125_exp+1.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_013-a.pdf'}
+- {description: thumbnail image file, location: 'Figure_013-a.pdf'}
 description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h}^{125}$ scenario,
               evaluated at the $84\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               This contour is part of the $68\\%$ confidence interval band.
@@ -2276,10 +2276,10 @@ keywords:
 name: Table Figure 13a 84% Expected
 ---
 data_file: limit_mssm_mh125_exp-2.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_013-a.pdf'}
+- {description: thumbnail image file, location: 'Figure_013-a.pdf'}
 description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h}^{125}$ scenario,
               evaluated at the $2.5\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               This contour is part of the $95\\%$ confidence interval band.
@@ -2294,10 +2294,10 @@ keywords:
 name: Table Figure 13a 2.5% Expected
 ---
 data_file: limit_mssm_mh125_exp+2.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_013-a.pdf'}
+- {description: thumbnail image file, location: 'Figure_013-a.pdf'}
 description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h}^{125}$ scenario,
               evaluated at the $97.5\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               This contour is part of the $95\\%$ confidence interval band.
@@ -2312,10 +2312,10 @@ keywords:
 name: Table Figure 13a 97.5% Expected
 ---
 data_file: limit_mssm_mh125EFT_obs.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_013-b.pdf'}
+- {description: thumbnail image file, location: 'Figure_013-b.pdf'}
 description: "Observed $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h,\\,\\text{EFT}}^{125}$ scenario.
               Numerical values provided in this table correspond to the observed contour of Figure 13b of the publication."
 keywords:
@@ -2328,10 +2328,10 @@ keywords:
 name: Table Figure 13b Observed
 ---
 data_file: limit_mssm_mh125EFT_exp0.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_013-b.pdf'}
+- {description: thumbnail image file, location: 'Figure_013-b.pdf'}
 description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h,\\,\\text{EFT}}^{125}$ scenario,
               evaluated at the median of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               Numerical values provided in this table correspond to the expected median contour of Figure 13b of the publication."
@@ -2345,10 +2345,10 @@ keywords:
 name: Table Figure 13b Median Expected
 ---
 data_file: limit_mssm_mh125EFT_exp-1.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_013-b.pdf'}
+- {description: thumbnail image file, location: 'Figure_013-b.pdf'}
 description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h,\\,\\text{EFT}}^{125}$ scenario,
               evaluated at the $16\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               This contour is part of the $68\\%$ confidence interval band.
@@ -2363,10 +2363,10 @@ keywords:
 name: Table Figure 13b 16% Expected
 ---
 data_file: limit_mssm_mh125EFT_exp+1.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_013-b.pdf'}
+- {description: thumbnail image file, location: 'Figure_013-b.pdf'}
 description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h,\\,\\text{EFT}}^{125}$ scenario,
               evaluated at the $84\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               This contour is part of the $68\\%$ confidence interval band.
@@ -2381,10 +2381,10 @@ keywords:
 name: Table Figure 13b 84% Expected
 ---
 data_file: limit_mssm_mh125EFT_exp-2.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_013-b.pdf'}
+- {description: thumbnail image file, location: 'Figure_013-b.pdf'}
 description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h,\\,\\text{EFT}}^{125}$ scenario,
               evaluated at the $2.5\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               This contour is part of the $95\\%$ confidence interval band.
@@ -2399,10 +2399,10 @@ keywords:
 name: Table Figure 13b 2.5% Expected
 ---
 data_file: limit_mssm_mh125EFT_exp+2.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.pdf'}
-#- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file, location: 'Figure_013-b.pdf'}
+- {description: thumbnail image file, location: 'Figure_013-b.pdf'}
 description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h,\\,\\text{EFT}}^{125}$ scenario,
               evaluated at the $97.5\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               This contour is part of the $95\\%$ confidence interval band.
