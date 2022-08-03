@@ -32,7 +32,7 @@ description: "Expected and observed $95\\%\\text{ CL}$ upper limits on the produ
               The peak in the expected $gg\\phi$ limit
               is tribute to a loss of sensitivity around $90\\text{ GeV}$ due to the background from
               $Z/\\gamma^\\ast\\rightarrow\\tau\\tau$ events. Numerical values provided in this
-              table correspond to Figure 9a of the publication."
+              table correspond to Figure 10a of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -40,7 +40,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 9a
+name: Table Figure 10a
 ---
 data_file: limit_bbphi.yaml
 #additional_resources:
@@ -52,7 +52,7 @@ description: "Expected and observed $95\\%\\text{ CL}$ upper limits on the produ
               production in a mass range of $60\\leq m_\\phi\\leq 3500\\text{ GeV}$, in addition to
               $\\text{H}(125)$. The central $68$ and $95\\%$ intervals are given in addition to the
               expected median value. In this case, $gg\\phi$ production rate has been profiled.
-              Numerical values provided in this table correspond to Figure 9b of the publication."
+              Numerical values provided in this table correspond to Figure 10b of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -60,7 +60,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 9b
+name: Table Figure 10b
 ---
 data_file: limit_ggphi_freeze_bbphi.yaml
 #additional_resources:
@@ -762,7 +762,7 @@ description: "Expected and observed $95\\%\\text{ CL}$ upper limits on $g_U$ in 
               in a mass range of $1\\leq m_U\\leq 5\\text{ TeV}$.
               The central $68$ and $95\\%$ intervals are given in addition to the
               expected median value. Numerical values provided in this
-              table correspond to Figure 11a of the publication."
+              table correspond to Figure 12a of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X]
@@ -770,7 +770,7 @@ keywords:
   values: [Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 11a
+name: Table Figure 12a
 ---
 data_file: limit_vlq_bm2.yaml
 #additional_resources:
@@ -781,7 +781,7 @@ description: "Expected and observed $95\\%\\text{ CL}$ upper limits on $g_U$ in 
               in a mass range of $1\\leq m_U\\leq 5\\text{ TeV}$.
               The central $68$ and $95\\%$ intervals are given in addition to the
               expected median value. Numerical values provided in this
-              table correspond to Figure 11b of the publication."
+              table correspond to Figure 12b of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X]
@@ -789,7 +789,7 @@ keywords:
   values: [Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 11b
+name: Table Figure 12b
 ---
 data_file: limit_vlq_bm3.yaml
 #additional_resources:
@@ -819,7 +819,7 @@ description: "Scan of the likelihood function for the search for a resonance ($\
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
               both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
-              Numerical values provided in this table correspond to Figure 10a of the publication."
+              Numerical values provided in this table correspond to Figure 11a of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -827,7 +827,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 10a
+name: Table Figure 11a
 ---
 data_file: 2D_scan_ggphi_bbphi_m80.yaml
 #additional_resources:
@@ -876,7 +876,7 @@ description: "Scan of the likelihood function for the search for a resonance ($\
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
               both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
-              Numerical values provided in this table correspond to Figure 10b of the publication."
+              Numerical values provided in this table correspond to Figure 11b of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -884,7 +884,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 10b
+name: Table Figure 11b
 ---
 data_file: 2D_scan_ggphi_bbphi_m120.yaml
 #additional_resources:
@@ -914,7 +914,7 @@ description: "Scan of the likelihood function for the search for a resonance ($\
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
               both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
-              Numerical values provided in this table correspond to Figure 10c of the publication."
+              Numerical values provided in this table correspond to Figure 11c of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -922,7 +922,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 10c
+name: Table Figure 11c
 ---
 data_file: 2D_scan_ggphi_bbphi_m130.yaml
 #additional_resources:
@@ -971,7 +971,7 @@ description: "Scan of the likelihood function for the search for a resonance ($\
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
               both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
-              Numerical values provided in this table correspond to Figure 10d of the publication."
+              Numerical values provided in this table correspond to Figure 11d of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -979,7 +979,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 10d
+name: Table Figure 11d
 ---
 data_file: 2D_scan_ggphi_bbphi_m180.yaml
 #additional_resources:
@@ -1028,7 +1028,7 @@ description: "Scan of the likelihood function for the search for a resonance ($\
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
               both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
-              Numerical values provided in this table correspond to Figure 10e of the publication."
+              Numerical values provided in this table correspond to Figure 11e of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -1036,7 +1036,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 10e
+name: Table Figure 11e
 ---
 data_file: 2D_scan_ggphi_bbphi_m300.yaml
 #additional_resources:
@@ -1123,7 +1123,7 @@ description: "Scan of the likelihood function for the search for a resonance ($\
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
               both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
-              Numerical values provided in this table correspond to Figure 10f of the publication."
+              Numerical values provided in this table correspond to Figure 11f of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -1131,7 +1131,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 10f
+name: Table Figure 11f
 ---
 data_file: 2D_scan_ggphi_bbphi_m600.yaml
 #additional_resources:
@@ -1218,7 +1218,7 @@ description: "Scan of the likelihood function for the search for a resonance ($\
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
               both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
-              Numerical values provided in this table correspond to Figure 10g of the publication."
+              Numerical values provided in this table correspond to Figure 11g of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -1226,7 +1226,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 10g
+name: Table Figure 11g
 ---
 data_file: 2D_scan_ggphi_bbphi_m1200.yaml
 #additional_resources:
@@ -1237,7 +1237,7 @@ description: "Scan of the likelihood function for the search for a resonance ($\
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
               both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
-              Numerical values provided in this table correspond to Figure 10h of the publication."
+              Numerical values provided in this table correspond to Figure 11h of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -1245,7 +1245,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 10h
+name: Table Figure 11h
 ---
 data_file: 2D_scan_ggphi_bbphi_m1400.yaml
 #additional_resources:
@@ -1408,7 +1408,7 @@ description: "Scan of the likelihood function for the search for a resonance ($\
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
               both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
-              Numerical values provided in this table correspond to Figure 10i of the publication."
+              Numerical values provided in this table correspond to Figure 11i of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -1416,7 +1416,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 10i
+name: Table Figure 11i
 ---
 data_file: 2D_scan_ggphi_bbphi_m60_Asimov.yaml
 #additional_resources:
@@ -1427,7 +1427,7 @@ description: "Scan of the likelihood function for the search for a resonance ($\
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
               both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
-              Numerical values provided in this table correspond to Figure 10a of the publication, but evaluated on Asimov pseudodata."
+              Numerical values provided in this table correspond to Figure 11a of the publication, but evaluated on Asimov pseudodata."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -1435,7 +1435,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 10a Asimov
+name: Table Figure 11a Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m80_Asimov.yaml
 #additional_resources:
@@ -1484,7 +1484,7 @@ description: "Scan of the likelihood function for the search for a resonance ($\
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
               both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
-              Numerical values provided in this table correspond to Figure 10b of the publication, but evaluated on Asimov pseudodata."
+              Numerical values provided in this table correspond to Figure 11b of the publication, but evaluated on Asimov pseudodata."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -1492,7 +1492,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 10b Asimov
+name: Table Figure 11b Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m120_Asimov.yaml
 #additional_resources:
@@ -1522,7 +1522,7 @@ description: "Scan of the likelihood function for the search for a resonance ($\
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
               both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
-              Numerical values provided in this table correspond to Figure 10c of the publication, but evaluated on Asimov pseudodata."
+              Numerical values provided in this table correspond to Figure 11c of the publication, but evaluated on Asimov pseudodata."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -1530,7 +1530,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 10c Asimov
+name: Table Figure 11c Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m130_Asimov.yaml
 #additional_resources:
@@ -1579,7 +1579,7 @@ description: "Scan of the likelihood function for the search for a resonance ($\
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
               both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
-              Numerical values provided in this table correspond to Figure 10d of the publication, but evaluated on Asimov pseudodata."
+              Numerical values provided in this table correspond to Figure 11d of the publication, but evaluated on Asimov pseudodata."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -1587,7 +1587,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 10d Asimov
+name: Table Figure 11d Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m180_Asimov.yaml
 #additional_resources:
@@ -1636,7 +1636,7 @@ description: "Scan of the likelihood function for the search for a resonance ($\
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
               both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
-              Numerical values provided in this table correspond to Figure 10e of the publication, but evaluated on Asimov pseudodata."
+              Numerical values provided in this table correspond to Figure 11e of the publication, but evaluated on Asimov pseudodata."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -1644,7 +1644,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 10e Asimov
+name: Table Figure 11e Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m300_Asimov.yaml
 #additional_resources:
@@ -1731,7 +1731,7 @@ description: "Scan of the likelihood function for the search for a resonance ($\
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
               both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
-              Numerical values provided in this table correspond to Figure 10f of the publication, but evaluated on Asimov pseudodata."
+              Numerical values provided in this table correspond to Figure 11f of the publication, but evaluated on Asimov pseudodata."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -1739,7 +1739,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 10f Asimov
+name: Table Figure 11f Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m600_Asimov.yaml
 #additional_resources:
@@ -1826,7 +1826,7 @@ description: "Scan of the likelihood function for the search for a resonance ($\
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
               both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
-              Numerical values provided in this table correspond to Figure 10g of the publication, but evaluated on Asimov pseudodata."
+              Numerical values provided in this table correspond to Figure 11g of the publication, but evaluated on Asimov pseudodata."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -1834,7 +1834,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 10g Asimov
+name: Table Figure 11g Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m1200_Asimov.yaml
 #additional_resources:
@@ -1845,7 +1845,7 @@ description: "Scan of the likelihood function for the search for a resonance ($\
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
               both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
-              Numerical values provided in this table correspond to Figure 10h of the publication, but evaluated on Asimov pseudodata."
+              Numerical values provided in this table correspond to Figure 11h of the publication, but evaluated on Asimov pseudodata."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -1853,7 +1853,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 10h Asimov
+name: Table Figure 11h Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m1400_Asimov.yaml
 #additional_resources:
@@ -2016,7 +2016,7 @@ description: "Scan of the likelihood function for the search for a resonance ($\
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
               both multiplied with the branching fraction for the $\\phi\\rightarrow\\tau\\tau$ decay process.
-              Numerical values provided in this table correspond to Figure 10i of the publication, but evaluated on Asimov pseudodata."
+              Numerical values provided in this table correspond to Figure 11i of the publication, but evaluated on Asimov pseudodata."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -2024,7 +2024,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 10i Asimov
+name: Table Figure 11i Asimov
 ---
 data_file: vlq_1D_scan_bm1_mU1.yaml
 #additional_resources:
@@ -2212,7 +2212,7 @@ data_file: limit_mssm_mh125_obs.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h}^{125}$ scenario.
-              Numerical values provided in this table correspond to the observed contour of Figure 12a of the publication."
+              Numerical values provided in this table correspond to the observed contour of Figure 13a of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -2220,7 +2220,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 12a Observed
+name: Table Figure 13a Observed
 ---
 data_file: limit_mssm_mh125_exp0.yaml
 #additional_resources:
@@ -2229,7 +2229,7 @@ data_file: limit_mssm_mh125_exp0.yaml
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h}^{125}$ scenario,
               evaluated at the median of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
-              Numerical values provided in this table correspond to the expected median contour of Figure 12a of the publication."
+              Numerical values provided in this table correspond to the expected median contour of Figure 13a of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -2237,7 +2237,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 12a Median Expected
+name: Table Figure 13a Median Expected
 ---
 data_file: limit_mssm_mh125_exp-1.yaml
 #additional_resources:
@@ -2247,7 +2247,7 @@ data_file: limit_mssm_mh125_exp-1.yaml
 description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h}^{125}$ scenario,
               evaluated at the $16\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               This contour is part of the $68\\%$ confidence interval band.
-              Numerical values provided in this table correspond to the expected $16\\%$ quantile contour of Figure 12a of the publication."
+              Numerical values provided in this table correspond to the expected $16\\%$ quantile contour of Figure 13a of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -2255,7 +2255,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 12a 16% Expected
+name: Table Figure 13a 16% Expected
 ---
 data_file: limit_mssm_mh125_exp+1.yaml
 #additional_resources:
@@ -2265,7 +2265,7 @@ data_file: limit_mssm_mh125_exp+1.yaml
 description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h}^{125}$ scenario,
               evaluated at the $84\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               This contour is part of the $68\\%$ confidence interval band.
-              Numerical values provided in this table correspond to the expected $84\\%$ quantile contour of Figure 12a of the publication."
+              Numerical values provided in this table correspond to the expected $84\\%$ quantile contour of Figure 13a of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -2273,7 +2273,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 12a 84% Expected
+name: Table Figure 13a 84% Expected
 ---
 data_file: limit_mssm_mh125_exp-2.yaml
 #additional_resources:
@@ -2283,7 +2283,7 @@ data_file: limit_mssm_mh125_exp-2.yaml
 description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h}^{125}$ scenario,
               evaluated at the $2.5\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               This contour is part of the $95\\%$ confidence interval band.
-              Numerical values provided in this table correspond to the expected $2.5\\%$ quantile contour of Figure 12a of the publication."
+              Numerical values provided in this table correspond to the expected $2.5\\%$ quantile contour of Figure 13a of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -2291,7 +2291,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 12a 2.5% Expected
+name: Table Figure 13a 2.5% Expected
 ---
 data_file: limit_mssm_mh125_exp+2.yaml
 #additional_resources:
@@ -2301,7 +2301,7 @@ data_file: limit_mssm_mh125_exp+2.yaml
 description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h}^{125}$ scenario,
               evaluated at the $97.5\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               This contour is part of the $95\\%$ confidence interval band.
-              Numerical values provided in this table correspond to the expected $97.5\\%$ quantile contour of Figure 12a of the publication."
+              Numerical values provided in this table correspond to the expected $97.5\\%$ quantile contour of Figure 13a of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -2309,7 +2309,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 12a 97.5% Expected
+name: Table Figure 13a 97.5% Expected
 ---
 data_file: limit_mssm_mh125EFT_obs.yaml
 #additional_resources:
@@ -2317,7 +2317,7 @@ data_file: limit_mssm_mh125EFT_obs.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h,\\,\\text{EFT}}^{125}$ scenario.
-              Numerical values provided in this table correspond to the observed contour of Figure 12a of the publication."
+              Numerical values provided in this table correspond to the observed contour of Figure 13b of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -2325,7 +2325,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 12b Observed
+name: Table Figure 13b Observed
 ---
 data_file: limit_mssm_mh125EFT_exp0.yaml
 #additional_resources:
@@ -2334,7 +2334,7 @@ data_file: limit_mssm_mh125EFT_exp0.yaml
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h,\\,\\text{EFT}}^{125}$ scenario,
               evaluated at the median of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
-              Numerical values provided in this table correspond to the expected median contour of Figure 12a of the publication."
+              Numerical values provided in this table correspond to the expected median contour of Figure 13b of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -2342,7 +2342,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 12b Median Expected
+name: Table Figure 13b Median Expected
 ---
 data_file: limit_mssm_mh125EFT_exp-1.yaml
 #additional_resources:
@@ -2352,7 +2352,7 @@ data_file: limit_mssm_mh125EFT_exp-1.yaml
 description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h,\\,\\text{EFT}}^{125}$ scenario,
               evaluated at the $16\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               This contour is part of the $68\\%$ confidence interval band.
-              Numerical values provided in this table correspond to the expected $16\\%$ quantile contour of Figure 12a of the publication."
+              Numerical values provided in this table correspond to the expected $16\\%$ quantile contour of Figure 13b of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -2360,7 +2360,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 12b 16% Expected
+name: Table Figure 13b 16% Expected
 ---
 data_file: limit_mssm_mh125EFT_exp+1.yaml
 #additional_resources:
@@ -2370,7 +2370,7 @@ data_file: limit_mssm_mh125EFT_exp+1.yaml
 description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h,\\,\\text{EFT}}^{125}$ scenario,
               evaluated at the $84\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               This contour is part of the $68\\%$ confidence interval band.
-              Numerical values provided in this table correspond to the expected $84\\%$ quantile contour of Figure 12a of the publication."
+              Numerical values provided in this table correspond to the expected $84\\%$ quantile contour of Figure 13b of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -2378,7 +2378,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 12b 84% Expected
+name: Table Figure 13b 84% Expected
 ---
 data_file: limit_mssm_mh125EFT_exp-2.yaml
 #additional_resources:
@@ -2388,7 +2388,7 @@ data_file: limit_mssm_mh125EFT_exp-2.yaml
 description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h,\\,\\text{EFT}}^{125}$ scenario,
               evaluated at the $2.5\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               This contour is part of the $95\\%$ confidence interval band.
-              Numerical values provided in this table correspond to the expected $2.5\\%$ quantile contour of Figure 12a of the publication."
+              Numerical values provided in this table correspond to the expected $2.5\\%$ quantile contour of Figure 13b of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -2396,7 +2396,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 12b 2.5% Expected
+name: Table Figure 13b 2.5% Expected
 ---
 data_file: limit_mssm_mh125EFT_exp+2.yaml
 #additional_resources:
@@ -2406,7 +2406,7 @@ data_file: limit_mssm_mh125EFT_exp+2.yaml
 description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h,\\,\\text{EFT}}^{125}$ scenario,
               evaluated at the $97.5\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
               This contour is part of the $95\\%$ confidence interval band.
-              Numerical values provided in this table correspond to the expected $97.5\\%$ quantile contour of Figure 12a of the publication."
+              Numerical values provided in this table correspond to the expected $97.5\\%$ quantile contour of Figure 13b of the publication."
 keywords:
 - name: reactions
   values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
@@ -2414,7 +2414,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 12b 97.5% Expected
+name: Table Figure 13b 97.5% Expected
 ---
 data_file: correlations_highmass.yaml
 #additional_resources:
@@ -2639,7 +2639,7 @@ data_file: htt_em_33_2016_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7a of the publication, but restricted to 2016 data-taking year.
+              Numerical values provided in this table correspond to Figure 8a of the publication, but restricted to 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -2659,7 +2659,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7a 2016 High-mass
+name: Table Figure 8a 2016 High-mass
 ---
 data_file: htt_em_33_2017_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -2667,7 +2667,7 @@ data_file: htt_em_33_2017_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7a of the publication, but restricted to and 2017 data-taking year.
+              Numerical values provided in this table correspond to Figure 8a of the publication, but restricted to and 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -2687,7 +2687,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7a 2017 High-mass
+name: Table Figure 8a 2017 High-mass
 ---
 data_file: htt_em_33_2018_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -2695,7 +2695,7 @@ data_file: htt_em_33_2018_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7a of the publication, but restricted to and 2018 data-taking year.
+              Numerical values provided in this table correspond to Figure 8a of the publication, but restricted to and 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -2715,7 +2715,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7a 2018 High-mass
+name: Table Figure 8a 2018 High-mass
 ---
 data_file: htt_em_34_2016_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -2807,7 +2807,7 @@ data_file: htt_em_36_2016_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7b of the publication, but restricted to 2016 data-taking year.
+              Numerical values provided in this table correspond to Figure 8b of the publication, but restricted to 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -2827,7 +2827,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7b 2016 High-mass
+name: Table Figure 8b 2016 High-mass
 ---
 data_file: htt_em_36_2017_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -2835,7 +2835,7 @@ data_file: htt_em_36_2017_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7b of the publication, but restricted to and 2017 data-taking year.
+              Numerical values provided in this table correspond to Figure 8b of the publication, but restricted to and 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -2855,7 +2855,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7b 2017 High-mass
+name: Table Figure 8b 2017 High-mass
 ---
 data_file: htt_em_35_2016_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -2947,7 +2947,7 @@ data_file: htt_em_36_2018_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7b of the publication, but restricted to and 2018 data-taking year.
+              Numerical values provided in this table correspond to Figure 8b of the publication, but restricted to and 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -2967,7 +2967,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7b 2018 High-mass
+name: Table Figure 8b 2018 High-mass
 ---
 data_file: htt_em_37_2016_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -3059,7 +3059,7 @@ data_file: htt_et_32_2016_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7c of the publication, but restricted to $e\\tau_{h}$ final state and 2016 data-taking year.
+              Numerical values provided in this table correspond to Figure 8c of the publication, but restricted to $e\\tau_{h}$ final state and 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -3079,7 +3079,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7c $e\tau_{h}$ 2016 High-mass
+name: Table Figure 8c $e\tau_{h}$ 2016 High-mass
 ---
 data_file: htt_et_32_2017_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -3087,7 +3087,7 @@ data_file: htt_et_32_2017_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7c of the publication, but restricted to $e\\tau_{h}$ final state and 2017 data-taking year.
+              Numerical values provided in this table correspond to Figure 8c of the publication, but restricted to $e\\tau_{h}$ final state and 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -3107,7 +3107,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7c $e\tau_{h}$ 2017 High-mass
+name: Table Figure 8c $e\tau_{h}$ 2017 High-mass
 ---
 data_file: htt_et_32_2018_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -3115,7 +3115,7 @@ data_file: htt_et_32_2018_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7c of the publication, but restricted to $e\\tau_{h}$ final state and 2018 data-taking year.
+              Numerical values provided in this table correspond to Figure 8c of the publication, but restricted to $e\\tau_{h}$ final state and 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -3135,7 +3135,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7c $e\tau_{h}$ 2018 High-mass
+name: Table Figure 8c $e\tau_{h}$ 2018 High-mass
 ---
 data_file: htt_et_33_2016_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -3227,7 +3227,7 @@ data_file: htt_et_35_2016_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7d of the publication, but restricted to $e\\tau_{h}$ final state and 2016 data-taking year.
+              Numerical values provided in this table correspond to Figure 8d of the publication, but restricted to $e\\tau_{h}$ final state and 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -3247,7 +3247,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7d $e\tau_{h}$ 2016 High-mass
+name: Table Figure 8d $e\tau_{h}$ 2016 High-mass
 ---
 data_file: htt_et_35_2017_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -3255,7 +3255,7 @@ data_file: htt_et_35_2017_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7d of the publication, but restricted to $e\\tau_{h}$ final state and 2017 data-taking year.
+              Numerical values provided in this table correspond to Figure 8d of the publication, but restricted to $e\\tau_{h}$ final state and 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -3275,7 +3275,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7d $e\tau_{h}$ 2017 High-mass
+name: Table Figure 8d $e\tau_{h}$ 2017 High-mass
 ---
 data_file: htt_et_35_2018_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -3283,7 +3283,7 @@ data_file: htt_et_35_2018_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7d of the publication, but restricted to $e\\tau_{h}$ final state and 2018 data-taking year.
+              Numerical values provided in this table correspond to Figure 8d of the publication, but restricted to $e\\tau_{h}$ final state and 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -3303,7 +3303,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7d $e\tau_{h}$ 2018 High-mass
+name: Table Figure 8d $e\tau_{h}$ 2018 High-mass
 ---
 data_file: htt_et_36_2016_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -3396,7 +3396,7 @@ data_file: htt_mt_32_2016_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7c of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2016 data-taking year.
+              Numerical values provided in this table correspond to Figure 8c of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -3416,7 +3416,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7c $\mu\tau_{h}$ 2016 High-mass
+name: Table Figure 8c $\mu\tau_{h}$ 2016 High-mass
 ---
 data_file: htt_mt_32_2017_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -3424,7 +3424,7 @@ data_file: htt_mt_32_2017_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7c of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2017 data-taking year.
+              Numerical values provided in this table correspond to Figure 8c of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -3444,7 +3444,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7c $\mu\tau_{h}$ 2017 High-mass
+name: Table Figure 8c $\mu\tau_{h}$ 2017 High-mass
 ---
 data_file: htt_mt_32_2018_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -3452,7 +3452,7 @@ data_file: htt_mt_32_2018_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7c of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2018 data-taking year.
+              Numerical values provided in this table correspond to Figure 8c of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -3472,7 +3472,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7c $\mu\tau_{h}$ 2018 High-mass
+name: Table Figure 8c $\mu\tau_{h}$ 2018 High-mass
 ---
 data_file: htt_mt_33_2016_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -3564,7 +3564,7 @@ data_file: htt_mt_35_2016_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7d of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2016 data-taking year.
+              Numerical values provided in this table correspond to Figure 8d of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -3584,7 +3584,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7d $\mu\tau_{h}$ 2016 High-mass
+name: Table Figure 8d $\mu\tau_{h}$ 2016 High-mass
 ---
 data_file: htt_mt_35_2017_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -3592,7 +3592,7 @@ data_file: htt_mt_35_2017_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7d of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2017 data-taking year.
+              Numerical values provided in this table correspond to Figure 8d of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -3612,7 +3612,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7d $\mu\tau_{h}$ 2017 High-mass
+name: Table Figure 8d $\mu\tau_{h}$ 2017 High-mass
 ---
 data_file: htt_mt_35_2018_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -3620,7 +3620,7 @@ data_file: htt_mt_35_2018_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7d of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2018 data-taking year.
+              Numerical values provided in this table correspond to Figure 8d of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -3640,7 +3640,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7d $\mu\tau_{h}$ 2018 High-mass
+name: Table Figure 8d $\mu\tau_{h}$ 2018 High-mass
 ---
 data_file: htt_mt_36_2016_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -3732,7 +3732,7 @@ data_file: htt_tt_32_2016_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7e of the publication, but restricted to 2016 data-taking year.
+              Numerical values provided in this table correspond to Figure 8e of the publication, but restricted to 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -3752,7 +3752,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7e 2016 High-mass
+name: Table Figure 8e 2016 High-mass
 ---
 data_file: htt_tt_32_2017_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -3760,7 +3760,7 @@ data_file: htt_tt_32_2017_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7e of the publication, but restricted to 2017 data-taking year.
+              Numerical values provided in this table correspond to Figure 8e of the publication, but restricted to 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -3780,7 +3780,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7e 2017 High-mass
+name: Table Figure 8e 2017 High-mass
 ---
 data_file: htt_tt_32_2018_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -3788,7 +3788,7 @@ data_file: htt_tt_32_2018_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7e of the publication, but restricted to 2018 data-taking year.
+              Numerical values provided in this table correspond to Figure 8e of the publication, but restricted to 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -3808,7 +3808,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7e 2018 High-mass
+name: Table Figure 8e 2018 High-mass
 ---
 data_file: htt_tt_35_2016_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -3816,7 +3816,7 @@ data_file: htt_tt_35_2016_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7f of the publication, but restricted to 2016 data-taking year.
+              Numerical values provided in this table correspond to Figure 8f of the publication, but restricted to 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -3836,7 +3836,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7f 2016 High-mass
+name: Table Figure 8f 2016 High-mass
 ---
 data_file: htt_tt_35_2017_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -3844,7 +3844,7 @@ data_file: htt_tt_35_2017_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7f of the publication, but restricted to 2017 data-taking year.
+              Numerical values provided in this table correspond to Figure 8f of the publication, but restricted to 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -3864,7 +3864,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7f 2017 High-mass
+name: Table Figure 8f 2017 High-mass
 ---
 data_file: htt_tt_35_2018_hepdata_grouped_postfit_highmass.yaml
 #additional_resources:
@@ -3872,7 +3872,7 @@ data_file: htt_tt_35_2018_hepdata_grouped_postfit_highmass.yaml
 #- {description: image file, location: 'CMS-HIG-17-020_Figure_007-a.png'}
 #- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
-              Numerical values provided in this table correspond to Figure 7f of the publication, but restricted to 2018 data-taking year.
+              Numerical values provided in this table correspond to Figure 8f of the publication, but restricted to 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
               Some details on how the distributions should be used:\n\n
 
@@ -3892,7 +3892,7 @@ keywords:
   values: [Higgs, Proton-Proton Scattering, Tau, VLQ, Leptoquarks, B Anomalies, SUSY, MSSM, Cross Section]
 - name: cmenergies
   values: [13000.0, 13000]
-name: Table Figure 7f 2018 High-mass
+name: Table Figure 8f 2018 High-mass
 ---
 data_file: htt_em_2_2016_hepdata_grouped_postfit_lowmass.yaml
 #additional_resources:
