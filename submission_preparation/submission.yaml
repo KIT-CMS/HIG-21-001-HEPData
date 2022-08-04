@@ -830,9 +830,10 @@ keywords:
 name: Table Figure 11a
 ---
 data_file: 2D_scan_ggphi_bbphi_m80.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_041.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_041.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $80\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -848,9 +849,10 @@ keywords:
 name: Table Aux. Figure 41
 ---
 data_file: 2D_scan_ggphi_bbphi_m95.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_042.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_042.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $95\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -885,9 +887,10 @@ keywords:
 name: Table Figure 11b
 ---
 data_file: 2D_scan_ggphi_bbphi_m120.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_043.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_043.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $120\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -922,9 +925,10 @@ keywords:
 name: Table Figure 11c
 ---
 data_file: 2D_scan_ggphi_bbphi_m130.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_044.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_044.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $130\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -940,9 +944,10 @@ keywords:
 name: Table Aux. Figure 44
 ---
 data_file: 2D_scan_ggphi_bbphi_m140.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_045.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_045.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $140\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -977,9 +982,10 @@ keywords:
 name: Table Figure 11d
 ---
 data_file: 2D_scan_ggphi_bbphi_m180.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_046.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_046.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $180\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -995,9 +1001,10 @@ keywords:
 name: Table Aux. Figure 46
 ---
 data_file: 2D_scan_ggphi_bbphi_m200.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_047.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_047.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $200\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1032,9 +1039,10 @@ keywords:
 name: Table Figure 11e
 ---
 data_file: 2D_scan_ggphi_bbphi_m300.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_048.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_048.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $300\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1050,9 +1058,10 @@ keywords:
 name: Table Aux. Figure 48
 ---
 data_file: 2D_scan_ggphi_bbphi_m350.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_049.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_049.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $350\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1068,9 +1077,10 @@ keywords:
 name: Table Aux. Figure 49
 ---
 data_file: 2D_scan_ggphi_bbphi_m400.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_050.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_050.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $400\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1086,9 +1096,10 @@ keywords:
 name: Table Aux. Figure 50
 ---
 data_file: 2D_scan_ggphi_bbphi_m450.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_051.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_051.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $450\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1123,9 +1134,10 @@ keywords:
 name: Table Figure 11f
 ---
 data_file: 2D_scan_ggphi_bbphi_m600.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_052.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_052.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $600\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1141,9 +1153,10 @@ keywords:
 name: Table Aux. Figure 52
 ---
 data_file: 2D_scan_ggphi_bbphi_m700.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_053.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_053.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $700\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1159,9 +1172,10 @@ keywords:
 name: Table Aux. Figure 53
 ---
 data_file: 2D_scan_ggphi_bbphi_m800.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_054.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_054.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $800\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1177,9 +1191,10 @@ keywords:
 name: Table Aux. Figure 54
 ---
 data_file: 2D_scan_ggphi_bbphi_m900.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_055.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_055.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $900\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1233,9 +1248,10 @@ keywords:
 name: Table Figure 11h
 ---
 data_file: 2D_scan_ggphi_bbphi_m1400.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_056.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_056.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $1400\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1251,9 +1267,10 @@ keywords:
 name: Table Aux. Figure 56
 ---
 data_file: 2D_scan_ggphi_bbphi_m1600.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_057.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_057.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $1600\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1269,9 +1286,10 @@ keywords:
 name: Table Aux. Figure 57
 ---
 data_file: 2D_scan_ggphi_bbphi_m1800.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_058.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_058.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $1800\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1287,9 +1305,10 @@ keywords:
 name: Table Aux. Figure 58
 ---
 data_file: 2D_scan_ggphi_bbphi_m2000.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_059.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_059.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $2000\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1305,9 +1324,10 @@ keywords:
 name: Table Aux. Figure 59
 ---
 data_file: 2D_scan_ggphi_bbphi_m2300.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_060.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_060.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $2300\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1323,9 +1343,10 @@ keywords:
 name: Table Aux. Figure 60
 ---
 data_file: 2D_scan_ggphi_bbphi_m2600.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_061.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_061.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $2600\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1341,9 +1362,10 @@ keywords:
 name: Table Aux. Figure 61
 ---
 data_file: 2D_scan_ggphi_bbphi_m2900.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_062.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_062.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $2900\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1359,9 +1381,10 @@ keywords:
 name: Table Aux. Figure 62
 ---
 data_file: 2D_scan_ggphi_bbphi_m3200.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_063.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_063.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $3200\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1415,9 +1438,10 @@ keywords:
 name: Table Figure 11a Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m80_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_041.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_041.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $80\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1433,9 +1457,10 @@ keywords:
 name: Table Aux. Figure 41 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m95_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_042.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_042.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $95\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1470,9 +1495,10 @@ keywords:
 name: Table Figure 11b Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m120_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_043.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_043.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $120\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1507,9 +1533,10 @@ keywords:
 name: Table Figure 11c Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m130_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_044.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_044.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $130\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1525,9 +1552,10 @@ keywords:
 name: Table Aux. Figure 44 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m140_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_045.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_045.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $140\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1562,9 +1590,10 @@ keywords:
 name: Table Figure 11d Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m180_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_046.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_046.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $180\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1580,9 +1609,10 @@ keywords:
 name: Table Aux. Figure 46 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m200_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_047.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_047.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $200\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1617,9 +1647,10 @@ keywords:
 name: Table Figure 11e Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m300_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_048.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_048.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $300\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1635,9 +1666,10 @@ keywords:
 name: Table Aux. Figure 48 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m350_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_049.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_049.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $350\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1653,9 +1685,10 @@ keywords:
 name: Table Aux. Figure 49 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m400_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_050.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_050.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $400\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1671,9 +1704,10 @@ keywords:
 name: Table Aux. Figure 50 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m450_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_051.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_051.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $450\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1708,9 +1742,10 @@ keywords:
 name: Table Figure 11f Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m600_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_052.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_052.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $600\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1726,9 +1761,10 @@ keywords:
 name: Table Aux. Figure 52 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m700_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_053.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_053.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $700\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1744,9 +1780,10 @@ keywords:
 name: Table Aux. Figure 53 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m800_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_054.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_054.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $800\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1762,9 +1799,10 @@ keywords:
 name: Table Aux. Figure 54 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m900_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_055.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_055.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $900\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1818,9 +1856,10 @@ keywords:
 name: Table Figure 11h Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m1400_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_056.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_056.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $1400\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1836,9 +1875,10 @@ keywords:
 name: Table Aux. Figure 56 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m1600_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_057.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_057.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $1600\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1854,9 +1894,10 @@ keywords:
 name: Table Aux. Figure 57 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m1800_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_058.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_058.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $1800\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1872,9 +1913,10 @@ keywords:
 name: Table Aux. Figure 58 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m2000_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_059.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_059.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $2000\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1890,9 +1932,10 @@ keywords:
 name: Table Aux. Figure 59 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m2300_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_060.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_060.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $2300\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1908,9 +1951,10 @@ keywords:
 name: Table Aux. Figure 60 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m2600_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_061.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_061.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $2600\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1926,9 +1970,10 @@ keywords:
 name: Table Aux. Figure 61 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m2900_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_062.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_062.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $2900\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
@@ -1944,9 +1989,10 @@ keywords:
 name: Table Aux. Figure 62 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m3200_Asimov.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_063.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_063.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $3200\\text{ GeV}$,
               produced via gluon-fusion ($gg\\phi$) or in association with b quarks ($bb\\phi$).
               The scan is performed in the $gg\\phi$ and $bb\\phi$ production cross-sections,
