@@ -343,11 +343,12 @@ if args.additional_inputs:
     for fname in args.additional_inputs:
         add_sig_input = r.TFile.Open(fname, "read")
         additional_signals = set()
-        for sig in sorted_nicely([k.GetName() for k in add_sig_input.GetListOfKeys()]):
-            if re.match(args.additional_signals, sig):
-                events = create_info_for_proc(sig, True, args.signal_pattern, add_sig_input, args.mode, config)
-                if events:
-                    output["dependent_variables"].append(events)
+        if signals:
+            for sig in sorted_nicely([k.GetName() for k in add_sig_input.GetListOfKeys()]):
+                if re.match(args.additional_signals, sig):
+                    events = create_info_for_proc(sig, True, args.signal_pattern, add_sig_input, args.mode, config)
+                    if events:
+                        output["dependent_variables"].append(events)
 
 with open(os.path.join(args.output_directory, args.output_file), "w") as out:
     yaml.dump(output, out)

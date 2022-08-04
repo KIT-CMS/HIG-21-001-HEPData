@@ -27,6 +27,9 @@ async def execute_command(queue, name):
                     stderr=asyncio.subprocess.PIPE,
                 )
                 stdout, stderr = await sub_process.communicate()
+                print(f"{name}: returncode for {task}: {sub_process.returncode}")
+                if sub_process.returncode != 0:
+                    print(f"{name}: error for {task}:\n{stderr.decode('utf-8')}")
             except asyncio.CancelledError:
                 interrupted = True
                 print(f"{name}: cancelling subprocess due to interruption")
