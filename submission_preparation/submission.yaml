@@ -792,6 +792,7 @@ keywords:
 name: Table Figure 12b
 ---
 data_file: limit_vlq_bm3.yaml
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
 - {description: image file png, location: 'Aux_Figure_092.png'}
 - {description: thumbnail image file, location: 'thumb_Aux_Figure_092.png'}
