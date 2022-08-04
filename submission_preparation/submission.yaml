@@ -5173,9 +5173,10 @@ keywords:
 name: Table Aux. Figure 15 $e\tau_{h}$ 2018 Low-mass
 ---
 data_file: htt_mt_132_2016_hepdata_grouped_postfit_lowmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_016.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_016.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the low-mass analysis $m_{\\tau\\tau}$.
               Numerical values provided in this table correspond to Figure 16 of the auxilliary material of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -5199,9 +5200,10 @@ keywords:
 name: Table Aux. Figure 16 $\mu\tau_{h}$ 2016 Low-mass
 ---
 data_file: htt_mt_132_2017_hepdata_grouped_postfit_lowmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_016.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_016.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the low-mass analysis $m_{\\tau\\tau}$.
               Numerical values provided in this table correspond to Figure 16 of the auxilliary material of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -5225,9 +5227,10 @@ keywords:
 name: Table Aux. Figure 16 $\mu\tau_{h}$ 2017 Low-mass
 ---
 data_file: htt_mt_132_2018_hepdata_grouped_postfit_lowmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_016.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_016.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the low-mass analysis $m_{\\tau\\tau}$.
               Numerical values provided in this table correspond to Figure 16 of the auxilliary material of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -5251,9 +5254,10 @@ keywords:
 name: Table Aux. Figure 16 $\mu\tau_{h}$ 2018 Low-mass
 ---
 data_file: htt_mt_232_2016_hepdata_grouped_postfit_lowmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_017.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_017.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the low-mass analysis $m_{\\tau\\tau}$.
               Numerical values provided in this table correspond to Figure 17 of the auxilliary material of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -5277,9 +5281,10 @@ keywords:
 name: Table Aux. Figure 17 $\mu\tau_{h}$ 2016 Low-mass
 ---
 data_file: htt_mt_232_2017_hepdata_grouped_postfit_lowmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_017.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_017.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the low-mass analysis $m_{\\tau\\tau}$.
               Numerical values provided in this table correspond to Figure 17 of the auxilliary material of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -5303,9 +5308,10 @@ keywords:
 name: Table Aux. Figure 17 $\mu\tau_{h}$ 2017 Low-mass
 ---
 data_file: htt_mt_232_2018_hepdata_grouped_postfit_lowmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_017.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_017.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the low-mass analysis $m_{\\tau\\tau}$.
               Numerical values provided in this table correspond to Figure 17 of the auxilliary material of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -5329,9 +5335,10 @@ keywords:
 name: Table Aux. Figure 17 $\mu\tau_{h}$ 2018 Low-mass
 ---
 data_file: htt_mt_332_2016_hepdata_grouped_postfit_lowmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_018.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_018.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the low-mass analysis $m_{\\tau\\tau}$.
               Numerical values provided in this table correspond to Figure 18 of the auxilliary material of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -5355,9 +5362,10 @@ keywords:
 name: Table Aux. Figure 18 $\mu\tau_{h}$ 2016 Low-mass
 ---
 data_file: htt_mt_332_2017_hepdata_grouped_postfit_lowmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_018.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_018.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the low-mass analysis $m_{\\tau\\tau}$.
               Numerical values provided in this table correspond to Figure 18 of the auxilliary material of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -5381,9 +5389,10 @@ keywords:
 name: Table Aux. Figure 18 $\mu\tau_{h}$ 2017 Low-mass
 ---
 data_file: htt_mt_332_2018_hepdata_grouped_postfit_lowmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_018.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_018.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the low-mass analysis $m_{\\tau\\tau}$.
               Numerical values provided in this table correspond to Figure 18 of the auxilliary material of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -5407,9 +5416,10 @@ keywords:
 name: Table Aux. Figure 18 $\mu\tau_{h}$ 2018 Low-mass
 ---
 data_file: htt_mt_432_2016_hepdata_grouped_postfit_lowmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_019.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_019.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the low-mass analysis $m_{\\tau\\tau}$.
               Numerical values provided in this table correspond to Figure 19 of the auxilliary material of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -5433,9 +5443,10 @@ keywords:
 name: Table Aux. Figure 19 $\mu\tau_{h}$ 2016 Low-mass
 ---
 data_file: htt_mt_432_2017_hepdata_grouped_postfit_lowmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_019.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_019.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the low-mass analysis $m_{\\tau\\tau}$.
               Numerical values provided in this table correspond to Figure 19 of the auxilliary material of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -5459,9 +5470,10 @@ keywords:
 name: Table Aux. Figure 19 $\mu\tau_{h}$ 2017 Low-mass
 ---
 data_file: htt_mt_432_2018_hepdata_grouped_postfit_lowmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_019.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_019.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the low-mass analysis $m_{\\tau\\tau}$.
               Numerical values provided in this table correspond to Figure 19 of the auxilliary material of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -5485,9 +5497,10 @@ keywords:
 name: Table Aux. Figure 19 $\mu\tau_{h}$ 2018 Low-mass
 ---
 data_file: htt_mt_35_2016_hepdata_grouped_postfit_lowmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_015.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_015.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the low-mass analysis $m_{\\tau\\tau}$.
               Numerical values provided in this table correspond to Figure 15 of the auxilliary material of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -5511,9 +5524,10 @@ keywords:
 name: Table Aux. Figure 15 $\mu\tau_{h}$ 2016 Low-mass
 ---
 data_file: htt_mt_35_2017_hepdata_grouped_postfit_lowmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_015.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_015.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the low-mass analysis $m_{\\tau\\tau}$.
               Numerical values provided in this table correspond to Figure 15 of the auxilliary material of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -5537,9 +5551,10 @@ keywords:
 name: Table Aux. Figure 15 $\mu\tau_{h}$ 2017 Low-mass
 ---
 data_file: htt_mt_35_2018_hepdata_grouped_postfit_lowmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_015.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_015.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the low-mass analysis $m_{\\tau\\tau}$.
               Numerical values provided in this table correspond to Figure 15 of the auxilliary material of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
