@@ -247,9 +247,9 @@ done
 for m in 1 2 3 4 5;
 do
     ./create_1D_vlq_scans_yaml.py \
-        --inputs "data/vlq_hep_data/scans/vlq_scan_betaRd33_0_mU${m}000_combined.json:Combined" \
-                 "data/vlq_hep_data/scans/vlq_scan_betaRd33_0_mU${m}000_nobtag.json:No b tag" \
-                 "data/vlq_hep_data/scans/vlq_scan_betaRd33_0_mU${m}000_btag.json:b tag" \
+        --inputs "data/vlq_hep_data/scans_v2/vlq_scan_betaRd33_0_mU${m}000_combined.json.json:Combined" \
+                 "data/vlq_hep_data/scans_v2/vlq_scan_betaRd33_0_mU${m}000_nobtag.json.json:No b tag" \
+                 "data/vlq_hep_data/scans_v2/vlq_scan_betaRd33_0_mU${m}000_btag.json.json:b tag" \
         --output-file vlq_1D_scan_bm1_mU${m}.yaml --output-directory submission_preparation \
         --additional-qualifiers 'BSM physics:VLQ BM 1 interpretation' \
         --mass-hypothesis ${m} --x-quantity '$g_U$:'
@@ -262,9 +262,9 @@ done
 for m in 1 2 3 4 5;
 do
     ./create_1D_vlq_scans_yaml.py \
-        --inputs "data/vlq_hep_data/scans/vlq_scan_betaRd33_minus1_mU${m}000_combined.json:Combined" \
-                 "data/vlq_hep_data/scans/vlq_scan_betaRd33_minus1_mU${m}000_nobtag.json:No b tag" \
-                 "data/vlq_hep_data/scans/vlq_scan_betaRd33_minus1_mU${m}000_btag.json:b tag" \
+        --inputs "data/vlq_hep_data/scans_v2/vlq_scan_betaRd33_minus1_mU${m}000_combined.json.json:Combined" \
+                 "data/vlq_hep_data/scans_v2/vlq_scan_betaRd33_minus1_mU${m}000_nobtag.json.json:No b tag" \
+                 "data/vlq_hep_data/scans_v2/vlq_scan_betaRd33_minus1_mU${m}000_btag.json.json:b tag" \
         --output-file vlq_1D_scan_bm2_mU${m}.yaml --output-directory submission_preparation \
         --additional-qualifiers 'BSM physics:VLQ BM 2 interpretation' \
         --mass-hypothesis ${m} --x-quantity '$g_U$:'
@@ -277,9 +277,9 @@ done
 for m in 1 2 3 4 5;
 do
     ./create_1D_vlq_scans_yaml.py \
-        --inputs "data/vlq_hep_data/scans/vlq_scan_betaRd33_0_offdiag0_mU${m}000_combined.json:Combined" \
-                 "data/vlq_hep_data/scans/vlq_scan_betaRd33_0_offdiag0_mU${m}000_nobtag.json:No b tag" \
-                 "data/vlq_hep_data/scans/vlq_scan_betaRd33_0_offdiag0_mU${m}000_btag.json:b tag" \
+        --inputs "data/vlq_hep_data/scans_v2/vlq_scan_betaRd33_0_offdiag0_mU${m}000_combined.json.json:Combined" \
+                 "data/vlq_hep_data/scans_v2/vlq_scan_betaRd33_0_offdiag0_mU${m}000_nobtag.json.json:No b tag" \
+                 "data/vlq_hep_data/scans_v2/vlq_scan_betaRd33_0_offdiag0_mU${m}000_btag.json.json:b tag" \
         --output-file vlq_1D_scan_bm3_mU${m}.yaml --output-directory submission_preparation \
         --additional-qualifiers 'BSM physics:VLQ BM 3 interpretation' \
         --mass-hypothesis ${m} --x-quantity '$g_U$:'
