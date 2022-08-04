@@ -73,7 +73,7 @@ if __name__ == "__main__":
         "--categories-configurations",
         required=True,
         nargs="+",
-        help="Number of threads to be used",
+        help="Individual configuration of shapes for groups of categories",
     )
 
     args = parser.parse_args()
