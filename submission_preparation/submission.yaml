@@ -2507,9 +2507,6 @@ keywords:
 name: Table Figure 13b 97.5% Expected
 ---
 data_file: sm_ggh_fractions.yaml
-#additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
 description: "Fractions of the cross-section $\\sigma(gg\\phi)$ as expected from SM for the loop
               contributions with only top quarks, only bottom quarks and from the top-bottom interference.
               These values are used to scale the corresponding signal components for a given mass $m_\\phi$."
