@@ -2592,9 +2592,10 @@ keywords:
 name: Table $t\bar{t}$ Control Region 2018 High-Mass
 ---
 data_file: htt_em_32_2016_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_025.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_025.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 25 of the auxilliary material of the publication, but restricted to 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -2618,9 +2619,10 @@ keywords:
 name: Table Aux. Figure 25 2016 High-mass
 ---
 data_file: htt_em_32_2017_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_025.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_025.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 25 of the auxilliary material of the publication, but restricted to and 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -2644,9 +2646,10 @@ keywords:
 name: Table Aux. Figure 25 2017 High-mass
 ---
 data_file: htt_em_32_2018_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_025.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_025.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 25 of the auxilliary material of the publication, but restricted to and 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -2751,9 +2754,10 @@ keywords:
 name: Table Figure 8a 2018 High-mass
 ---
 data_file: htt_em_34_2016_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_026.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_026.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 26 of the auxilliary material of the publication, but restricted to 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -2777,9 +2781,10 @@ keywords:
 name: Table Aux. Figure 26 2016 High-mass
 ---
 data_file: htt_em_34_2017_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_026.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_026.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 26 of the auxilliary material of the publication, but restricted to and 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -2803,9 +2808,10 @@ keywords:
 name: Table Aux. Figure 26 2017 High-mass
 ---
 data_file: htt_em_34_2018_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_026.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_026.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 26 of the auxilliary material of the publication, but restricted to and 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -2883,9 +2889,10 @@ keywords:
 name: Table Figure 8b 2017 High-mass
 ---
 data_file: htt_em_35_2016_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_027.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_027.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 27 of the auxilliary material of the publication, but restricted to 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -2909,9 +2916,10 @@ keywords:
 name: Table Aux. Figure 27 2016 High-mass
 ---
 data_file: htt_em_35_2017_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_027.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_027.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 27 of the auxilliary material of the publication, but restricted to and 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -2935,9 +2943,10 @@ keywords:
 name: Table Aux. Figure 27 2017 High-mass
 ---
 data_file: htt_em_35_2018_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_027.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_027.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 27 of the auxilliary material of the publication, but restricted to and 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -2988,9 +2997,10 @@ keywords:
 name: Table Figure 8b 2018 High-mass
 ---
 data_file: htt_em_37_2016_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_028.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_028.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 28 of the auxilliary material of the publication, but restricted to 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -3014,9 +3024,10 @@ keywords:
 name: Table Aux. Figure 28 2016 High-mass
 ---
 data_file: htt_em_37_2017_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_028.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_028.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 28 of the auxilliary material of the publication, but restricted to and 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -3040,9 +3051,10 @@ keywords:
 name: Table Aux. Figure 28 2017 High-mass
 ---
 data_file: htt_em_37_2018_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_028.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_028.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 28 of the auxilliary material of the publication, but restricted to and 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -3147,9 +3159,10 @@ keywords:
 name: Table Figure 8c $e\tau_{h}$ 2018 High-mass
 ---
 data_file: htt_et_33_2016_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_029.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_029.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 29 of the auxilliary material of the publication, but restricted to $e\\tau_{h}$ final state and 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -3173,9 +3186,10 @@ keywords:
 name: Table Aux. Figure 29 $e\tau_{h}$ 2016 High-mass
 ---
 data_file: htt_et_33_2017_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_029.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_029.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 29 of the auxilliary material of the publication, but restricted to $e\\tau_{h}$ final state and 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -3199,9 +3213,10 @@ keywords:
 name: Table Aux. Figure 29 $e\tau_{h}$ 2017 High-mass
 ---
 data_file: htt_et_33_2018_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_029.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_029.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 29 of the auxilliary material of the publication, but restricted to $e\\tau_{h}$ final state and 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -3306,9 +3321,10 @@ keywords:
 name: Table Figure 8d $e\tau_{h}$ 2018 High-mass
 ---
 data_file: htt_et_36_2016_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_030.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_030.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 30 of the auxilliary material of the publication, but restricted to $e\\tau_{h}$ final state and 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -3332,9 +3348,10 @@ keywords:
 name: Table Aux. Figure 30 $e\tau_{h}$ 2016 High-mass
 ---
 data_file: htt_et_36_2017_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_030.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_030.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 30 of the auxilliary material of the publication, but restricted to $e\\tau_{h}$ final state and 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -3358,9 +3375,10 @@ keywords:
 name: Table Aux. Figure 30 $e\tau_{h}$ 2017 High-mass
 ---
 data_file: htt_et_36_2018_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_030.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_030.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 30 of the auxilliary material of the publication, but restricted to $e\\tau_{h}$ final state and 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -3466,9 +3484,10 @@ keywords:
 name: Table Figure 8c $\mu\tau_{h}$ 2018 High-mass
 ---
 data_file: htt_mt_33_2016_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_029.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_029.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 29 of the auxilliary material of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -3492,9 +3511,10 @@ keywords:
 name: Table Aux. Figure 29 $\mu\tau_{h}$ 2016 High-mass
 ---
 data_file: htt_mt_33_2017_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_029.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_029.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 29 of the auxilliary material of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -3518,9 +3538,10 @@ keywords:
 name: Table Aux. Figure 29 $\mu\tau_{h}$ 2017 High-mass
 ---
 data_file: htt_mt_33_2018_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_029.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_029.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 29 of the auxilliary material of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -3546,8 +3567,8 @@ name: Table Aux. Figure 29 $\mu\tau_{h}$ 2018 High-mass
 data_file: htt_mt_35_2016_hepdata_grouped_postfit_highmass.yaml
 additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-- {description: image file png, location: 'Figure_008-d.png'}
-- {description: thumbnail image file, location: 'thumb_Figure_008-d.png'}
+- {description: image file png, location: 'Aux_Figure_029.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_029.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 8d of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -3625,9 +3646,10 @@ keywords:
 name: Table Figure 8d $\mu\tau_{h}$ 2018 High-mass
 ---
 data_file: htt_mt_36_2016_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_030.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_030.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 30 of the auxilliary material of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2016 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -3651,9 +3673,10 @@ keywords:
 name: Table Aux. Figure 30 $\mu\tau_{h}$ 2016 High-mass
 ---
 data_file: htt_mt_36_2017_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_030.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_030.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 30 of the auxilliary material of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2017 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
@@ -3677,9 +3700,10 @@ keywords:
 name: Table Aux. Figure 30 $\mu\tau_{h}$ 2017 High-mass
 ---
 data_file: htt_mt_36_2018_hepdata_grouped_postfit_highmass.yaml
-#additional_resources:
+additional_resources:
 #- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
-#- {description: thumbnail image file, location: 'thumb_CMS-HIG-17-020_Figure_007-a.png'}
+- {description: image file png, location: 'Aux_Figure_030.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_030.png'}
 description: "Observed and expected distributions of the variable chosen for statistical inference in the high-mass analysis $m_{T}^{tot}$.
               Numerical values provided in this table correspond to Figure 30 of the auxilliary material of the publication, but restricted to $\\mu\\tau_{h}$ final state and 2018 data-taking year.
               All distributions are considered after a fit to data is performed using a background-only model, which includes the $\\text{H}(125)$ boson.
