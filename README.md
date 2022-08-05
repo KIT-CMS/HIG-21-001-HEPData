@@ -292,7 +292,7 @@ done
 
 ```bash
 ./create_2D_exclusion_contours_yaml.py \
-    --input data/model-dependent-limits/asymptotic_grid_2022-04-29_mh125.root \
+    --input data/model-dependent-limits/asymptotic_grid_2022_04_29_mh125.root \
     --type-string 'MSSM $M_h^{125}$ interpretation' --output-file limit_mssm_mh125.yaml \
     --output-directory submission_preparation \
     --x-quantity '$m_A$:GeV' --y-quantity '$\tan\beta$:'  --min-n-points 10
@@ -302,11 +302,102 @@ done
 
 ```bash
 ./create_2D_exclusion_contours_yaml.py \
-    --input data/model-dependent-limits/asymptotic_grid_2022-04-29_mh125EFT.root \
+    --input data/model-dependent-limits/asymptotic_grid_2022_04_29_mh125EFT.root \
     --type-string 'MSSM $M_{h,\,\text{EFT}}^{125}$ interpretation' --output-file limit_mssm_mh125EFT.yaml \
     --output-directory submission_preparation \
     --x-quantity '$m_A$:GeV' --y-quantity '$\tan\beta$:'  --min-n-points 10
 ```
+
+### mh125_ls limits (Aux. Figure 114)
+
+```bash
+./create_2D_exclusion_contours_yaml.py \
+    --input data/model-dependent-limits/asymptotic_grid_2022_07_05_mh125_ls.root \
+    --type-string 'MSSM $M_h^{125}(\tilde{\tau})$ interpretation' --output-file limit_mssm_mh125_ls.yaml \
+    --output-directory submission_preparation \
+    --x-quantity '$m_A$:GeV' --y-quantity '$\tan\beta$:'  --min-n-points 10
+```
+
+### mh125_lc limits (Aux. Figure 115)
+
+```bash
+./create_2D_exclusion_contours_yaml.py \
+    --input data/model-dependent-limits/asymptotic_grid_2022_07_05_mh125_lc.root \
+    --type-string 'MSSM $M_h^{125}(\tilde{\chi})$ interpretation' --output-file limit_mssm_mh125_lc.yaml \
+    --output-directory submission_preparation \
+    --x-quantity '$m_A$:GeV' --y-quantity '$\tan\beta$:'  --min-n-points 10
+```
+
+### mh125_muneg_1 limits (Aux. Figure 116)
+
+```bash
+./create_2D_exclusion_contours_yaml.py \
+    --input data/model-dependent-limits/asymptotic_grid_2022_07_05_mh125_muneg_1.root \
+    --type-string 'MSSM $M_h^{125\,\mu_{1}-}$ interpretation' --output-file limit_mssm_mh125_muneg_1.yaml \
+    --output-directory submission_preparation \
+    --x-quantity '$m_A$:GeV' --y-quantity '$\tan\beta$:'  --min-n-points 10
+```
+
+### mh125_muneg_2 limits (Aux. Figure 117)
+
+```bash
+./create_2D_exclusion_contours_yaml.py \
+    --input data/model-dependent-limits/asymptotic_grid_2022_07_05_mh125_muneg_2.root \
+    --type-string 'MSSM $M_h^{125\,\mu_{2}-}$ interpretation' --output-file limit_mssm_mh125_muneg_2.yaml \
+    --output-directory submission_preparation \
+    --x-quantity '$m_A$:GeV' --y-quantity '$\tan\beta$:'  --min-n-points 10
+```
+
+### mh125_muneg_3 limits (Aux. Figure 118)
+
+```bash
+./create_2D_exclusion_contours_yaml.py \
+    --input data/model-dependent-limits/asymptotic_grid_2022_07_05_mh125_muneg_3.root \
+    --type-string 'MSSM $M_h^{125\,\mu_{3}-}$ interpretation' --output-file limit_mssm_mh125_muneg_3.yaml \
+    --output-directory submission_preparation \
+    --x-quantity '$m_A$:GeV' --y-quantity '$\tan\beta$:'  --min-n-points 10
+```
+
+### mh1125_CPV limits (Aux. Figure 119)
+
+```bash
+./create_2D_exclusion_contours_yaml.py \
+    --input data/model-dependent-limits/asymptotic_grid_2022_07_05_mh1125_CPV.root \
+    --type-string 'MSSM $M_{h_{1}}^{125}(CPV)$ interpretation' --output-file limit_mssm_mh1125_CPV.yaml \
+    --output-directory submission_preparation \
+    --x-quantity '$m_{H^{+}}$:GeV' --y-quantity '$\tan\beta$:'  --min-n-points 10
+```
+
+### hMSSM limits (Aux. Figure 120)
+
+```bash
+./create_2D_exclusion_contours_yaml.py \
+    --input data/model-dependent-limits/asymptotic_grid_2022_07_05_hMSSM.root \
+    --type-string 'hMSSM interpretation' --output-file limit_mssm_hMSSM.yaml \
+    --output-directory submission_preparation \
+    --x-quantity '$m_A$:GeV' --y-quantity '$\tan\beta$:'  --min-n-points 10
+```
+
+### mHH125 limits (Aux. Figure 121)
+
+```bash
+./create_2D_exclusion_contours_yaml.py \
+    --input data/model-dependent-limits/asymptotic_grid_2022_07_05_mHH125.root \
+    --type-string 'MSSM $M_H^{125}$ interpretation' --output-file limit_mssm_mHH125.yaml \
+    --output-directory submission_preparation \
+    --x-quantity '$m_{H^{+}}$:GeV' --y-quantity '$\tan\beta$:'  --min-n-points 10
+```
+
+### mh125EFT_lc limits (Aux. Figure 122)
+
+```bash
+./create_2D_exclusion_contours_yaml.py \
+    --input data/model-dependent-limits/asymptotic_grid_2022_04_29_mh125EFT_lc.root \
+    --type-string 'MSSM $M_{h,\,\text{EFT}}^{125}(\tilde{\chi})$ interpretation' --output-file limit_mssm_mh125EFT_lc.yaml \
+    --output-directory submission_preparation \
+    --x-quantity '$m_A$:GeV' --y-quantity '$\tan\beta$:'  --min-n-points 10
+```
+
 
 ## Post-fit distributions for all analyses (low- and high-mass)
 ```bash
