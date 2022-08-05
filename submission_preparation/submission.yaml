@@ -755,7 +755,7 @@ name: Table Aux. Figure 86
 ---
 data_file: limit_vlq_bm1.yaml
 additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
+- {description: corresponding figure in the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure_012-a.pdf'}
 - {description: image file png, location: 'Figure_012-a.png'}
 - {description: thumbnail image file, location: 'thumb_Figure_012-a.png'}
 description: "Expected and observed $95\\%\\text{ CL}$ upper limits on $g_U$ in the VLQ BM 1 scenario
@@ -774,7 +774,7 @@ name: Table Figure 12a
 ---
 data_file: limit_vlq_bm2.yaml
 additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
+- {description: corresponding figure in the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure_012-b.pdf'}
 - {description: image file png, location: 'Figure_012-b.png'}
 - {description: thumbnail image file, location: 'thumb_Figure_012-b.png'}
 description: "Expected and observed $95\\%\\text{ CL}$ upper limits on $g_U$ in the VLQ BM 2 scenario
