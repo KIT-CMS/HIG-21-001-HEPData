@@ -5,6 +5,7 @@ import copy
 import json
 import os
 import ROOT as r
+import numpy as np
 
 
 r.EnableImplicitMT()
@@ -34,9 +35,12 @@ parser.add_argument(
 parser.add_argument(
     "--additional-qualifiers", nargs="*", help="A list of additional qualifiers, given as name:value. Default: %(default)s", default=[]
 )
+parser.add_argument(
+    "--max-deltaNLL", type=float, help="Maximim value of deltaNLL, that at least one category should not exceed too much. Default: %(default)s", default=12.0
+)
+
+
 # Assuming, that deltaNLL is contained in the file as y-axis quantity
-
-
 args = parser.parse_args()
 x_label, x_units = args.x_quantity.split(":")
 
@@ -71,6 +75,18 @@ for inputname in args.inputs:
     fname, category = inputname.split(":")
     inputs_dict[category] = json.load(open(fname, "r"))
 
+# Adjust inputs to a proper range
+
+range_indices_per_category = []
+for data in inputs_dict.values():
+    indices_above_margin = [ i for i, x in enumerate(data.values()) if x["deltaNLL"] and float(x["deltaNLL"]) >= 12]
+    if indices_above_margin:
+        range_indices_per_category.append(min(indices_above_margin)+1)
+    else:
+        range_indices_per_category.append(len(list(data.values())))
+
+range_index = max(range_indices_per_category) if range_indices_per_category else -1
+
 xcat = [k for k in inputs_dict.keys()][0]
 
 # Setting up the .yaml file dict
@@ -81,7 +97,7 @@ x = copy.deepcopy(scan_vlq_1D_template_individual)
 x.pop("qualifiers")
 x["header"]["name"] = x_label
 x["header"]["units"] = x_units
-x["values"] = [{"value": float(val)} for val in inputs_dict[xcat].keys()]
+x["values"] = [{"value": float(val)} for val in inputs_dict[xcat].keys()][:range_index]
 output["independent_variables"].append(x)
 
 ## Include deltaNLL
@@ -90,7 +106,7 @@ for categorization in inputs_dict:
     dNLL["qualifiers"].append({"name": r"Categorization", "value": categorization})
     dNLL["header"]["name"] = r"$-\Delta\ln\mathcal{L}$"
     dNLL["header"]["units"] = ""
-    dNLL["values"] = [{"value": float(val["deltaNLL"])} for val in inputs_dict[categorization].values()]
+    dNLL["values"] = [{"value": float(val["deltaNLL"])/2} if val["deltaNLL"] else {"value": 0.0} for val in inputs_dict[categorization].values()][:range_index]
     output["dependent_variables"].append(dNLL)
 
 with open(os.path.join(args.output_directory, args.output_file), "w") as out:
