@@ -429,3 +429,26 @@ done
     --input sm_ggh_fractions.csv \
     --output-file sm_ggh_fractions.yaml --output-directory submission_preparation
 ```
+
+## Adding images from the paper repo
+
+### Copying from repo
+
+```bash
+./copy_commands.sh $HOME/HIG-21-001
+```
+
+### Coverting into required pngs
+
+```bash
+pushd submission_preparation/;
+for f in *.pdf;
+do
+    pdftoppm -f 1 -l 1 -png ${f} ${f/.pdf/};
+    rm ${f};
+    convert -trim ${f/.pdf/-1.png} ${f/.pdf/.png};
+    rm ${f/.pdf/-1.png};
+    convert -thumbnail 160 ${f/.pdf/.png} thumb_${f/.pdf/.png};
+done;
+popd;
+```
