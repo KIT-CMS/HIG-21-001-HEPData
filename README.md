@@ -378,7 +378,7 @@ done
     --x-quantity '$m_A$:GeV' --y-quantity '$\tan\beta$:'  --min-n-points 10
 ```
 
-### mHH125 limits (Aux. Figure 121)
+### mHH125 limits (Aux. Figure 121) neglected, since completely excluded
 
 ```bash
 ./create_2D_exclusion_contours_yaml.py \

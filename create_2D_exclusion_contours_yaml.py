@@ -88,6 +88,11 @@ for result in results:
     ## Extract appropriate 2D Graph
     inputfile = r.TFile.Open(args.input, "read")
     graph = inputfile.Get(r_name)
+    CLs = graph.GetZ()
+    graph_max = max([CLs[i] for i in range(graph.GetN())])
+    if graph_max < 0.05:
+        print(r_name,"excluded since maximum at", graph_max)
+        continue
     contours = graph.GetContourList(0.05)
     print(r_name,":",len(contours),"contours")
     x_values = []
