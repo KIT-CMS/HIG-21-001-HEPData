@@ -21,7 +21,7 @@ comment: "Three searches are presented for signatures of physics beyond the stan
 ---
 data_file: limit_ggphi.yaml
 additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
+- {description: corresponding figure in the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure_010-a.pdf'}
 - {description: image file png, location: 'Figure_010-a.png'}
 - {description: thumbnail image file, location: 'thumb_Figure_010-a.png'}
 description: "Expected and observed $95\\%\\text{ CL}$ upper limits on the product of the cross
@@ -44,7 +44,7 @@ name: Table Figure 10a
 ---
 data_file: limit_bbphi.yaml
 additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
+- {description: corresponding figure in the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure_010-b.pdf'}
 - {description: image file png, location: 'Figure_010-b.png'}
 - {description: thumbnail image file, location: 'thumb_Figure_010-b.png'}
 description: "Expected and observed $95\\%\\text{ CL}$ upper limits on the product of the cross
