@@ -392,7 +392,7 @@ done
 
 ```bash
 ./create_2D_exclusion_contours_yaml.py \
-    --input data/model-dependent-limits/asymptotic_grid_2022_04_29_mh125EFT_lc.root \
+    --input data/model-dependent-limits/asymptotic_grid_2022_07_05_mh125EFT_lc.root \
     --type-string 'MSSM $M_{h,\,\text{EFT}}^{125}(\tilde{\chi})$ interpretation' --output-file limit_mssm_mh125EFT_lc.yaml \
     --output-directory submission_preparation \
     --x-quantity '$m_A$:GeV' --y-quantity '$\tan\beta$:'  --min-n-points 10
