@@ -812,7 +812,7 @@ name: Table Aux. Figure 92
 ---
 data_file: 2D_scan_ggphi_bbphi_m60.yaml
 additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
+- {description: corresponding figure in the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure_011-a.pdf'}
 - {description: image file png, location: 'Figure_011-a.png'}
 - {description: thumbnail image file, location: 'thumb_Figure_011-a.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $60\\text{ GeV}$,
@@ -869,7 +869,7 @@ name: Table Aux. Figure 42
 ---
 data_file: 2D_scan_ggphi_bbphi_m100.yaml
 additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
+- {description: corresponding figure in the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure_011-b.pdf'}
 - {description: image file png, location: 'Figure_011-b.png'}
 - {description: thumbnail image file, location: 'thumb_Figure_011-b.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $100\\text{ GeV}$,
@@ -907,7 +907,7 @@ name: Table Aux. Figure 43
 ---
 data_file: 2D_scan_ggphi_bbphi_m125.yaml
 additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
+- {description: corresponding figure in the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure_011-c.pdf'}
 - {description: image file png, location: 'Figure_011-c.png'}
 - {description: thumbnail image file, location: 'thumb_Figure_011-c.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $125\\text{ GeV}$,
@@ -964,7 +964,7 @@ name: Table Aux. Figure 45
 ---
 data_file: 2D_scan_ggphi_bbphi_m160.yaml
 additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
+- {description: corresponding figure in the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure_011-d.pdf'}
 - {description: image file png, location: 'Figure_011-d.png'}
 - {description: thumbnail image file, location: 'thumb_Figure_011-d.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $160\\text{ GeV}$,
@@ -1021,7 +1021,7 @@ name: Table Aux. Figure 47
 ---
 data_file: 2D_scan_ggphi_bbphi_m250.yaml
 additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
+- {description: corresponding figure in the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure_011-e.pdf'}
 - {description: image file png, location: 'Figure_011-e.png'}
 - {description: thumbnail image file, location: 'thumb_Figure_011-e.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $250\\text{ GeV}$,
@@ -1116,7 +1116,7 @@ name: Table Aux. Figure 51
 ---
 data_file: 2D_scan_ggphi_bbphi_m500.yaml
 additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
+- {description: corresponding figure in the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure_011-f.pdf'}
 - {description: image file png, location: 'Figure_011-f.png'}
 - {description: thumbnail image file, location: 'thumb_Figure_011-f.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $500\\text{ GeV}$,
@@ -1211,7 +1211,7 @@ name: Table Aux. Figure 55
 ---
 data_file: 2D_scan_ggphi_bbphi_m1000.yaml
 additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
+- {description: corresponding figure in the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure_011-g.pdf'}
 - {description: image file png, location: 'Figure_011-g.png'}
 - {description: thumbnail image file, location: 'thumb_Figure_011-g.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $1000\\text{ GeV}$,
@@ -1230,7 +1230,7 @@ name: Table Figure 11g
 ---
 data_file: 2D_scan_ggphi_bbphi_m1200.yaml
 additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
+- {description: corresponding figure in the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure_011-h.pdf'}
 - {description: image file png, location: 'Figure_011-h.png'}
 - {description: thumbnail image file, location: 'thumb_Figure_011-h.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $1200\\text{ GeV}$,
@@ -1401,7 +1401,7 @@ name: Table Aux. Figure 63
 ---
 data_file: 2D_scan_ggphi_bbphi_m3500.yaml
 additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
+- {description: corresponding figure in the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure_011-i.pdf'}
 - {description: image file png, location: 'Figure_011-i.png'}
 - {description: thumbnail image file, location: 'thumb_Figure_011-i.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $3500\\text{ GeV}$,
@@ -1420,7 +1420,7 @@ name: Table Figure 11i
 ---
 data_file: 2D_scan_ggphi_bbphi_m60_Asimov.yaml
 additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
+- {description: corresponding figure in the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure_011-a.pdf'}
 - {description: image file png, location: 'Figure_011-a.png'}
 - {description: thumbnail image file, location: 'thumb_Figure_011-a.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $60\\text{ GeV}$,
@@ -1477,7 +1477,7 @@ name: Table Aux. Figure 42 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m100_Asimov.yaml
 additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
+- {description: corresponding figure in the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure_011-b.pdf'}
 - {description: image file png, location: 'Figure_011-b.png'}
 - {description: thumbnail image file, location: 'thumb_Figure_011-b.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $100\\text{ GeV}$,
@@ -1515,7 +1515,7 @@ name: Table Aux. Figure 43 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m125_Asimov.yaml
 additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
+- {description: corresponding figure in the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure_011-c.pdf'}
 - {description: image file png, location: 'Figure_011-c.png'}
 - {description: thumbnail image file, location: 'thumb_Figure_011-c.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $125\\text{ GeV}$,
@@ -1572,7 +1572,7 @@ name: Table Aux. Figure 45 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m160_Asimov.yaml
 additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
+- {description: corresponding figure in the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure_011-d.pdf'}
 - {description: image file png, location: 'Figure_011-d.png'}
 - {description: thumbnail image file, location: 'thumb_Figure_011-d.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $160\\text{ GeV}$,
@@ -1629,7 +1629,7 @@ name: Table Aux. Figure 47 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m250_Asimov.yaml
 additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
+- {description: corresponding figure in the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure_011-e.pdf'}
 - {description: image file png, location: 'Figure_011-e.png'}
 - {description: thumbnail image file, location: 'thumb_Figure_011-e.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $250\\text{ GeV}$,
@@ -1724,7 +1724,7 @@ name: Table Aux. Figure 51 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m500_Asimov.yaml
 additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
+- {description: corresponding figure in the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure_011-f.pdf'}
 - {description: image file png, location: 'Figure_011-f.png'}
 - {description: thumbnail image file, location: 'thumb_Figure_011-f.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $500\\text{ GeV}$,
@@ -1819,7 +1819,7 @@ name: Table Aux. Figure 55 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m1000_Asimov.yaml
 additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
+- {description: corresponding figure in the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure_011-g.pdf'}
 - {description: image file png, location: 'Figure_011-g.png'}
 - {description: thumbnail image file, location: 'thumb_Figure_011-g.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $1000\\text{ GeV}$,
@@ -1838,7 +1838,7 @@ name: Table Figure 11g Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m1200_Asimov.yaml
 additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
+- {description: corresponding figure in the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure_011-h.pdf'}
 - {description: image file png, location: 'Figure_011-h.png'}
 - {description: thumbnail image file, location: 'thumb_Figure_011-h.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $1200\\text{ GeV}$,
@@ -2009,7 +2009,7 @@ name: Table Aux. Figure 63 Asimov
 ---
 data_file: 2D_scan_ggphi_bbphi_m3500_Asimov.yaml
 additional_resources:
-#- {description: corresponding figure in the paper, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-17-020/CMS-HIG-17-020_Figure_007-a.png'}
+- {description: corresponding figure in the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure_011-i.pdf'}
 - {description: image file png, location: 'Figure_011-i.png'}
 - {description: thumbnail image file, location: 'thumb_Figure_011-i.png'}
 description: "Scan of the likelihood function for the search for a resonance ($\\phi$) with a mass of $3500\\text{ GeV}$,
