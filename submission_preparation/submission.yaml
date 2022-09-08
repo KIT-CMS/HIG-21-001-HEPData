@@ -16,8 +16,8 @@ comment: "Three searches are presented for signatures of physics beyond the stan
           $\\tau$ leptons ranging from $1$ for a mass of $1\\text{ TeV}$ to $6$ for a mass of $5\\text{ TeV}$, depending on the scenario.
           In the interpretation of the $M_{h}^{125}$ and $M_{h,\\,\\text{EFT}}^{125}$ minimal supersymmetric SM benchmark scenarios, additional Higgs bosons
           with masses below $350\\text{ GeV}$ are excluded at $95\\%\\text{ CL}$."
-#record_ids:
-#- {id: 1663234, type: inspire}
+record_ids:
+- {id: 2132368, type: inspire}
 ---
 data_file: limit_ggphi.yaml
 additional_resources:
