@@ -3372,7 +3372,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -3396,7 +3396,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -3420,7 +3420,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -3448,7 +3448,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -3476,7 +3476,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -3504,7 +3504,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -3532,7 +3532,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -3560,7 +3560,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -3588,7 +3588,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -3616,7 +3616,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -3644,7 +3644,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -3672,7 +3672,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -3700,7 +3700,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -3728,7 +3728,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -3756,7 +3756,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -3784,7 +3784,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -3812,7 +3812,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -3840,7 +3840,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -3868,7 +3868,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -3896,7 +3896,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -3924,7 +3924,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -3952,7 +3952,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -3980,7 +3980,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4008,7 +4008,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4036,7 +4036,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4064,7 +4064,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4092,7 +4092,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4120,7 +4120,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4148,7 +4148,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4176,7 +4176,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4204,7 +4204,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4232,7 +4232,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4260,7 +4260,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4289,7 +4289,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4317,7 +4317,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4345,7 +4345,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4373,7 +4373,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4401,7 +4401,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4429,7 +4429,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4457,7 +4457,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4485,7 +4485,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4513,7 +4513,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4541,7 +4541,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4569,7 +4569,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4597,7 +4597,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4625,7 +4625,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4653,7 +4653,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4681,7 +4681,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4709,7 +4709,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4737,7 +4737,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4765,7 +4765,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4789,7 +4789,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4813,7 +4813,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4837,7 +4837,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4865,7 +4865,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4893,7 +4893,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4921,7 +4921,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4949,7 +4949,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -4977,7 +4977,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5005,7 +5005,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5033,7 +5033,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5061,7 +5061,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5089,7 +5089,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5117,7 +5117,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5145,7 +5145,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5173,7 +5173,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5201,7 +5201,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5229,7 +5229,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5257,7 +5257,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5285,7 +5285,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5313,7 +5313,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5341,7 +5341,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5369,7 +5369,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5397,7 +5397,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5425,7 +5425,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5453,7 +5453,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5481,7 +5481,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5509,7 +5509,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5537,7 +5537,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5565,7 +5565,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5593,7 +5593,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5621,7 +5621,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5649,7 +5649,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5677,7 +5677,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5705,7 +5705,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5733,7 +5733,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5761,7 +5761,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5789,7 +5789,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5817,7 +5817,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5845,7 +5845,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5873,7 +5873,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5901,7 +5901,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5929,7 +5929,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5957,7 +5957,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -5985,7 +5985,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6013,7 +6013,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6041,7 +6041,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6069,7 +6069,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6097,7 +6097,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6125,7 +6125,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6153,7 +6153,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6181,7 +6181,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6209,7 +6209,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6237,7 +6237,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6265,7 +6265,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6293,7 +6293,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6321,7 +6321,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6349,7 +6349,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6377,7 +6377,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6405,7 +6405,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6433,7 +6433,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6461,7 +6461,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6489,7 +6489,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6517,7 +6517,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6545,7 +6545,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6573,7 +6573,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6601,7 +6601,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6629,7 +6629,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6657,7 +6657,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6685,7 +6685,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6713,7 +6713,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6741,7 +6741,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6769,7 +6769,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6797,7 +6797,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6825,7 +6825,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6853,7 +6853,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6881,7 +6881,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6909,7 +6909,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
@@ -6937,7 +6937,7 @@ description: "Observed and expected distributions of the variable chosen for sta
               5) Uncertainties with the same name should be treated as correlated, consistently across the upper and lower variations.\n
               6) Systematic uncertainties with 'prop_' in the name treat limited background statistics per histogram bin, and are deployed with 'Barlow-Beeston-lite' approach. Details in https://arxiv.org/abs/1103.0354 section 5\n
               7) Remaining systematic uncertainties alter the normalization, the shape, or both for a distribution. The nuisance parameter for such an uncertainty is mapped separately on the normalization and the shape variation components of the uncertainty. For normalization, $\\ln$ mapping is used, for shape a spline. Details in https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/part2/settinguptheanalysis/#binned-shape-analysis\n
-              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.
+              8) All nuisance parameters for the systematic uncertainties are modelled with a Gaussian pdf.\n
               9) Gluon fusion contributions are all scaled to 1 pb. Please combine them using either the scale factors from 'Table SM Gluon Fusion Fractions', or using your own composition.\n"
 keywords:
 - name: reactions
