@@ -448,7 +448,7 @@ do
     rm ${f};
     convert -trim ${f/.pdf/-1.png} ${f/.pdf/.png};
     rm ${f/.pdf/-1.png};
-    convert -thumbnail 160 ${f/.pdf/.png} thumb_${f/.pdf/.png};
+    convert -thumbnail 200 ${f/.pdf/.png} thumb_${f/.pdf/.png};
 done;
 popd;
 ```
