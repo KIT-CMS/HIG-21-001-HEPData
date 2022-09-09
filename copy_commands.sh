@@ -104,4 +104,5 @@ rsync -av --progress ${PAPERREPO}/Auxx/model-dependent_limit_mh125_muneg_3.pdf A
 rsync -av --progress ${PAPERREPO}/Auxx/model-dependent_limit_mh1125_CPV.pdf Aux_Figure_119.pdf
 rsync -av --progress ${PAPERREPO}/Auxx/model-dependent_limit_hMSSM.pdf Aux_Figure_120.pdf
 rsync -av --progress ${PAPERREPO}/Auxx/model-dependent_limit_mh125EFT_lc.pdf Aux_Figure_122.pdf
+rsync -av --progress ${PAPERREPO}/Auxx/model-dependent_limit_mh125_align.pdf Aux_Figure_123.pdf
 popd;

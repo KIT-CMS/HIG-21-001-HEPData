@@ -3346,6 +3346,111 @@ keywords:
   values: [13000.0, 13000]
 name: Table Aux. Figure 122 97.5% Expected
 ---
+data_file: limit_mssm_mh125_align_obs.yaml
+additional_resources:
+- {description: corresponding figure in auxilliary material of the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure-aux_123.pdf'}
+- {description: image file png, location: 'Aux_Figure_123.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_123.png'}
+description: "Observed $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h}^{125}(\\text{alignment})$ scenario.
+              Numerical values provided in this table correspond to the observed contour of Figure 123 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 123 Observed
+---
+data_file: limit_mssm_mh125_align_exp0.yaml
+additional_resources:
+- {description: corresponding figure in auxilliary material of the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure-aux_123.pdf'}
+- {description: image file png, location: 'Aux_Figure_123.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_123.png'}
+description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h}^{125}(\\text{alignment})$ scenario,
+              evaluated at the median of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
+              Numerical values provided in this table correspond to the expected median contour of Figure 123 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 123 Median Expected
+---
+data_file: limit_mssm_mh125_align_exp-1.yaml
+additional_resources:
+- {description: corresponding figure in auxilliary material of the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure-aux_123.pdf'}
+- {description: image file png, location: 'Aux_Figure_123.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_123.png'}
+description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h}^{125}(\\text{alignment})$ scenario,
+              evaluated at the $16\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
+              This contour is part of the $68\\%$ confidence interval band.
+              Numerical values provided in this table correspond to the expected $16\\%$ contour of Figure 123 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 123 16% Expected
+---
+data_file: limit_mssm_mh125_align_exp+1.yaml
+additional_resources:
+- {description: corresponding figure in auxilliary material of the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure-aux_123.pdf'}
+- {description: image file png, location: 'Aux_Figure_123.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_123.png'}
+description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h}^{125}(\\text{alignment})$ scenario,
+              evaluated at the $84\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
+              This contour is part of the $68\\%$ confidence interval band.
+              Numerical values provided in this table correspond to the expected $84\\%$ contour of Figure 123 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 123 84% Expected
+---
+data_file: limit_mssm_mh125_align_exp-2.yaml
+additional_resources:
+- {description: corresponding figure in auxilliary material of the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure-aux_123.pdf'}
+- {description: image file png, location: 'Aux_Figure_123.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_123.png'}
+description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h}^{125}(\\text{alignment})$ scenario,
+              evaluated at the $2.5\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
+              This contour is part of the $95\\%$ confidence interval band.
+              Numerical values provided in this table correspond to the expected $2.5\\%$ contour of Figure 123 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 123 2.5% Expected
+---
+data_file: limit_mssm_mh125_align_exp+2.yaml
+additional_resources:
+- {description: corresponding figure in auxilliary material of the paper, location: 'https://cms-results.web.cern.ch/cms-results/public-results/publications/HIG-21-001/CMS-HIG-21-001_Figure-aux_123.pdf'}
+- {description: image file png, location: 'Aux_Figure_123.png'}
+- {description: thumbnail image file, location: 'thumb_Aux_Figure_123.png'}
+description: "Expected $95\\%\\text{ CL}$ exclusion contour in the MSSM $M_{h}^{125}(\\text{alignment})$ scenario,
+              evaluated at the $97.5\\%$ quantile of the test-statistic distribution $f(\\tilde{q}_\\mu|\\text{SM})$ under SM hypothesis.
+              This contour is part of the $95\\%$ confidence interval band.
+              Numerical values provided in this table correspond to the expected $97.5\\%$ contour of Figure 123 of the auxilliary material of the publication."
+keywords:
+- name: reactions
+  values: [P P --> TAU+ TAU- X, P P --> HIGGS X, HIGGS --> TAU+ TAU-]
+- name: phrases
+  values: [Higgs, Proton-Proton Scattering, Tau, SUSY, MSSM, Cross Section]
+- name: cmenergies
+  values: [13000.0, 13000]
+name: Table Aux. Figure 123 97.5% Expected
+---
 data_file: sm_ggh_fractions.yaml
 description: "Fractions of the cross-section $\\sigma(gg\\phi)$ as expected from SM for the loop
               contributions with only top quarks, only bottom quarks and from the top-bottom interference.

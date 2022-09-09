@@ -398,6 +398,16 @@ done
     --x-quantity '$m_A$:GeV' --y-quantity '$\tan\beta$:'  --min-n-points 10
 ```
 
+### mh125_align limits (Aux. Figure 123)
+
+```bash
+./create_2D_exclusion_contours_yaml.py \
+    --input data/model-dependent-limits/asymptotic_grid_2022_07_05_mh125_align.root \
+    --type-string 'MSSM $M_{h}^{125}(alignment)$ interpretation' --output-file limit_mssm_mh125_align.yaml \
+    --output-directory submission_preparation \
+    --x-quantity '$m_A$:GeV' --y-quantity '$\tan\beta$:'  --min-n-points 10
+```
+
 
 ## Post-fit distributions for all analyses (low- and high-mass)
 ```bash
