@@ -115,7 +115,8 @@ for q in obs["qualifiers"]:
 
 ### Fill in limit results
 for m in masses:
-    obs["values"].append({"value": results[str(m)]["obs"]})
+    observed = results[str(m)]["obs"]
+    obs["values"].append({"value": round(observed, 3) if observed >= 1. else float("{:.3e}".format(observed))})
 output["dependent_variables"].append(obs)
 
 ## Include Expected +/-68 %
@@ -135,11 +136,13 @@ for m in masses:
     if "exp0" in results[str(m)]:
         value = copy.deepcopy(limit_template_expvalues)
         central = results[str(m)]["exp0"]
-        value["value"] = central
+        value["value"] = round(central, 3) if central >= 1. else float("{:.3e}".format(central))
         error = {}
+        minus = results[str(m)]["exp-1"] - central
+        plus = results[str(m)]["exp+1"] - central
         error["asymerror"] = dict(
-            minus=results[str(m)]["exp-1"] - central,
-            plus=results[str(m)]["exp+1"] - central,
+            minus=round(minus, 3) if minus >= 1 else float("{:.3e}".format(minus)),
+            plus=round(plus, 3) if plus >= 1 else float("{:.3e}".format(plus)),
         )
         value["errors"].append(error)
         exp68["values"].append(value)
@@ -163,11 +166,13 @@ for m in masses:
     if "exp0" in results[str(m)]:
         value = copy.deepcopy(limit_template_expvalues)
         central = results[str(m)]["exp0"]
-        value["value"] = central
+        value["value"] = round(central, 3) if central >= 1. else float("{:.3e}".format(central))
         error = {}
+        minus = results[str(m)]["exp-1"] - central
+        plus = results[str(m)]["exp+1"] - central
         error["asymerror"] = dict(
-            minus=results[str(m)]["exp-2"] - central,
-            plus=results[str(m)]["exp+2"] - central,
+            minus=round(minus, 3) if minus >= 1 else float("{:.3e}".format(minus)),
+            plus=round(plus, 3) if plus >= 1 else float("{:.3e}".format(plus)),
         )
         value["errors"].append(error)
         exp95["values"].append(value)
