@@ -4,7 +4,7 @@ import asyncio
 import argparse
 import yaml
 
-command_template = "./create_postfit_distributions_yaml.py --input data/{INPUTFOLDER}/{CAT}_hepdata.root --analysis-configuration analysis_configuration_grouped.yaml --output-file {CAT}_hepdata_grouped_postfit_{OUTPOSTFIX}.yaml --distribution-quantity '{QUANTITY}' --category {CAT} --output-directory submission_preparation --min-bin-content 1e-3 --signal-pattern '(.*)_(\d*)' --mode grouped {ADDITIONAL}"
+command_template = "./create_postfit_distributions_yaml.py --input data/{INPUTFOLDER}/{CAT}_hepdata.root --analysis-configuration analysis_configuration_grouped.yaml --output-file {CAT}_hepdata_grouped_postfit_{OUTPOSTFIX}.yaml --distribution-quantity '{QUANTITY}' --category {CAT} --output-directory submission_preparation --min-bin-content 1e-2 --signal-pattern '(.*)_(\d*)' --mode grouped {ADDITIONAL}"
 
 
 async def execute_command(queue, name):
