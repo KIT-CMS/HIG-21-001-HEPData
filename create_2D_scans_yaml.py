@@ -4,6 +4,7 @@ import yaml
 import copy
 import os
 import ROOT as r
+import numpy as np
 
 
 r.EnableImplicitMT()
@@ -82,12 +83,42 @@ for k in scan_2d_values_bestfit:
 # Setting up the .yaml file dict
 output = copy.deepcopy(scan_2D_template_main)
 
+# Get Ranges for x- and y- axis
+x_min, x_max = df.Min(x_name).GetValue(), df.Max(x_name).GetValue()
+y_min, y_max = df.Min(y_name).GetValue(), df.Max(y_name).GetValue()
+x_points = set(scan_2d_values[x_name])
+y_points = set(scan_2d_values[y_name])
+
+n_x_points = len(x_points)
+n_y_points = len(y_points)
+
+if "Yt" in args.output_file or "qqphi" in args.output_file:
+    x_max = x_min + (x_max - x_min) / n_x_points * (n_x_points + 1)
+    n_x_points += 1
+
+print(f"{x_name} range: {x_min}, {x_max} with {n_x_points} points")
+print(f"{y_name} range: {y_min}, {y_max} with {n_y_points} points")
+
+x_width = (x_max - x_min) / n_x_points
+y_width = (y_max - y_min) / n_y_points
+
+x_exponent = np.log10(x_width)
+y_exponent = np.log10(y_width)
+
+# Assuming, width is smaller than 1
+x_precision = int(np.ceil(abs(x_exponent) + 2))
+y_precision = int(np.ceil(abs(y_exponent) + 2))
+
+print(f"{x_name} width: {x_width}, derived exponent: {x_exponent}, precision: {x_precision}")
+print(f"{y_name} width: {y_width}, derived exponent: {y_exponent}, precision: {y_precision}")
+
+
 ## Include x quantity
 x = copy.deepcopy(scan_2D_template_individual)
 x.pop("qualifiers")
 x["header"]["name"] = x_label
 x["header"]["units"] = x_units
-x["values"] = [{"value": float(val)} for val in scan_2d_values[x_name]] + [{"value": val} for val in scan_2d_values_bestfit[x_name]]
+x["values"] = [{"value": round(float(val), x_precision)} for val in scan_2d_values[x_name]] + [{"value": round(float(val), x_precision)} for val in scan_2d_values_bestfit[x_name]]
 output["independent_variables"].append(x)
 
 ## Include y quantity
@@ -95,14 +126,14 @@ y = copy.deepcopy(scan_2D_template_individual)
 y.pop("qualifiers")
 y["header"]["name"] = y_label
 y["header"]["units"] = y_units
-y["values"] = [{"value": float(val)} for val in scan_2d_values[y_name]] + [{"value": val} for val in scan_2d_values_bestfit[y_name]]
+y["values"] = [{"value": round(float(val), y_precision)} for val in scan_2d_values[y_name]] + [{"value": round(float(val), y_precision)} for val in scan_2d_values_bestfit[y_name]]
 output["independent_variables"].append(y)
 
-## Include deltaNLL
+## Include deltaNLL (up to 5th digit after comma)
 dNLL = copy.deepcopy(scan_2D_template_individual)
 dNLL["header"]["name"] = r"$-\Delta\ln\mathcal{L}$"
 dNLL["header"]["units"] = ""
-dNLL["values"] = [{"value": float(val)} for val in scan_2d_values["deltaNLL"]] + [{"value": val} for val in scan_2d_values_bestfit["deltaNLL"]]
+dNLL["values"] = [{"value": round(float(val), 5)} for val in scan_2d_values["deltaNLL"]] + [{"value": round(float(val), 5)} for val in scan_2d_values_bestfit["deltaNLL"]]
 output["dependent_variables"].append(dNLL)
 
 with open(os.path.join(args.output_directory, args.output_file), "w") as out:
