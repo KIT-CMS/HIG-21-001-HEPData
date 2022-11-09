@@ -102,8 +102,8 @@ for result in results:
             print("\tcontour:",index,"# points:",contour.GetN(),"excluded")
         else:
             print("\tcontour:",index,"# points:",contour.GetN(),"included")
-            x_values += [val for val in contour.GetX()]
-            y_values += [val for val in contour.GetY()]
+            x_values += [round(val,3) for val in contour.GetX()]
+            y_values += [round(val,3) for val in contour.GetY()]
 
     ## Put x-quantity in as independent variable
     x = copy.deepcopy(limit_template_individual)
