@@ -92,12 +92,23 @@ xcat = [k for k in inputs_dict.keys()][0]
 # Setting up the .yaml file dict
 output = copy.deepcopy(scan_vlq_1D_template_main)
 
+
+x_values = [float(val) for val in inputs_dict[xcat].keys()][:range_index]
+print(f"{x_label} range: {min(x_values)}, {max(x_values)}; number of points: {len(x_values)}")
+
+x_width = (max(x_values) - min(x_values)) / (len(x_values) -1)
+x_exponent = np.log10(x_width)
+
+# Assuming, width is smaller than 1
+x_precision = int(np.ceil(abs(x_exponent) + 1))
+print(f"{x_label} width: {x_width}, derived exponent: {x_exponent}, precision: {x_precision}")
+
 ## Include x quantity
 x = copy.deepcopy(scan_vlq_1D_template_individual)
 x.pop("qualifiers")
 x["header"]["name"] = x_label
 x["header"]["units"] = x_units
-x["values"] = [{"value": float(val)} for val in inputs_dict[xcat].keys()][:range_index]
+x["values"] = [{"value": round(val, x_precision)} for val in x_values]
 output["independent_variables"].append(x)
 
 ## Include deltaNLL
@@ -106,7 +117,7 @@ for categorization in inputs_dict:
     dNLL["qualifiers"].append({"name": r"Categorization", "value": categorization})
     dNLL["header"]["name"] = r"$-\Delta\ln\mathcal{L}$"
     dNLL["header"]["units"] = ""
-    dNLL["values"] = [{"value": float(val["deltaNLL"])/2} if val["deltaNLL"] else {"value": 0.0} for val in inputs_dict[categorization].values()][:range_index]
+    dNLL["values"] = [{"value": round(float(val["deltaNLL"])/2, 5)} if val["deltaNLL"] else {"value": 0.0} for val in inputs_dict[categorization].values()][:range_index]
     output["dependent_variables"].append(dNLL)
 
 with open(os.path.join(args.output_directory, args.output_file), "w") as out:
