@@ -117,7 +117,7 @@ for categorization in inputs_dict:
     dNLL["qualifiers"].append({"name": r"Categorization", "value": categorization})
     dNLL["header"]["name"] = r"$-\Delta\ln\mathcal{L}$"
     dNLL["header"]["units"] = ""
-    dNLL["values"] = [{"value": round(float(val["deltaNLL"])/2, 5)} if val["deltaNLL"] else {"value": 0.0} for val in inputs_dict[categorization].values()][:range_index]
+    dNLL["values"] = [{"value": round(float(val["deltaNLL"])/2, 3)} if val["deltaNLL"] else {"value": 0.0} for val in inputs_dict[categorization].values()][:range_index]
     output["dependent_variables"].append(dNLL)
 
 with open(os.path.join(args.output_directory, args.output_file), "w") as out:

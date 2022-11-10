@@ -76,7 +76,7 @@ for frac in frac_labels:
     fracinfo["header"]["name"] = 'Fraction of the cross-section $\sigma(gg\phi)$ as expected from SM'
     fracinfo["header"]["units"] = ''
     fracinfo["qualifiers"].append({"name": r"Contribution", "value": frac_labels[frac]})
-    fracinfo["values"] = [{"value": val} for val in df[frac]]
+    fracinfo["values"] = [{"value": round(val, 6)} for val in df[frac]]
     output["dependent_variables"].append(fracinfo)
 
 with open(os.path.join(args.output_directory, args.output_file), "w") as out:

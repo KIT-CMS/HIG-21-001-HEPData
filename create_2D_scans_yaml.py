@@ -133,7 +133,7 @@ output["independent_variables"].append(y)
 dNLL = copy.deepcopy(scan_2D_template_individual)
 dNLL["header"]["name"] = r"$-\Delta\ln\mathcal{L}$"
 dNLL["header"]["units"] = ""
-dNLL["values"] = [{"value": round(float(val), 5)} for val in scan_2d_values["deltaNLL"]] + [{"value": round(float(val), 5)} for val in scan_2d_values_bestfit["deltaNLL"]]
+dNLL["values"] = [{"value": round(float(val), 3)} for val in scan_2d_values["deltaNLL"]] + [{"value": round(float(val), 3)} for val in scan_2d_values_bestfit["deltaNLL"]]
 output["dependent_variables"].append(dNLL)
 
 with open(os.path.join(args.output_directory, args.output_file), "w") as out:
